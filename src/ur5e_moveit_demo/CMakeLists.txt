@@ -54,6 +54,14 @@ ament_target_dependencies(
   geometry_msgs
 )
 
+add_executable(waypoint_grid src/waypoint_grid.cpp)
+ament_target_dependencies(
+  waypoint_grid
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+)
+
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
 )
@@ -66,9 +74,14 @@ install(TARGETS russell_script1
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(TARGETS waypoint_grid
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}/
 )
+
 
 
 

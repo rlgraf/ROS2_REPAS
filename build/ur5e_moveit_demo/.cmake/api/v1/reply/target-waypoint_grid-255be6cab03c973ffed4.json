@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "home"
+			"path" : "waypoint_grid"
 		}
 	],
 	"backtrace" : 1,
@@ -143,19 +143,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 41,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 61,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 42,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -2081,7 +2081,7 @@
 			]
 		}
 	],
-	"id" : "home::@6890427a1f51a3e7e1df",
+	"id" : "waypoint_grid::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -3489,8 +3489,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "home",
-	"nameOnDisk" : "home",
+	"name" : "waypoint_grid",
+	"nameOnDisk" : "waypoint_grid",
 	"paths" : 
 	{
 		"build" : ".",
@@ -3511,7 +3511,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/home.cpp",
+			"path" : "src/waypoint_grid.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

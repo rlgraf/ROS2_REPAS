@@ -236,6 +236,19 @@ russell_script1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/russell_script1.dir/build.make CMakeFiles/russell_script1.dir/build
 .PHONY : russell_script1/fast
 
+#=============================================================================
+# Target rules for targets named waypoint_grid
+
+# Build rule for target.
+waypoint_grid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waypoint_grid
+.PHONY : waypoint_grid
+
+# fast build rule for target.
+waypoint_grid/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_grid.dir/build.make CMakeFiles/waypoint_grid.dir/build
+.PHONY : waypoint_grid/fast
+
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
 
@@ -308,6 +321,30 @@ src/russell_script1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/russell_script1.dir/build.make CMakeFiles/russell_script1.dir/src/russell_script1.cpp.s
 .PHONY : src/russell_script1.cpp.s
 
+src/waypoint_grid.o: src/waypoint_grid.cpp.o
+.PHONY : src/waypoint_grid.o
+
+# target to build an object file
+src/waypoint_grid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_grid.dir/build.make CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.o
+.PHONY : src/waypoint_grid.cpp.o
+
+src/waypoint_grid.i: src/waypoint_grid.cpp.i
+.PHONY : src/waypoint_grid.i
+
+# target to preprocess a source file
+src/waypoint_grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_grid.dir/build.make CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.i
+.PHONY : src/waypoint_grid.cpp.i
+
+src/waypoint_grid.s: src/waypoint_grid.cpp.s
+.PHONY : src/waypoint_grid.s
+
+# target to generate assembly for a file
+src/waypoint_grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_grid.dir/build.make CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.s
+.PHONY : src/waypoint_grid.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... home"
 	@echo "... move_ur5e"
 	@echo "... russell_script1"
+	@echo "... waypoint_grid"
 	@echo "... src/home.o"
 	@echo "... src/home.i"
 	@echo "... src/home.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/russell_script1.o"
 	@echo "... src/russell_script1.i"
 	@echo "... src/russell_script1.s"
+	@echo "... src/waypoint_grid.o"
+	@echo "... src/waypoint_grid.i"
+	@echo "... src/waypoint_grid.s"
 .PHONY : help
 
 

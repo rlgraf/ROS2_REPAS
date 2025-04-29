@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-c7f75efaf84321c989b4.json",
+					"jsonFile" : "directory-.-d80b7a91f03b956ce33d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -20,7 +20,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -39,7 +40,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -48,21 +50,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "home::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-home-5135e5eccfd4d0e1684a.json",
+					"jsonFile" : "target-home-89302d1543a9038db694.json",
 					"name" : "home",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "move_ur5e::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-move_ur5e-8fb6817897fb082874b2.json",
+					"jsonFile" : "target-move_ur5e-9bca18c6471c456217f5.json",
 					"name" : "move_ur5e",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "russell_script1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-russell_script1-6770760aa7a554985cab.json",
+					"jsonFile" : "target-russell_script1-737c8005ee69619a31d3.json",
 					"name" : "russell_script1",
 					"projectIndex" : 0
 				},
@@ -78,6 +80,13 @@
 					"id" : "ur5e_moveit_demo_uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ur5e_moveit_demo_uninstall-a4dfcd7c1e87538074be.json",
 					"name" : "ur5e_moveit_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_grid-255be6cab03c973ffed4.json",
+					"name" : "waypoint_grid",
 					"projectIndex" : 0
 				}
 			]
