@@ -1,0 +1,338 @@
+[0.000000] (-) TimerEvent: {}
+[0.000736] (-) JobUnselected: {'identifier': 'my_ur5e_moveit2_control'}
+[0.000818] (-) JobUnselected: {'identifier': 'ur'}
+[0.000849] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000873] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000898] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000921] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000941] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000962] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.000986] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict({'ur_dashboard_msgs': '/home/russell/ROS2_REPAS/install/ur_dashboard_msgs', 'ur_description': '/home/russell/ROS2_REPAS/install/ur_description', 'ur_controllers': '/home/russell/ROS2_REPAS/install/ur_controllers'})}
+[0.001029] (ur_robot_driver) JobStarted: {'identifier': 'ur_robot_driver'}
+[0.010065] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'cmake'}
+[0.010468] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver', '-DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_robot_driver'], 'cwd': '/home/russell/ROS2_REPAS/build/ur_robot_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'OLDPWD': '/home/russell/ROS2_REPAS/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2644', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/russell/ROS2_REPAS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/lib/x86_64-linux-gnu/pkgconfig:/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2601,unix/russell-System-Product-Name:/tmp/.ICE-unix/2601', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5e7cb954_48d4_4e4d_be04_129e40616927', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.160', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_moveit_config:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/build/ur_robot_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_moveit_config:/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.070135] (ur_robot_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099693] (-) TimerEvent: {}
+[0.127220] (ur_robot_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.150012] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199800] (-) TimerEvent: {}
+[0.254026] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.263139] (ur_robot_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.263413] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.263737] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.275087] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299896] (-) TimerEvent: {}
+[0.392326] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399974] (-) TimerEvent: {}
+[0.401860] (ur_robot_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402120] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.402563] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.403185] (ur_robot_driver) StderrLine: {'line': b"\x1b[0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.\x1b[0m\n"}
+[0.407716] (ur_robot_driver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500112] (-) TimerEvent: {}
+[0.572297] (ur_robot_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600191] (-) TimerEvent: {}
+[0.700476] (-) TimerEvent: {}
+[0.741260] (ur_robot_driver) StdoutLine: {'line': b'-- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)\n'}
+[0.800592] (-) TimerEvent: {}
+[0.820045] (ur_robot_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.840034] (ur_robot_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.862793] (ur_robot_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.887173] (ur_robot_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900667] (-) TimerEvent: {}
+[0.984955] (ur_robot_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.990426] (ur_robot_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000749] (-) TimerEvent: {}
+[1.101017] (-) TimerEvent: {}
+[1.104765] (ur_robot_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.126766] (ur_robot_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.149868] (ur_robot_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201122] (-) TimerEvent: {}
+[1.301679] (-) TimerEvent: {}
+[1.401972] (-) TimerEvent: {}
+[1.502319] (-) TimerEvent: {}
+[1.602691] (-) TimerEvent: {}
+[1.702956] (-) TimerEvent: {}
+[1.803289] (-) TimerEvent: {}
+[1.819331] (ur_robot_driver) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.839477] (ur_robot_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.855811] (ur_robot_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.857094] (ur_robot_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.857313] (ur_robot_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.903396] (-) TimerEvent: {}
+[1.988322] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_dashboard_msgs: 3.1.0 (/opt/ros/jazzy/share/ur_dashboard_msgs/cmake)\n'}
+[2.003508] (-) TimerEvent: {}
+[2.032217] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_msgs: 2.1.0 (/opt/ros/jazzy/share/ur_msgs/cmake)\n'}
+[2.103590] (-) TimerEvent: {}
+[2.203840] (-) TimerEvent: {}
+[2.265121] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_controllers: 3.1.0 (/opt/ros/jazzy/share/ur_controllers/cmake)\n'}
+[2.303943] (-) TimerEvent: {}
+[2.395381] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_description: 3.1.0 (/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake)\n'}
+[2.399742] (ur_robot_driver) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 3.4.3 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)\n'}
+[2.404059] (-) TimerEvent: {}
+[2.404293] (ur_robot_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.504160] (-) TimerEvent: {}
+[2.540947] (ur_robot_driver) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.541677] (ur_robot_driver) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.604278] (-) TimerEvent: {}
+[2.631056] (ur_robot_driver) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.646738] (ur_robot_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/russell/ROS2_REPAS/build/ur_robot_driver\n'}
+[2.663385] (ur_robot_driver) CommandEnded: {'returncode': 0}
+[2.664436] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'build'}
+[2.665206] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/russell/ROS2_REPAS/build/ur_robot_driver', '--', '-j24', '-l24'], 'cwd': '/home/russell/ROS2_REPAS/build/ur_robot_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'OLDPWD': '/home/russell/ROS2_REPAS/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2644', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/russell/ROS2_REPAS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/lib/x86_64-linux-gnu/pkgconfig:/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2601,unix/russell-System-Product-Name:/tmp/.ICE-unix/2601', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5e7cb954_48d4_4e4d_be04_129e40616927', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.160', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_moveit_config:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/build/ur_robot_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_moveit_config:/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.704391] (-) TimerEvent: {}
+[2.739490] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o\x1b[0m\n'}
+[2.739771] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o\x1b[0m\n'}
+[2.739861] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o\x1b[0m\n'}
+[2.739939] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o\x1b[0m\n'}
+[2.740020] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o\x1b[0m\n'}
+[2.740188] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o\x1b[0m\n'}
+[2.740260] (ur_robot_driver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o\x1b[0m\n'}
+[2.740338] (ur_robot_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o\x1b[0m\n'}
+[2.740414] (ur_robot_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o\x1b[0m\n'}
+[2.740528] (ur_robot_driver) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o\x1b[0m\n'}
+[2.740762] (ur_robot_driver) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o\x1b[0m\n'}
+[2.743064] (ur_robot_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o\x1b[0m\n'}
+[2.743209] (ur_robot_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o\x1b[0m\n'}
+[2.753088] (ur_robot_driver) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_copy_ur_robot_driver\n'}
+[2.804502] (-) TimerEvent: {}
+[2.905035] (-) TimerEvent: {}
+[2.965766] (ur_robot_driver) StdoutLine: {'line': b'running egg_info\n'}
+[2.966428] (ur_robot_driver) StdoutLine: {'line': b'creating ur_robot_driver.egg-info\n'}
+[2.987390] (ur_robot_driver) StdoutLine: {'line': b'writing ur_robot_driver.egg-info/PKG-INFO\n'}
+[2.987810] (ur_robot_driver) StdoutLine: {'line': b'writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt\n'}
+[2.987963] (ur_robot_driver) StdoutLine: {'line': b'writing top-level names to ur_robot_driver.egg-info/top_level.txt\n'}
+[2.988052] (ur_robot_driver) StdoutLine: {'line': b"writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[3.005117] (-) TimerEvent: {}
+[3.052013] (ur_robot_driver) StdoutLine: {'line': b"reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[3.052563] (ur_robot_driver) StdoutLine: {'line': b"writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[3.085460] (ur_robot_driver) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_build_ur_robot_driver_egg\n'}
+[3.105251] (-) TimerEvent: {}
+[3.205654] (-) TimerEvent: {}
+[3.305995] (-) TimerEvent: {}
+[3.406681] (-) TimerEvent: {}
+[3.507077] (-) TimerEvent: {}
+[3.607407] (-) TimerEvent: {}
+[3.707723] (-) TimerEvent: {}
+[3.808091] (-) TimerEvent: {}
+[3.908432] (-) TimerEvent: {}
+[4.008866] (-) TimerEvent: {}
+[4.109377] (-) TimerEvent: {}
+[4.209705] (-) TimerEvent: {}
+[4.310058] (-) TimerEvent: {}
+[4.410396] (-) TimerEvent: {}
+[4.510725] (-) TimerEvent: {}
+[4.611098] (-) TimerEvent: {}
+[4.711473] (-) TimerEvent: {}
+[4.811865] (-) TimerEvent: {}
+[4.912229] (-) TimerEvent: {}
+[5.012583] (-) TimerEvent: {}
+[5.112952] (-) TimerEvent: {}
+[5.213469] (-) TimerEvent: {}
+[5.313826] (-) TimerEvent: {}
+[5.414174] (-) TimerEvent: {}
+[5.514602] (-) TimerEvent: {}
+[5.615041] (-) TimerEvent: {}
+[5.715409] (-) TimerEvent: {}
+[5.815698] (-) TimerEvent: {}
+[5.888159] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KRobotStateHelper\x1b[m\x1b[K(const rclcpp::Node::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.888463] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:77:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KgetRobotVersion\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.888559] (ur_robot_driver) StderrLine: {'line': b'   77 |   auto robot_version = primary_client_->\x1b[01;31m\x1b[KgetRobotVersion\x1b[m\x1b[K();\n'}
+[5.888698] (ur_robot_driver) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.912068] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KrecoverFromSafety\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.912344] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:141:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandUnlockProtectiveStop\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.912440] (ur_robot_driver) StderrLine: {'line': b'  141 |         primary_client_->\x1b[01;31m\x1b[KcommandUnlockProtectiveStop\x1b[m\x1b[K();\n'}
+[5.912529] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.915015] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KjumpToRobotMode\x1b[m\x1b[K(urcl::RobotMode)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.915208] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:172:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandPowerOff\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.915327] (ur_robot_driver) StderrLine: {'line': b'  172 |         primary_client_->\x1b[01;31m\x1b[KcommandPowerOff\x1b[m\x1b[K();\n'}
+[5.915427] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.915518] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:175:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandPowerOn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.915614] (ur_robot_driver) StderrLine: {'line': b'  175 |         primary_client_->\x1b[01;31m\x1b[KcommandPowerOn\x1b[m\x1b[K();\n'}
+[5.915724] (-) TimerEvent: {}
+[5.915852] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.915956] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:178:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandBrakeRelease\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.916060] (ur_robot_driver) StderrLine: {'line': b'  178 |         primary_client_->\x1b[01;31m\x1b[KcommandBrakeRelease\x1b[m\x1b[K();\n'}
+[5.916140] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.926924] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KstopProgram\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.927220] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:269:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandStop\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.927327] (ur_robot_driver) StderrLine: {'line': b'  269 |     primary_client_->\x1b[01;31m\x1b[KcommandStop\x1b[m\x1b[K();\n'}
+[5.927423] (ur_robot_driver) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.996697] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kur_robot_driver::DashboardClientROS::\x1b[01;32m\x1b[KDashboardClientROS\x1b[m\x1b[K(const rclcpp::Node::SharedPtr&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.997008] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp:55:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgetRobotVersion\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.997107] (ur_robot_driver) StderrLine: {'line': b'   55 |   auto robot_version = primary_client_.\x1b[01;31m\x1b[KgetRobotVersion\x1b[m\x1b[K();\n'}
+[5.997185] (ur_robot_driver) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.015868] (-) TimerEvent: {}
+[6.116231] (-) TimerEvent: {}
+[6.216651] (-) TimerEvent: {}
+[6.317042] (-) TimerEvent: {}
+[6.417446] (-) TimerEvent: {}
+[6.517845] (-) TimerEvent: {}
+[6.618223] (-) TimerEvent: {}
+[6.718647] (-) TimerEvent: {}
+[6.749316] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KRobotStateHelper\x1b[m\x1b[K(const rclcpp::Node::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.749578] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:77:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KgetRobotVersion\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.749694] (ur_robot_driver) StderrLine: {'line': b'   77 |   auto robot_version = primary_client_->\x1b[01;31m\x1b[KgetRobotVersion\x1b[m\x1b[K();\n'}
+[6.749789] (ur_robot_driver) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.783173] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KrecoverFromSafety\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.783442] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:141:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandUnlockProtectiveStop\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.783521] (ur_robot_driver) StderrLine: {'line': b'  141 |         primary_client_->\x1b[01;31m\x1b[KcommandUnlockProtectiveStop\x1b[m\x1b[K();\n'}
+[6.783590] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.786938] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KjumpToRobotMode\x1b[m\x1b[K(urcl::RobotMode)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.787175] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:172:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandPowerOff\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.787284] (ur_robot_driver) StderrLine: {'line': b'  172 |         primary_client_->\x1b[01;31m\x1b[KcommandPowerOff\x1b[m\x1b[K();\n'}
+[6.787355] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.787425] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:175:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandPowerOn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.787504] (ur_robot_driver) StderrLine: {'line': b'  175 |         primary_client_->\x1b[01;31m\x1b[KcommandPowerOn\x1b[m\x1b[K();\n'}
+[6.787574] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.787657] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:178:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandBrakeRelease\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.787736] (ur_robot_driver) StderrLine: {'line': b'  178 |         primary_client_->\x1b[01;31m\x1b[KcommandBrakeRelease\x1b[m\x1b[K();\n'}
+[6.787806] (ur_robot_driver) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.802332] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_robot_driver::RobotStateHelper::\x1b[01;32m\x1b[KstopProgram\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.802658] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp:269:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<urcl::primary_interface::PrimaryClient, __gnu_cxx::_S_atomic, false, false>::element_type = class urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KcommandStop\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.802773] (ur_robot_driver) StderrLine: {'line': b'  269 |     primary_client_->\x1b[01;31m\x1b[KcommandStop\x1b[m\x1b[K();\n'}
+[6.802864] (ur_robot_driver) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.818712] (-) TimerEvent: {}
+[6.919148] (-) TimerEvent: {}
+[7.000594] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kur_robot_driver::DashboardClientROS::\x1b[01;32m\x1b[KDashboardClientROS\x1b[m\x1b[K(const rclcpp::Node::SharedPtr&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.000887] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp:55:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass urcl::primary_interface::PrimaryClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgetRobotVersion\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.000956] (ur_robot_driver) StderrLine: {'line': b'   55 |   auto robot_version = primary_client_.\x1b[01;31m\x1b[KgetRobotVersion\x1b[m\x1b[K();\n'}
+[7.001012] (ur_robot_driver) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.019289] (-) TimerEvent: {}
+[7.119726] (-) TimerEvent: {}
+[7.220244] (-) TimerEvent: {}
+[7.320845] (-) TimerEvent: {}
+[7.421186] (-) TimerEvent: {}
+[7.521593] (-) TimerEvent: {}
+[7.622031] (-) TimerEvent: {}
+[7.722504] (-) TimerEvent: {}
+[7.822940] (-) TimerEvent: {}
+[7.923332] (-) TimerEvent: {}
+[8.023730] (-) TimerEvent: {}
+[8.124383] (-) TimerEvent: {}
+[8.224812] (-) TimerEvent: {}
+[8.325210] (-) TimerEvent: {}
+[8.425609] (-) TimerEvent: {}
+[8.526045] (-) TimerEvent: {}
+[8.626463] (-) TimerEvent: {}
+[8.726915] (-) TimerEvent: {}
+[8.809790] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dashboard_client.dir/build.make:76: CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o] Error 1\n'}
+[8.810114] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[8.827024] (-) TimerEvent: {}
+[8.927354] (-) TimerEvent: {}
+[9.027712] (-) TimerEvent: {}
+[9.128074] (-) TimerEvent: {}
+[9.228501] (-) TimerEvent: {}
+[9.328871] (-) TimerEvent: {}
+[9.429241] (-) TimerEvent: {}
+[9.529596] (-) TimerEvent: {}
+[9.566206] (ur_robot_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:174: CMakeFiles/dashboard_client.dir/all] Error 2\n'}
+[9.566523] (ur_robot_driver) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.629746] (-) TimerEvent: {}
+[9.730119] (-) TimerEvent: {}
+[9.730777] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_driver_plugin.dir/build.make:118: CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o] Error 1\n'}
+[9.730987] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.830238] (-) TimerEvent: {}
+[9.930585] (-) TimerEvent: {}
+[9.954846] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_driver_plugin.dir/build.make:76: CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o] Error 1\n'}
+[10.030731] (-) TimerEvent: {}
+[10.131139] (-) TimerEvent: {}
+[10.231471] (-) TimerEvent: {}
+[10.331855] (-) TimerEvent: {}
+[10.432213] (-) TimerEvent: {}
+[10.532559] (-) TimerEvent: {}
+[10.632912] (-) TimerEvent: {}
+[10.711096] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_state_helper.dir/build.make:76: CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o] Error 1\n'}
+[10.711437] (ur_robot_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/robot_state_helper.dir/all] Error 2\n'}
+[10.733028] (-) TimerEvent: {}
+[10.833356] (-) TimerEvent: {}
+[10.933707] (-) TimerEvent: {}
+[11.034057] (-) TimerEvent: {}
+[11.134423] (-) TimerEvent: {}
+[11.234794] (-) TimerEvent: {}
+[11.335143] (-) TimerEvent: {}
+[11.435493] (-) TimerEvent: {}
+[11.535917] (-) TimerEvent: {}
+[11.636292] (-) TimerEvent: {}
+[11.736668] (-) TimerEvent: {}
+[11.836967] (-) TimerEvent: {}
+[11.937295] (-) TimerEvent: {}
+[12.037604] (-) TimerEvent: {}
+[12.137959] (-) TimerEvent: {}
+[12.238316] (-) TimerEvent: {}
+[12.338703] (-) TimerEvent: {}
+[12.439062] (-) TimerEvent: {}
+[12.539327] (-) TimerEvent: {}
+[12.639613] (-) TimerEvent: {}
+[12.739900] (-) TimerEvent: {}
+[12.840200] (-) TimerEvent: {}
+[12.940506] (-) TimerEvent: {}
+[13.040908] (-) TimerEvent: {}
+[13.141248] (-) TimerEvent: {}
+[13.241579] (-) TimerEvent: {}
+[13.341869] (-) TimerEvent: {}
+[13.442224] (-) TimerEvent: {}
+[13.542545] (-) TimerEvent: {}
+[13.642906] (-) TimerEvent: {}
+[13.743232] (-) TimerEvent: {}
+[13.843599] (-) TimerEvent: {}
+[13.943959] (-) TimerEvent: {}
+[14.044307] (-) TimerEvent: {}
+[14.144675] (-) TimerEvent: {}
+[14.245031] (-) TimerEvent: {}
+[14.345370] (-) TimerEvent: {}
+[14.445701] (-) TimerEvent: {}
+[14.545984] (-) TimerEvent: {}
+[14.646288] (-) TimerEvent: {}
+[14.746655] (-) TimerEvent: {}
+[14.847031] (-) TimerEvent: {}
+[14.947387] (-) TimerEvent: {}
+[15.047769] (-) TimerEvent: {}
+[15.148111] (-) TimerEvent: {}
+[15.248458] (-) TimerEvent: {}
+[15.348821] (-) TimerEvent: {}
+[15.449147] (-) TimerEvent: {}
+[15.549485] (-) TimerEvent: {}
+[15.649860] (-) TimerEvent: {}
+[15.750127] (-) TimerEvent: {}
+[15.850393] (-) TimerEvent: {}
+[15.950672] (-) TimerEvent: {}
+[16.050979] (-) TimerEvent: {}
+[16.151267] (-) TimerEvent: {}
+[16.251723] (-) TimerEvent: {}
+[16.352125] (-) TimerEvent: {}
+[16.452448] (-) TimerEvent: {}
+[16.552863] (-) TimerEvent: {}
+[16.653226] (-) TimerEvent: {}
+[16.753683] (-) TimerEvent: {}
+[16.854038] (-) TimerEvent: {}
+[16.943150] (ur_robot_driver) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable urscript_interface\x1b[0m\n'}
+[16.954361] (-) TimerEvent: {}
+[17.054766] (-) TimerEvent: {}
+[17.155090] (-) TimerEvent: {}
+[17.255416] (-) TimerEvent: {}
+[17.355727] (-) TimerEvent: {}
+[17.456131] (-) TimerEvent: {}
+[17.556508] (-) TimerEvent: {}
+[17.656948] (-) TimerEvent: {}
+[17.733512] (ur_robot_driver) StdoutLine: {'line': b'[ 77%] Built target urscript_interface\n'}
+[17.757084] (-) TimerEvent: {}
+[17.857468] (-) TimerEvent: {}
+[17.957829] (-) TimerEvent: {}
+[17.988060] (ur_robot_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/ur_robot_driver_plugin.dir/all] Error 2\n'}
+[18.057934] (-) TimerEvent: {}
+[18.158233] (-) TimerEvent: {}
+[18.258545] (-) TimerEvent: {}
+[18.358998] (-) TimerEvent: {}
+[18.459344] (-) TimerEvent: {}
+[18.559708] (-) TimerEvent: {}
+[18.623113] (ur_robot_driver) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable controller_stopper_node\x1b[0m\n'}
+[18.659843] (-) TimerEvent: {}
+[18.760237] (-) TimerEvent: {}
+[18.860622] (-) TimerEvent: {}
+[18.961307] (-) TimerEvent: {}
+[18.991352] (ur_robot_driver) StdoutLine: {'line': b'[ 83%] Built target controller_stopper_node\n'}
+[18.993224] (ur_robot_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.996790] (ur_robot_driver) CommandEnded: {'returncode': 2}
+[19.003093] (ur_robot_driver) JobEnded: {'identifier': 'ur_robot_driver', 'rc': 2}
+[19.013497] (-) EventReactorShutdown: {}

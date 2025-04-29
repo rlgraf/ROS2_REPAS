@@ -1,0 +1,28 @@
+[0.004s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_simulation_gz -- -j24 -l24
+[0.035s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_simulation_gz -- -j24 -l24
+[0.036s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_simulation_gz
+[0.042s] -- Install configuration: ""
+[0.042s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/config
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/launch
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/launch/ur_sim_moveit.launch.py
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/launch/ur_sim_control.launch.py
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/urdf
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/urdf/ur_gz.ros2_control.xacro
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/urdf/ur_gz.urdf.xacro
+[0.043s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+[0.044s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+[0.045s] -- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+[0.045s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+[0.045s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+[0.045s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+[0.045s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.xml
+[0.046s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_simulation_gz

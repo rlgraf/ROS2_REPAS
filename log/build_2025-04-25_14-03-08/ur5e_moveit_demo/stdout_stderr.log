@@ -1,0 +1,18 @@
+[ 66%] Built target move_ur5e
+[ 66%] Built target home
+[ 83%] [32mBuilding CXX object CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o[0m
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/russell_script1.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/russell_script1.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+   33 |   [01;31m[Ktarget_pose1[m[K.position.z -= 0.03;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[Ktarget_pose[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/russell_script1.cpp:43:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_arm[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group[m[K’?
+   43 |   double fraction = [01;31m[Kmove_group_arm[m[K.computeCartesianPath(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                     [32m[Kmove_group[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/russell_script1.cpp:30:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |   bool [01;35m[Ksuccess[m[K = static_cast<bool>(move_group.plan(my_plan));
+      |        [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/russell_script1.dir/build.make:76: CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/russell_script1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

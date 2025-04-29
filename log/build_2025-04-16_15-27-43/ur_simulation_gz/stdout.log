@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/config
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/launch
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/launch/ur_sim_moveit.launch.py
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/launch/ur_sim_control.launch.py
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/urdf
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/urdf/ur_gz.ros2_control.xacro
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/urdf/ur_gz.urdf.xacro
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+-- Installing: /home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.xml

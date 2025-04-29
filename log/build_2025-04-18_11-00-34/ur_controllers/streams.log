@@ -1,0 +1,99 @@
+[0.014s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_controllers': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_controllers
+[0.066s] -- The C compiler identification is GNU 13.3.0
+[0.119s] -- The CXX compiler identification is GNU 13.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.242s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.242s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.508s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.646s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[0.670s] -- Found controller_interface: 4.27.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.777s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.795s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.083s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.154s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.158s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.188s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.367s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.370s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.387s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.389s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.398s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.775s] -- Found joint_trajectory_controller: 4.21.0 (/opt/ros/jazzy/share/joint_trajectory_controller/cmake)
+[1.929s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.947s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.963s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.965s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.965s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.065s] -- Found ur_dashboard_msgs: 3.2.1 (/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[2.104s] -- Found ur_msgs: 2.1.0 (/opt/ros/jazzy/share/ur_msgs/cmake)
+[2.145s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.159s] -- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.339s] -- Found ros2_control_test_assets: 4.27.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.353s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.377s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.379s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.459s] -- Configuring done (2.4s)
+[2.683s] -- Generating done (0.2s)
+[2.696s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/ur_controllers
+[2.710s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_controllers
+[2.712s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_controllers': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_controllers -- -j24 -l24
+[2.775s] [  5%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[2.775s] [  5%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[2.775s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.775s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.775s] [ 14%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[2.776s] [ 17%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[2.776s] [ 23%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[2.776s] [ 23%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[2.777s] [ 26%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[2.777s] [ 29%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.777s] [ 32%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[3.601s] [ 38%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[3.601s] [ 38%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[3.601s] [ 44%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[3.601s] [ 44%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[3.624s] [ 47%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[3.631s] [ 50%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[3.646s] [ 52%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[3.654s] [ 52%] Built target ur_configuration_controller_parameters
+[3.654s] [ 52%] Built target scaled_joint_trajectory_controller_parameters
+[3.654s] [ 52%] Built target tool_contact_controller_parameters
+[3.658s] [ 52%] Built target speed_scaling_state_broadcaster_parameters
+[3.673s] [ 55%] [34m[1mCreating deprecated header file /home/russell/ROS2_REPAS/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[3.674s] [ 55%] Built target force_mode_controller_parameters
+[3.683s] [ 55%] Built target passthrough_trajectory_controller_parameters
+[3.695s] [ 55%] Built target gpio_controller_parameters
+[3.720s] [ 55%] Built target freedrive_mode_controller_parameters
+[3.743s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[3.744s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[3.744s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[3.744s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[3.744s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[3.744s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[3.744s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[3.744s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[4.004s] [ 82%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.134s] [ 82%] Built target gmock_main
+[4.231s] In file included from [01m[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller.cpp:42[m[K:
+[4.231s] [01m[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:59:10:[m[K [01;31m[Kfatal error: [m[Kur_msgs/action/tool_contact.hpp: No such file or directory
+[4.231s]    59 | #include [01;31m[K<ur_msgs/action/tool_contact.hpp>[m[K
+[4.231s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.231s] compilation terminated.
+[4.242s] gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:76: CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o] Error 1
+[4.242s] gmake[2]: *** Waiting for unfinished jobs....
+[6.258s] [ 85%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.339s] [ 85%] Built target gmock
+[13.693s] gmake[1]: *** [CMakeFiles/Makefile2:409: CMakeFiles/ur_controllers.dir/all] Error 2
+[13.694s] gmake: *** [Makefile:146: all] Error 2
+[13.697s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_controllers' returned '2': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/russell/ROS2_REPAS/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_controllers -- -j24 -l24

@@ -1,0 +1,2 @@
+Invoking command in '/home/russell/ROS2_REPAS/build/ur_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_moveit_config
+Invoked command in '/home/russell/ROS2_REPAS/build/ur_moveit_config' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_moveit_config

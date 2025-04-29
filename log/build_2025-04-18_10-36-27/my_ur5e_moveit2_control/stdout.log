@@ -1,0 +1,21 @@
+[100%] Built target move_ur5e
+-- Install configuration: ""
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/lib/my_ur5e_moveit2_control/move_ur5e
+-- Set non-toolchain portion of runtime path of "/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/lib/my_ur5e_moveit2_control/move_ur5e" to ""
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/launch
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/launch/move_ur5e.launch.py
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/ament_index/resource_index/package_run_dependencies/my_ur5e_moveit2_control
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/ament_index/resource_index/parent_prefix_path/my_ur5e_moveit2_control
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/environment/ament_prefix_path.sh
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/environment/ament_prefix_path.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/environment/path.sh
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/environment/path.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/local_setup.bash
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/local_setup.sh
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/local_setup.zsh
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/local_setup.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/package.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/ament_index/resource_index/packages/my_ur5e_moveit2_control
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/cmake/my_ur5e_moveit2_controlConfig.cmake
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/cmake/my_ur5e_moveit2_controlConfig-version.cmake
+-- Installing: /home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control/share/my_ur5e_moveit2_control/package.xml

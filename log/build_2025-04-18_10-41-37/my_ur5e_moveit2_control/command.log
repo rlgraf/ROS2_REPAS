@@ -1,0 +1,1 @@
+Invoking command in '/home/russell/ROS2_REPAS/build/my_ur5e_moveit2_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/my_ur5e_moveit2_control -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/my_ur5e_moveit2_control
