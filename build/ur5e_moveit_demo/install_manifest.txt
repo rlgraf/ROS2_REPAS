@@ -2,9 +2,11 @@
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/home
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/russell_script1
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/waypoint_grid
+/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/move_ur5e.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py
+/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_demo
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_demo

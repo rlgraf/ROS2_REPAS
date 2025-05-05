@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.092s] [ 40%] Built target move_ur5e
+[0.092s] [ 40%] Built target russell_script1
+[0.092s] [ 60%] Built target home
+[0.093s] [ 80%] Built target waypoint_grid
+[0.102s] [ 90%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.o[0m
+[4.201s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.201s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:58:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.202s]    58 |   [01;35m[Ktarget_pose.orientation.x[m[K;
+[4.202s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.202s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:59:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.202s]    59 |   [01;35m[Ktarget_pose.orientation.y[m[K;
+[4.202s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.202s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:60:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.203s]    60 |   [01;35m[Ktarget_pose.orientation.z[m[K;
+[4.203s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.203s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:61:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.203s]    61 |   [01;35m[Ktarget_pose.orientation.w[m[K;
+[4.203s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.203s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:62:24:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.203s]    62 |   [01;35m[Ktarget_pose.position.x[m[K;
+[4.204s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.204s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:63:24:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.204s]    63 |   [01;35m[Ktarget_pose.position.y[m[K;
+[4.204s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.204s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:64:24:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.204s]    64 |   [01;35m[Ktarget_pose.position.z[m[K;
+[4.204s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.205s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:76:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.205s]    76 |   double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+[4.205s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.205s]    77 | [01;35m[K    approach_waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+[4.205s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.205s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid.cpp:2[m[K:
+[4.206s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.206s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[4.206s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.225s] [100%] [32m[1mLinking CXX executable hydroponic_waypoint_grid[0m
+[6.545s] [100%] Built target hydroponic_waypoint_grid
+[6.561s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[6.563s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[6.573s] -- Install configuration: ""
+[6.573s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/move_ur5e
+[6.573s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/home
+[6.573s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/russell_script1
+[6.574s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/waypoint_grid
+[6.574s] -- Installing: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid
+[6.575s] -- Set non-toolchain portion of runtime path of "/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid" to ""
+[6.575s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch
+[6.575s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py
+[6.575s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/move_ur5e.launch.py
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_demo
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_demo
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.sh
+[6.576s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.dsv
+[6.577s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.sh
+[6.577s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.dsv
+[6.577s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.bash
+[6.577s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.sh
+[6.577s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.zsh
+[6.578s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.dsv
+[6.578s] -- Installing: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv
+[6.579s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/packages/ur5e_moveit_demo
+[6.579s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig.cmake
+[6.579s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig-version.cmake
+[6.580s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.xml
+[6.580s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo

@@ -34,12 +34,20 @@ int main(int argc, char** argv)
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
   // Set target joint values
+  /*
   joint_group_positions[0] = 0.00;
   joint_group_positions[1] = -2.50;
   joint_group_positions[2] = 1.50;
-  joint_group_positions[3] = -2.00;
+  joint_group_positions[3] = -2.10;
   joint_group_positions[4] = -1.55;
   joint_group_positions[5] = 0.00;
+  */
+  joint_group_positions[0] = 0.00; // shoulder pan
+  joint_group_positions[1] = -1.5708; // shoulder lift
+  joint_group_positions[2] = 1.5708; // elbow
+  joint_group_positions[3] = -1.5708; // wrist 1
+  joint_group_positions[4] = -1.5708; // wrist 2
+  joint_group_positions[5] = 3.14; // wrist 3
 
   move_group.setJointValueTarget(joint_group_positions);
 

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bf4df272e163ff38175c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur5e_moveit_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "home::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-home-25bfa779a5108636813d.json",
+					"name" : "home",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydroponic_waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydroponic_waypoint_grid-6722c28159c2f0572d2d.json",
+					"name" : "hydroponic_waypoint_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_ur5e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_ur5e-2b50c0549413cc145541.json",
+					"name" : "move_ur5e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "russell_script1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-russell_script1-440d44412641da9badec.json",
+					"name" : "russell_script1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-15ab9e9a9a29599d19ca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5e_moveit_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5e_moveit_demo_uninstall-a4dfcd7c1e87538074be.json",
+					"name" : "ur5e_moveit_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_grid-912787fd2c5f3acf054f.json",
+					"name" : "waypoint_grid",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/russell/ROS2_REPAS/build/ur5e_moveit_demo",
+		"source" : "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
