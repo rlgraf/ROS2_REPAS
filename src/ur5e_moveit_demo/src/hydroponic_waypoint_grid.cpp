@@ -67,7 +67,7 @@ int main(int argc, char** argv)
   ////////////////////////////////////////////////////////////////
   for (int i = 0; i < 10; i++)
   {
-    target_pose.position.x -= 0.1016/10;
+    target_pose.position.x -= 0.1524/10;
     approach_waypoints.push_back(target_pose);
   }
   moveit_msgs::msg::RobotTrajectory trajectory_approach;
@@ -90,43 +90,7 @@ int main(int argc, char** argv)
   ////////////////////////////////////////////////////////////////////
   for (int i = 0; i < 10; i++)
   {
-    target_pose.position.y += 0.0762/10;
-    approach_waypoints.push_back(target_pose);
-  }
-  fraction = move_group.computeCartesianPath(
-    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
-  if (fraction > 0.9)
-    {
-      move_group.execute(trajectory_approach);
-    }
-  else
-  {
-    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
-  }
-  approach_waypoints.clear();
-
-  ////////////////////////////////////////////////////////////////////
-  for (int i = 0; i < 10; i++)
-  {
-    target_pose.position.y += 0.152/10;
-    approach_waypoints.push_back(target_pose);
-  }
-  fraction = move_group.computeCartesianPath(
-    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
-  if (fraction > 0.9)
-    {
-      move_group.execute(trajectory_approach);
-    }
-  else
-  {
-    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
-  }
-  approach_waypoints.clear();
-
-  ////////////////////////////////////////////////////////////////////
-  for (int i = 0; i < 10; i++)
-  {
-    target_pose.position.y += 0.0762/10;
+    target_pose.position.y += 0.3048/10;
     approach_waypoints.push_back(target_pose);
   }
   fraction = move_group.computeCartesianPath(
@@ -162,6 +126,96 @@ int main(int argc, char** argv)
   ////////////////////////////////////////////////////////////////////
   for (int i = 0; i < 10; i++)
   {
+    target_pose.position.x += 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+   ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
     target_pose.position.x += 0.1016/10;
     approach_waypoints.push_back(target_pose);
   }
@@ -177,7 +231,329 @@ int main(int argc, char** argv)
   }
   approach_waypoints.clear();
 
-   
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x += 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+   ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x += 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x += 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x += 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x += 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y -= 0.0762/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x -= 0.2032/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.y += 0.2286/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
+
+  ////////////////////////////////////////////////////////////////////
+  for (int i = 0; i < 10; i++)
+  {
+    target_pose.position.x += 0.1016/10;
+    approach_waypoints.push_back(target_pose);
+  }
+  fraction = move_group.computeCartesianPath(
+    approach_waypoints, eef_step, jump_threshold, trajectory_approach);
+  if (fraction > 0.9)
+    {
+      move_group.execute(trajectory_approach);
+    }
+  else
+  {
+    RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+  }
+  approach_waypoints.clear();
 
   
   // Shutdown
