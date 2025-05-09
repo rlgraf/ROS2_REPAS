@@ -1,0 +1,60 @@
+[0.011s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.092s] [ 50%] Built target move_ur5e
+[0.093s] [ 50%] Built target russell_script1
+[0.093s] [ 50%] Built target waypoint_grid
+[0.093s] [ 66%] Built target hydroponic_waypoint_grid
+[0.094s] [ 83%] Built target home
+[0.103s] [ 91%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o[0m
+[4.208s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.208s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:59:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.209s]    59 |   [01;35m[Ktarget_pose.orientation.x[m[K;
+[4.209s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.209s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:60:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.209s]    60 |   [01;35m[Ktarget_pose.orientation.y[m[K;
+[4.209s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.209s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:61:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.210s]    61 |   [01;35m[Ktarget_pose.orientation.z[m[K;
+[4.210s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.210s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:62:27:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.210s]    62 |   [01;35m[Ktarget_pose.orientation.w[m[K;
+[4.210s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.210s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:63:24:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.210s]    63 |   [01;35m[Ktarget_pose.position.x[m[K;
+[4.210s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.211s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:64:24:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.211s]    64 |   [01;35m[Ktarget_pose.position.y[m[K;
+[4.211s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.211s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:65:24:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.211s]    65 |   [01;35m[Ktarget_pose.position.z[m[K;
+[4.211s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.216s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_pos[m[K’ was not declared in this scope
+[4.216s]    93 |     [01;31m[Kx_pos[m[K = nodes[i].x;
+[4.216s]       |     [01;31m[K^~~~~[m[K
+[4.220s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_pos[m[K’ was not declared in this scope
+[4.220s]    94 |     [01;31m[Ky_pos[m[K = nodes[i].y;
+[4.220s]       |     [01;31m[K^~~~~[m[K
+[4.220s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:108:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.221s]   108 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+[4.221s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.221s]   109 | [01;35m[K    approach_waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+[4.221s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.221s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:2[m[K:
+[4.221s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.221s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[4.221s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.222s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:132:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan[m[K’
+[4.222s]   132 |   moveit::planning_interface::MoveGroupInterface::Plan [01;31m[Kmy_plan[m[K;
+[4.222s]       |                                                        [01;31m[K^~~~~~~[m[K
+[4.222s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:48:56:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan[m[K’ previously declared here
+[4.222s]    48 |   moveit::planning_interface::MoveGroupInterface::Plan [01;36m[Kmy_plan[m[K;
+[4.222s]       |                                                        [01;36m[K^~~~~~~[m[K
+[4.222s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:133:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool success[m[K’
+[4.222s]   133 |   bool [01;31m[Ksuccess[m[K = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+[4.223s]       |        [01;31m[K^~~~~~~[m[K
+[4.223s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:49:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool success[m[K’ previously declared here
+[4.223s]    49 |   bool [01;36m[Ksuccess[m[K = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+[4.223s]       |        [01;36m[K^~~~~~~[m[K
+[6.087s] gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o] Error 1
+[6.087s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hydroponic_waypoint_grid_v2.dir/all] Error 2
+[6.088s] gmake: *** [Makefile:146: all] Error 2
+[6.091s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

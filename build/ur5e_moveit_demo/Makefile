@@ -262,6 +262,19 @@ hydroponic_waypoint_grid/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid.dir/build.make CMakeFiles/hydroponic_waypoint_grid.dir/build
 .PHONY : hydroponic_waypoint_grid/fast
 
+#=============================================================================
+# Target rules for targets named hydroponic_waypoint_grid_v2
+
+# Build rule for target.
+hydroponic_waypoint_grid_v2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hydroponic_waypoint_grid_v2
+.PHONY : hydroponic_waypoint_grid_v2
+
+# fast build rule for target.
+hydroponic_waypoint_grid_v2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make CMakeFiles/hydroponic_waypoint_grid_v2.dir/build
+.PHONY : hydroponic_waypoint_grid_v2/fast
+
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
 
@@ -309,6 +322,30 @@ src/hydroponic_waypoint_grid.s: src/hydroponic_waypoint_grid.cpp.s
 src/hydroponic_waypoint_grid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid.dir/build.make CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.s
 .PHONY : src/hydroponic_waypoint_grid.cpp.s
+
+src/hydroponic_waypoint_grid_v2.o: src/hydroponic_waypoint_grid_v2.cpp.o
+.PHONY : src/hydroponic_waypoint_grid_v2.o
+
+# target to build an object file
+src/hydroponic_waypoint_grid_v2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o
+.PHONY : src/hydroponic_waypoint_grid_v2.cpp.o
+
+src/hydroponic_waypoint_grid_v2.i: src/hydroponic_waypoint_grid_v2.cpp.i
+.PHONY : src/hydroponic_waypoint_grid_v2.i
+
+# target to preprocess a source file
+src/hydroponic_waypoint_grid_v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.i
+.PHONY : src/hydroponic_waypoint_grid_v2.cpp.i
+
+src/hydroponic_waypoint_grid_v2.s: src/hydroponic_waypoint_grid_v2.cpp.s
+.PHONY : src/hydroponic_waypoint_grid_v2.s
+
+# target to generate assembly for a file
+src/hydroponic_waypoint_grid_v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.s
+.PHONY : src/hydroponic_waypoint_grid_v2.cpp.s
 
 src/move_ur5e.o: src/move_ur5e.cpp.o
 .PHONY : src/move_ur5e.o
@@ -399,6 +436,7 @@ help:
 	@echo "... ur5e_moveit_demo_uninstall"
 	@echo "... home"
 	@echo "... hydroponic_waypoint_grid"
+	@echo "... hydroponic_waypoint_grid_v2"
 	@echo "... move_ur5e"
 	@echo "... russell_script1"
 	@echo "... waypoint_grid"
@@ -408,6 +446,9 @@ help:
 	@echo "... src/hydroponic_waypoint_grid.o"
 	@echo "... src/hydroponic_waypoint_grid.i"
 	@echo "... src/hydroponic_waypoint_grid.s"
+	@echo "... src/hydroponic_waypoint_grid_v2.o"
+	@echo "... src/hydroponic_waypoint_grid_v2.i"
+	@echo "... src/hydroponic_waypoint_grid_v2.s"
 	@echo "... src/move_ur5e.o"
 	@echo "... src/move_ur5e.i"
 	@echo "... src/move_ur5e.s"

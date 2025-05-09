@@ -70,6 +70,14 @@ ament_target_dependencies(
   geometry_msgs
 )
 
+add_executable(hydroponic_waypoint_grid_v2 src/hydroponic_waypoint_grid_v2.cpp)
+ament_target_dependencies(
+  hydroponic_waypoint_grid_v2
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+)
+
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
 )
@@ -85,6 +93,7 @@ install(TARGETS russell_script1
 install(TARGETS 
   waypoint_grid
   hydroponic_waypoint_grid
+  hydroponic_waypoint_grid_v2
   DESTINATION lib/${PROJECT_NAME}
 )
 
