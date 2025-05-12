@@ -65,26 +65,26 @@ int main(int argc, char** argv)
   start_pose.position.z;
 
   struct Node {
-  double y;
   double x;
+  double y;
   };
 
-  Node N1 = {-10.5, -2};
-  Node N2 = {-10.5, 6};
-  Node N3 = {-7.5, 2};
-  Node N4 = {-7.5, -6};
-  Node N5 = {-4.5, -2};
-  Node N6 = {-4.5, 6};
-  Node N7 = {-1.5, 2};
-  Node N8 = {-1.5, -6};
-  Node N9 = {1.5, -2};
-  Node N10 = {1.5, 6};
-  Node N11 = {4.5, 2};
-  Node N12 = {4.5, -6};
-  Node N13 = {7.5, -2};
-  Node N14 = {7.5, 6};
-  Node N15 = {10.5, 2};
-  Node N16 = {10.5, -6};
+  Node N1 = {-2, 10.5};
+  Node N2 = {6, 10.5};
+  Node N3 = {2, 7.5};
+  Node N4 = {-6, 7.5};
+  Node N5 = {-2, 4.5};
+  Node N6 = {6, 4.5};
+  Node N7 = {2, 1.5};
+  Node N8 = {-6, 1.5};
+  Node N9 = {-2, -1.5};
+  Node N10 = {6, -1.5};
+  Node N11 = {2, -4.5};
+  Node N12 = {-6, -4.5};
+  Node N13 = {-2, -7.5};
+  Node N14 = {6, -7.5};
+  Node N15 = {2, -10.5};
+  Node N16 = {-6, -10.5};
 
   std::vector<Node> nodes = {N1, N2, N3, N4, N5, N6, N7, N8, 
     N9, N10, N11, N12, N13, N14, N15, N16};
@@ -97,7 +97,7 @@ int main(int argc, char** argv)
     
     geometry_msgs::msg::Pose target_pose = start_pose;
     target_pose.position.x += x_pos;
-    target_pose.position.y -= y_pos;
+    target_pose.position.y += y_pos;
     std::vector<geometry_msgs::msg::Pose> waypoints;
  
     for (int j = 0; j < 10; j++){
