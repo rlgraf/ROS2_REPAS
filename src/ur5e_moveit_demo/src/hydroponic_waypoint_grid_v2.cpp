@@ -35,7 +35,7 @@ int main(int argc, char** argv)
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
   // Set target joint values
-  joint_group_positions[0] = 0.00; // shoulder pan
+  joint_group_positions[0] = 0.0; // shoulder pan
   joint_group_positions[1] = -1.5708; // shoulder lift
   joint_group_positions[2] = 1.5708; // elbow
   joint_group_positions[3] = -1.5708; // wrist 1
@@ -124,7 +124,7 @@ int main(int argc, char** argv)
     waypoints.clear();
   }
 
-  joint_group_positions[0] = 0.00; // shoulder pan
+  joint_group_positions[0] = 0.0; // shoulder pan
   joint_group_positions[1] = -1.5708; // shoulder lift
   joint_group_positions[2] = 1.5708; // elbow
   joint_group_positions[3] = -1.5708; // wrist 1

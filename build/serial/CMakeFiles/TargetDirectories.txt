@@ -1,0 +1,10 @@
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/uninstall.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/serial_uninstall.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/serial.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/test.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/edit_cache.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/rebuild_cache.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/list_install_components.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/install.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/install/local.dir
+/home/russell/ROS2_REPAS/build/serial/CMakeFiles/install/strip.dir

@@ -1,0 +1,252 @@
+[0.010s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/scene_manipulation_marker:/home/russell/ROS2_REPAS/install/scene_manipulation_gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_description
+[0.497s] -- The C compiler identification is GNU 13.3.0
+[0.833s] -- The CXX compiler identification is GNU 13.3.0
+[0.895s] -- Detecting C compiler ABI info
+[1.110s] -- Detecting C compiler ABI info - done
+[1.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.119s] -- Detecting C compile features
+[1.119s] -- Detecting C compile features - done
+[1.131s] -- Detecting CXX compiler ABI info
+[1.264s] -- Detecting CXX compiler ABI info - done
+[1.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.275s] -- Detecting CXX compile features
+[1.275s] -- Detecting CXX compile features - done
+[1.386s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.589s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.906s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[3.398s] -- Configuring done (3.4s)
+[3.404s] -- Generating done (0.0s)
+[3.407s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/ur_description
+[3.416s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/scene_manipulation_marker:/home/russell/ROS2_REPAS/install/scene_manipulation_gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_description
+[3.417s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/scene_manipulation_marker:/home/russell/ROS2_REPAS/install/scene_manipulation_gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_description -- -j24 -l24
+[3.465s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/scene_manipulation_marker:/home/russell/ROS2_REPAS/install/scene_manipulation_gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_description -- -j24 -l24
+[3.475s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/scene_manipulation_marker:/home/russell/ROS2_REPAS/install/scene_manipulation_gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_description
+[3.484s] -- Install configuration: ""
+[3.484s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config
+[3.485s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3
+[3.485s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[3.502s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[3.502s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[3.502s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[3.503s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e
+[3.503s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[3.503s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[3.503s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[3.503s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[3.504s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e
+[3.504s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[3.504s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[3.504s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[3.504s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[3.505s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5
+[3.505s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[3.505s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[3.505s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[3.505s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[3.506s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/initial_positions.yaml
+[3.506s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e
+[3.506s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[3.506s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[3.507s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[3.507s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[3.507s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30
+[3.507s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[3.508s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[3.508s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[3.508s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[3.509s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e
+[3.509s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[3.509s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[3.509s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[3.509s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[3.510s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20
+[3.510s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[3.510s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[3.510s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[3.510s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[3.511s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e
+[3.511s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[3.511s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[3.511s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[3.511s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[3.512s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10
+[3.512s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[3.512s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[3.512s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[3.513s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[3.513s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e
+[3.513s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[3.513s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[3.513s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[3.518s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[3.518s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/launch
+[3.518s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[3.519s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes
+[3.519s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3
+[3.519s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision
+[3.519s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[3.531s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[3.540s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[3.548s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[3.570s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[3.601s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[3.611s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[3.622s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual
+[3.622s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[3.652s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[3.672s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[3.684s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[3.697s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[3.710s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[3.726s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[3.727s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e
+[3.727s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision
+[3.727s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[3.732s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[3.733s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[3.733s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[3.733s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[3.734s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[3.737s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[3.742s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual
+[3.742s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[3.785s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[3.808s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[3.828s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[3.846s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[3.858s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[3.880s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[3.880s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e
+[3.880s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision
+[3.881s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[3.882s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[3.882s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[3.882s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[3.883s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[3.883s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[3.884s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[3.884s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual
+[3.884s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[3.924s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[3.944s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[3.969s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[3.985s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[4.000s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[4.012s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[4.012s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5
+[4.012s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision
+[4.012s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[4.013s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[4.013s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[4.013s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[4.013s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[4.014s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[4.014s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[4.015s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual
+[4.015s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[4.038s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[4.052s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[4.065s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[4.084s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[4.095s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[4.114s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[4.114s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30
+[4.115s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[4.115s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/collision
+[4.115s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[4.125s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[4.126s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual
+[4.126s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[4.139s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[4.158s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[4.163s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20
+[4.163s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[4.184s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision
+[4.184s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[4.200s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[4.201s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[4.201s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[4.218s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[4.219s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[4.219s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[4.219s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual
+[4.220s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[4.239s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[4.257s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[4.265s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[4.273s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[4.287s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[4.294s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[4.301s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[4.306s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e
+[4.306s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision
+[4.306s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[4.307s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[4.307s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[4.307s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[4.308s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[4.313s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[4.313s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[4.314s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual
+[4.314s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[4.350s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[4.376s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[4.397s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[4.412s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[4.420s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[4.438s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[4.439s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10
+[4.439s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision
+[4.439s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[4.446s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[4.447s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[4.447s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[4.448s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[4.448s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[4.448s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[4.449s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual
+[4.449s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[4.478s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[4.497s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[4.525s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[4.543s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[4.552s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[4.566s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[4.567s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e
+[4.567s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/collision
+[4.567s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[4.568s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[4.568s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/visual
+[4.568s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[4.604s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[4.626s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/rviz
+[4.626s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[4.627s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf
+[4.627s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc
+[4.627s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[4.627s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+[4.627s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+[4.628s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[4.628s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro
+[4.629s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[4.629s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[4.629s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+[4.629s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/test
+[4.629s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[4.630s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[4.630s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[4.630s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[4.630s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[4.630s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[4.630s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/path.sh
+[4.631s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/path.dsv
+[4.631s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.bash
+[4.631s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.sh
+[4.631s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.zsh
+[4.631s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.dsv
+[4.631s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.dsv
+[4.632s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[4.632s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[4.632s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[4.632s] -- Installing: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.xml
+[4.634s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/scene_manipulation_marker:/home/russell/ROS2_REPAS/install/scene_manipulation_gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_description

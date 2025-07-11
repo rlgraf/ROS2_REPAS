@@ -1,6 +1,0 @@
-[0.010s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_description
-[0.177s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
-[0.588s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
-[2.344s] -- Configuring done (2.3s)
-[2.378s] -- Generating done (0.0s)
-[2.380s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/ur_description

@@ -1,9 +1,0 @@
-In file included from [01m[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller.cpp:42[m[K:
-[01m[K/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:59:10:[m[K [01;31m[Kfatal error: [m[Kur_msgs/action/tool_contact.hpp: No such file or directory
-   59 | #include [01;31m[K<ur_msgs/action/tool_contact.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:76: CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-gmake[1]: *** [CMakeFiles/Makefile2:409: CMakeFiles/ur_controllers.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

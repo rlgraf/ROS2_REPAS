@@ -817,9 +817,6 @@ ur_dashboard_msgs_DIR:PATH=/opt/ros/jazzy/share/ur_dashboard_msgs/cmake
 //The directory containing a CMake configuration file for ur_description.
 ur_description_DIR:PATH=/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake
 
-//The directory containing a CMake configuration file for ur_gazebo.
-ur_gazebo_DIR:PATH=ur_gazebo_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for ur_msgs.
 ur_msgs_DIR:PATH=/opt/ros/jazzy/share/ur_msgs/cmake
 
@@ -846,6 +843,9 @@ warehouse_ros_DIR:PATH=/opt/ros/jazzy/share/warehouse_ros/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
+
+//The directory containing a CMake configuration file for yaml-cpp.
+yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
 
 
 ########################

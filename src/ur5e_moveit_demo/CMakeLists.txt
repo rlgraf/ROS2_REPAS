@@ -12,6 +12,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(ur_robot_driver REQUIRED)
 find_package(ur_description REQUIRED)
+find_package(yaml-cpp REQUIRED)
 #find_package(ur_gazebo REQUIRED)
 
 if(BUILD_TESTING)
@@ -29,6 +30,7 @@ endif()
 find_package(rclcpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(geometry_msgs REQUIRED)
+
 
 add_executable(move_ur5e src/move_ur5e.cpp)
 ament_target_dependencies(
@@ -77,6 +79,7 @@ ament_target_dependencies(
   moveit_ros_planning_interface
   geometry_msgs
 )
+
 
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
