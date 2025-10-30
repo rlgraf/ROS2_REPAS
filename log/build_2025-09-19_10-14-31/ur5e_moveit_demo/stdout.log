@@ -1,0 +1,8 @@
+[ 37%] Built target move_ur5e
+[ 37%] Built target russell_script1
+[ 37%] Built target home
+[ 75%] Built target parlight_grid
+[ 75%] Built target hydroponic_waypoint_grid
+[ 75%] Built target hydroponic_waypoint_grid_v2
+[ 87%] Built target waypoint_grid
+[ 93%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o[0m

@@ -1,0 +1,666 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7eac551956a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eac552b5d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eac552b5d90>>, mixin_verb=('build',))
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.144s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/russell/ROS2_REPAS'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz' with type 'ros.ament_cmake' and name 'ur_simulation_gz'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description' with type 'ros.ament_cmake' and name 'robotiq_2f_gripper_description'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware' with type 'ros.ament_cmake' and name 'robotiq_2f_gripper_hardware'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces' with type 'ros.ament_cmake' and name 'robotiq_2f_gripper_interfaces'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs' with type 'ros.ament_cmake' and name 'robotiq_2f_gripper_msgs'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_moveit_demo) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5e_moveit_demo' with type 'ros.ament_cmake' and name 'ur5e_moveit_demo'
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/russell/ROS2_REPAS/install
+[0.199s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/jazzy
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.259s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ur_description' is in: /home/russell/ROS2_REPAS/install/ur_description, /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_gripper_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description', 'symlink_install': False, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_gripper_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/serial', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/ur_description', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_gripper_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/ur_simulation_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/ur_simulation_gz', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_gripper_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'ur5e_moveit_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'ur5e_moveit_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo', 'merge_install': False, 'path': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo', 'symlink_install': False, 'test_result_base': None}
+[0.263s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2'
+[0.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs' with build type 'ament_cmake'
+[0.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_description'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/serial -- -j24 -l24
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_description -- -j24 -l24
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs -- -j24 -l24
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description -- -j24 -l24
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_description -- -j24 -l24
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_description
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description -- -j24 -l24
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description
+[0.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_description)
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description' for CMake module files
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description' for CMake config files
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/serial -- -j24 -l24
+[0.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_description', 'cmake_prefix_path')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/hook/cmake_prefix_path.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/hook/cmake_prefix_path.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/hook/cmake_prefix_path.sh'
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/serial
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_description
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/bin'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/lib/pkgconfig/robotiq_2f_gripper_description.pc'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/lib/python3.12/site-packages'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/bin'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.ps1'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.dsv'
+[0.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.sh'
+[0.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.bash'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.zsh'
+[0.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/colcon-core/packages/robotiq_2f_gripper_description)
+[0.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_description)
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description' for CMake module files
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description' for CMake config files
+[0.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_description', 'cmake_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/hook/cmake_prefix_path.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/hook/cmake_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/hook/cmake_prefix_path.sh'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/bin'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/lib/pkgconfig/robotiq_2f_gripper_description.pc'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/lib/python3.12/site-packages'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/bin'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.sh'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.bash'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/robotiq_2f_gripper_description/package.zsh'
+[0.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description/share/colcon-core/packages/robotiq_2f_gripper_description)
+[0.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description' for CMake module files
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_description
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description' for CMake config files
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/bin'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/lib/pkgconfig/ur_description.pc'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/lib/python3.12/site-packages'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/bin'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.bash'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.zsh'
+[0.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/ur_description/share/colcon-core/packages/ur_description)
+[0.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description' for CMake module files
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description' for CMake config files
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/bin'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/lib/pkgconfig/ur_description.pc'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/lib/python3.12/site-packages'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_description/bin'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.dsv'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.sh'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.bash'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.zsh'
+[0.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/ur_description/share/colcon-core/packages/ur_description)
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz' with build type 'ament_cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial' for CMake module files
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/serial
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial' for CMake config files
+[0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/lib'
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/bin'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/lib/pkgconfig/serial.pc'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/lib/python3.12/site-packages'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/bin'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/serial/share/serial/package.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.bash'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.zsh'
+[0.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/serial/share/colcon-core/packages/serial)
+[0.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial' for CMake module files
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial' for CMake config files
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/lib'
+[0.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/bin'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/lib/pkgconfig/serial.pc'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/lib/python3.12/site-packages'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/serial/bin'
+[0.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/serial/share/serial/package.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.bash'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/serial/share/serial/package.zsh'
+[0.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/serial/share/colcon-core/packages/serial)
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_simulation_gz -- -j24 -l24
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces -- -j24 -l24
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_simulation_gz -- -j24 -l24
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_simulation_gz
+[0.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gz)
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz' for CMake module files
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_simulation_gz
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz' for CMake config files
+[0.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gz', 'cmake_prefix_path')
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.sh'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/bin'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/lib/pkgconfig/ur_simulation_gz.pc'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/lib/python3.12/site-packages'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/bin'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.bash'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.zsh'
+[0.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/colcon-core/packages/ur_simulation_gz)
+[0.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gz)
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz' for CMake module files
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz' for CMake config files
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gz', 'cmake_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.sh'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/bin'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/lib/pkgconfig/ur_simulation_gz.pc'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/lib/python3.12/site-packages'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur_simulation_gz/bin'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.sh'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.bash'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/ur_simulation_gz/package.zsh'
+[0.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/ur_simulation_gz/share/colcon-core/packages/ur_simulation_gz)
+[0.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo' with build type 'ament_cmake'
+[0.555s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces -- -j24 -l24
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces
+[0.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_interfaces)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces' for CMake module files
+[0.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_interfaces', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/cmake_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib'
+[0.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_interfaces', 'ld_library_path_lib')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/ld_library_path_lib.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/ld_library_path_lib.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/ld_library_path_lib.sh'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/bin'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib/pkgconfig/robotiq_2f_gripper_interfaces.pc'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib/python3.12/site-packages'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.bash'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.zsh'
+[0.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/colcon-core/packages/robotiq_2f_gripper_interfaces)
+[0.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_interfaces)
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces' for CMake module files
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces' for CMake config files
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_interfaces', 'cmake_prefix_path')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/cmake_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/cmake_prefix_path.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/cmake_prefix_path.sh'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib'
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_interfaces', 'ld_library_path_lib')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/ld_library_path_lib.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/ld_library_path_lib.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hook/ld_library_path_lib.sh'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/bin'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib/pkgconfig/robotiq_2f_gripper_interfaces.pc'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib/python3.12/site-packages'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/bin'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.sh'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.bash'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.zsh'
+[0.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/colcon-core/packages/robotiq_2f_gripper_interfaces)
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs -- -j24 -l24
+[0.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs
+[0.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_msgs)
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs' for CMake module files
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_msgs', 'cmake_prefix_path')
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/cmake_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/cmake_prefix_path.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/cmake_prefix_path.sh'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib'
+[0.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_msgs', 'ld_library_path_lib')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/ld_library_path_lib.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/ld_library_path_lib.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/ld_library_path_lib.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/bin'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/pkgconfig/robotiq_2f_gripper_msgs.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/python3.12/site-packages'
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_msgs', 'pythonpath')
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/pythonpath.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/pythonpath.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/pythonpath.sh'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.sh'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.bash'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.zsh'
+[0.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/colcon-core/packages/robotiq_2f_gripper_msgs)
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_msgs)
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs' for CMake module files
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs' for CMake config files
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_msgs', 'cmake_prefix_path')
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/cmake_prefix_path.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/cmake_prefix_path.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/cmake_prefix_path.sh'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib'
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_msgs', 'ld_library_path_lib')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/ld_library_path_lib.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/ld_library_path_lib.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/ld_library_path_lib.sh'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/bin'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/pkgconfig/robotiq_2f_gripper_msgs.pc'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/python3.12/site-packages'
+[0.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_msgs', 'pythonpath')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/pythonpath.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/pythonpath.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/hook/pythonpath.sh'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/bin'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.sh'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.bash'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/robotiq_2f_gripper_msgs/package.zsh'
+[0.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/share/colcon-core/packages/robotiq_2f_gripper_msgs)
+[0.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware' with build type 'ament_cmake'
+[0.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_hardware'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware -- -j24 -l24
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware -- -j24 -l24
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware
+[0.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_hardware)
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware' for CMake module files
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware' for CMake config files
+[0.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_hardware', 'cmake_prefix_path')
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/hook/cmake_prefix_path.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/hook/cmake_prefix_path.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/hook/cmake_prefix_path.sh'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/lib'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/bin'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/lib/pkgconfig/robotiq_2f_gripper_hardware.pc'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/lib/python3.12/site-packages'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/bin'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.sh'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.bash'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.zsh'
+[0.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/colcon-core/packages/robotiq_2f_gripper_hardware)
+[0.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_2f_gripper_hardware)
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware' for CMake module files
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware' for CMake config files
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_2f_gripper_hardware', 'cmake_prefix_path')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/hook/cmake_prefix_path.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/hook/cmake_prefix_path.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/hook/cmake_prefix_path.sh'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/lib'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/bin'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/lib/pkgconfig/robotiq_2f_gripper_hardware.pc'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/lib/python3.12/site-packages'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/bin'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.dsv'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.sh'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.bash'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/robotiq_2f_gripper_hardware/package.zsh'
+[0.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware/share/colcon-core/packages/robotiq_2f_gripper_hardware)
+[9.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[9.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[9.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5e_moveit_demo)
+[9.249s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo' for CMake module files
+[9.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[9.251s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo' for CMake config files
+[9.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5e_moveit_demo', 'cmake_prefix_path')
+[9.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/hook/cmake_prefix_path.ps1'
+[9.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/hook/cmake_prefix_path.dsv'
+[9.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/hook/cmake_prefix_path.sh'
+[9.254s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib'
+[9.254s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/bin'
+[9.254s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/pkgconfig/ur5e_moveit_demo.pc'
+[9.254s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/python3.12/site-packages'
+[9.255s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/bin'
+[9.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.ps1'
+[9.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv'
+[9.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.sh'
+[9.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.bash'
+[9.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.zsh'
+[9.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/colcon-core/packages/ur5e_moveit_demo)
+[9.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5e_moveit_demo)
+[9.259s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo' for CMake module files
+[9.260s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo' for CMake config files
+[9.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5e_moveit_demo', 'cmake_prefix_path')
+[9.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/hook/cmake_prefix_path.ps1'
+[9.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/hook/cmake_prefix_path.dsv'
+[9.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/hook/cmake_prefix_path.sh'
+[9.261s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib'
+[9.261s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/bin'
+[9.261s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/pkgconfig/ur5e_moveit_demo.pc'
+[9.262s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/python3.12/site-packages'
+[9.262s] Level 1:colcon.colcon_core.environment:checking '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/bin'
+[9.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.ps1'
+[9.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv'
+[9.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.sh'
+[9.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.bash'
+[9.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.zsh'
+[9.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/colcon-core/packages/ur5e_moveit_demo)
+[9.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.264s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.282s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/russell/ROS2_REPAS/install/local_setup.ps1'
+[9.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/russell/ROS2_REPAS/install/_local_setup_util_ps1.py'
+[9.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/russell/ROS2_REPAS/install/setup.ps1'
+[9.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/russell/ROS2_REPAS/install/local_setup.sh'
+[9.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/russell/ROS2_REPAS/install/_local_setup_util_sh.py'
+[9.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/russell/ROS2_REPAS/install/setup.sh'
+[9.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/russell/ROS2_REPAS/install/local_setup.bash'
+[9.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/russell/ROS2_REPAS/install/setup.bash'
+[9.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/russell/ROS2_REPAS/install/local_setup.zsh'
+[9.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/russell/ROS2_REPAS/install/setup.zsh'

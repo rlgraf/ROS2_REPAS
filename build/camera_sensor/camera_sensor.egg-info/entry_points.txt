@@ -1,0 +1,2 @@
+[console_scripts]
+camera_return_z_publisher = camera_sensor.camera_return_z:main

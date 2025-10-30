@@ -1,0 +1,14 @@
+[  6%] [32m[1mLinking CXX executable parlight_grid_with_hydrosystem[0m
+[ 18%] Built target russell_script1
+[ 31%] Built target home
+[ 56%] Built target waypoint_grid
+[ 56%] Built target hydroponic_waypoint_grid_v2
+[ 68%] Built target move_ur5e
+[ 93%] Built target hydroponic_waypoint_grid
+[ 93%] Built target parlight_grid
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:367: parlight_grid_with_hydrosystem] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

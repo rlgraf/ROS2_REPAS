@@ -1,0 +1,6 @@
+[ 25%] Built target move_ur5e
+[ 33%] Built target russell_script1
+[ 66%] Built target waypoint_grid
+[ 66%] Built target hydroponic_waypoint_grid
+[ 75%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o[0m
+[ 91%] Built target home

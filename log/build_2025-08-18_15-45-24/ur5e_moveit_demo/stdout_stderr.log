@@ -1,0 +1,132 @@
+[ 66%] Built target move_ur5e
+[ 66%] Built target hydroponic_waypoint_grid
+[ 66%] Built target russell_script1
+[ 66%] Built target home
+[ 83%] Built target waypoint_grid
+[ 91%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o[0m
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:59:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   59 |   [01;35m[Kstart_pose.orientation.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:60:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   60 |   [01;35m[Kstart_pose.orientation.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:61:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   61 |   [01;35m[Kstart_pose.orientation.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:62:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   62 |   [01;35m[Kstart_pose.orientation.w[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:63:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   63 |   [01;35m[Kstart_pose.position.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:64:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   64 |   [01;35m[Kstart_pose.position.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   65 |   [01;35m[Kstart_pose.position.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:83:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   83 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   84 | [01;35m[K    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:122:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[KN4[m[K’
+  122 |   std::vector<Node> nodes = [32m[K{[m[KN3 [01;31m[KN4[m[K N5, N6, N7, N8,
+      |                             [32m[K~[m[K   [01;31m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:122:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[KN4[m[K’
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:108:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  108 |   Node [01;35m[KN4[m[K = {-6, 7.5};
+      |        [01;35m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:109:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  109 |   Node [01;35m[KN5[m[K = {-2, 4.5};
+      |        [01;35m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:110:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN6[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |   Node [01;35m[KN6[m[K = {6, 4.5};
+      |        [01;35m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:111:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN7[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  111 |   Node [01;35m[KN7[m[K = {2, 1.5};
+      |        [01;35m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:112:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN8[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  112 |   Node [01;35m[KN8[m[K = {-6, 1.5};
+      |        [01;35m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:113:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN9[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  113 |   Node [01;35m[KN9[m[K = {-2, -1.5};
+      |        [01;35m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:114:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN10[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  114 |   Node [01;35m[KN10[m[K = {6, -1.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:115:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN11[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  115 |   Node [01;35m[KN11[m[K = {2, -4.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:116:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN12[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |   Node [01;35m[KN12[m[K = {-6, -4.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:117:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN13[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  117 |   Node [01;35m[KN13[m[K = {-2, -7.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:118:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN14[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  118 |   Node [01;35m[KN14[m[K = {6, -7.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:119:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN15[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  119 |   Node [01;35m[KN15[m[K = {2, -10.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:120:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KN16[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  120 |   Node [01;35m[KN16[m[K = {-6, -10.5};
+      |        [01;35m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:[m[K At global scope:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:125:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  125 |   [01;31m[Kfor[m[K (size_t i = 0; i < nodes.size(); ++i) {
+      |   [01;31m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:125:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  125 |   for (size_t i = 0; [01;31m[Ki[m[K < nodes.size(); ++i) {
+      |                      [01;31m[K^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:125:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K++[m[K’ token
+  125 |   for (size_t i = 0; i < nodes.size(); [01;31m[K++[m[Ki) {
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:160:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ does not name a type
+  160 |   [01;31m[Kjoint_group_positions[m[K[0] = -3.14; // shoulder pan
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:161:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ does not name a type
+  161 |   [01;31m[Kjoint_group_positions[m[K[1] = -1.5708; // shoulder lift
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ does not name a type
+  162 |   [01;31m[Kjoint_group_positions[m[K[2] = 1.5708; // elbow
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:163:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ does not name a type
+  163 |   [01;31m[Kjoint_group_positions[m[K[3] = -1.5708; // wrist 1
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:164:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ does not name a type
+  164 |   [01;31m[Kjoint_group_positions[m[K[4] = -1.5708; // wrist 2
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:165:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ does not name a type
+  165 |   [01;31m[Kjoint_group_positions[m[K[5] = 3.14; // wrist 3
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:167:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ does not name a type
+  167 |   [01;31m[Kmove_group[m[K.setJointValueTarget(joint_group_positions);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ does not name a type
+  170 |   [01;31m[Ksuccess[m[K = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:172:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  172 |   [01;31m[Kif[m[K (success) {
+      |   [01;31m[K^~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:176:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  176 |   [01;31m[Kelse[m[K {
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:181:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  181 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:182:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  182 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:183:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  183 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hydroponic_waypoint_grid_v2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

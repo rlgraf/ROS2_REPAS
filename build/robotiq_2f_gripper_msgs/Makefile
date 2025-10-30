@@ -328,17 +328,17 @@ robotiq_2f_gripper_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : robotiq_2f_gripper_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_robotiq_2f_gripper_msgs
+# Target rules for targets named ament_cmake_python_symlink_robotiq_2f_gripper_msgs
 
 # Build rule for target.
-ament_cmake_python_copy_robotiq_2f_gripper_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_robotiq_2f_gripper_msgs
-.PHONY : ament_cmake_python_copy_robotiq_2f_gripper_msgs
+ament_cmake_python_symlink_robotiq_2f_gripper_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_robotiq_2f_gripper_msgs
+.PHONY : ament_cmake_python_symlink_robotiq_2f_gripper_msgs
 
 # fast build rule for target.
-ament_cmake_python_copy_robotiq_2f_gripper_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_robotiq_2f_gripper_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_robotiq_2f_gripper_msgs.dir/build
-.PHONY : ament_cmake_python_copy_robotiq_2f_gripper_msgs/fast
+ament_cmake_python_symlink_robotiq_2f_gripper_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs.dir/build
+.PHONY : ament_cmake_python_symlink_robotiq_2f_gripper_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_robotiq_2f_gripper_msgs_egg
@@ -744,7 +744,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_robotiq_2f_gripper_msgs_egg"
-	@echo "... ament_cmake_python_copy_robotiq_2f_gripper_msgs"
+	@echo "... ament_cmake_python_symlink_robotiq_2f_gripper_msgs"
 	@echo "... robotiq_2f_gripper_msgs"
 	@echo "... robotiq_2f_gripper_msgs__cpp"
 	@echo "... robotiq_2f_gripper_msgs__py"

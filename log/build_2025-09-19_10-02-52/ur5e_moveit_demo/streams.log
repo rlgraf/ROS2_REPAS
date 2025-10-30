@@ -1,0 +1,55 @@
+[0.011s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.100s] [ 25%] Built target parlight_grid
+[0.100s] [ 25%] Built target hydroponic_waypoint_grid_v2
+[0.100s] [ 37%] Built target hydroponic_waypoint_grid
+[0.100s] [ 75%] Built target waypoint_grid
+[0.100s] [ 75%] Built target home
+[0.101s] [ 75%] Built target russell_script1
+[0.101s] [ 87%] Built target move_ur5e
+[0.104s] [ 93%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o[0m
+[5.560s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[5.560s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:83:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KapplyObjectColors[m[K’
+[5.560s]    83 |       planning_scene_interface.[01;31m[KapplyObjectColors[m[K({object_color});
+[5.560s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.562s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:121:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.562s]   121 |   [01;35m[Kstart_pose.orientation.x[m[K;
+[5.563s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.563s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:122:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.563s]   122 |   [01;35m[Kstart_pose.orientation.y[m[K;
+[5.564s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.564s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:123:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.564s]   123 |   [01;35m[Kstart_pose.orientation.z[m[K;
+[5.564s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.564s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:124:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.564s]   124 |   [01;35m[Kstart_pose.orientation.w[m[K;
+[5.564s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.565s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:125:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.565s]   125 |   [01;35m[Kstart_pose.position.x[m[K;
+[5.565s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.565s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:126:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.565s]   126 |   [01;35m[Kstart_pose.position.y[m[K;
+[5.565s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.565s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:127:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.566s]   127 |   [01;35m[Kstart_pose.position.z[m[K;
+[5.566s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.566s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:145:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.566s]   145 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+[5.566s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.566s]   146 | [01;35m[K    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z)[m[K;
+[5.567s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.567s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:2[m[K:
+[5.567s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.567s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[5.567s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.567s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:223:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.567s]   223 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+[5.567s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.568s]   224 | [01;35m[K    waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+[5.568s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.568s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.568s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[5.568s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.719s] gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Error 1
+[7.720s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Error 2
+[7.720s] gmake: *** [Makefile:146: all] Error 2
+[7.725s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

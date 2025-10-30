@@ -1,0 +1,55 @@
+[0.009s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.096s] [ 10%] Built target waypoint_grid
+[0.097s] [ 20%] Built target move_ur5e
+[0.100s] [ 40%] Built target home
+[0.100s] [ 40%] Built target hydroponic_waypoint_grid
+[0.100s] [ 70%] Built target hydroponic_waypoint_grid_v2
+[0.101s] [ 70%] Built target russell_script1
+[0.101s] [ 70%] Built target parlight_grid
+[0.102s] [ 80%] Built target parlight_grid_with_parsensor
+[0.104s] [100%] Built target parlight_grid_with_hydrosystem
+[0.104s] [100%] Built target parlight_grid_with_cadsensor
+[0.137s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.139s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[0.149s] -- Install configuration: ""
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/move_ur5e
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/home
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/russell_script1
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/waypoint_grid
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid_v2
+[0.150s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid
+[0.151s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_hydrosystem
+[0.151s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_parsensor
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_cadsensor
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid_v2.launch.py
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_parsensor.launch.py
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/move_ur5e.launch.py
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_cadsensor.launch.py
+[0.152s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_hydrosystem.launch.py
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid.launch.py
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/light sensor.stl
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/StructureResvrLightBox.stl
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/1010-23-CL.stl
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_demo
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_demo
+[0.153s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.sh
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.sh
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.dsv
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.bash
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.sh
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.zsh
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.dsv
+[0.154s] -- Installing: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/packages/ur5e_moveit_demo
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig.cmake
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig-version.cmake
+[0.154s] -- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.xml
+[0.156s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo

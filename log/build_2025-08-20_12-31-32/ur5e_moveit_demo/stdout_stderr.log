@@ -1,0 +1,80 @@
+[ 28%] Built target waypoint_grid
+[ 28%] Built target move_ur5e
+[ 57%] Built target home
+[ 57%] Built target hydroponic_waypoint_grid_v2
+[ 71%] Built target russell_script1
+[ 85%] Built target hydroponic_waypoint_grid
+[ 92%] [32mBuilding CXX object CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o[0m
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:60:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   60 |   [01;35m[Kstart_pose.orientation.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:61:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   61 |   [01;35m[Kstart_pose.orientation.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:62:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   62 |   [01;35m[Kstart_pose.orientation.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:63:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   63 |   [01;35m[Kstart_pose.orientation.w[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:64:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   64 |   [01;35m[Kstart_pose.position.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   65 |   [01;35m[Kstart_pose.position.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:66:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   66 |   [01;35m[Kstart_pose.position.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:84:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   84 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   85 | [01;35m[K    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:162:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  162 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  163 | [01;35m[K    waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable parlight_grid[0m
+[100%] Built target parlight_grid
+-- Install configuration: ""
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/move_ur5e
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/home
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/russell_script1
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/waypoint_grid
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid_v2
+-- Installing: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid
+-- Set non-toolchain portion of runtime path of "/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid" to ""
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid_v2.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/move_ur5e.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_demo
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_demo
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.sh
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.dsv
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.bash
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.sh
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.zsh
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.dsv
+-- Installing: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/packages/ur5e_moveit_demo
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig.cmake
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig-version.cmake
+-- Up-to-date: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.xml

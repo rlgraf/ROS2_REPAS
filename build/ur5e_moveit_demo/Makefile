@@ -275,6 +275,58 @@ hydroponic_waypoint_grid_v2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make CMakeFiles/hydroponic_waypoint_grid_v2.dir/build
 .PHONY : hydroponic_waypoint_grid_v2/fast
 
+#=============================================================================
+# Target rules for targets named parlight_grid
+
+# Build rule for target.
+parlight_grid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parlight_grid
+.PHONY : parlight_grid
+
+# fast build rule for target.
+parlight_grid/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid.dir/build.make CMakeFiles/parlight_grid.dir/build
+.PHONY : parlight_grid/fast
+
+#=============================================================================
+# Target rules for targets named parlight_grid_with_hydrosystem
+
+# Build rule for target.
+parlight_grid_with_hydrosystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parlight_grid_with_hydrosystem
+.PHONY : parlight_grid_with_hydrosystem
+
+# fast build rule for target.
+parlight_grid_with_hydrosystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make CMakeFiles/parlight_grid_with_hydrosystem.dir/build
+.PHONY : parlight_grid_with_hydrosystem/fast
+
+#=============================================================================
+# Target rules for targets named parlight_grid_with_parsensor
+
+# Build rule for target.
+parlight_grid_with_parsensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parlight_grid_with_parsensor
+.PHONY : parlight_grid_with_parsensor
+
+# fast build rule for target.
+parlight_grid_with_parsensor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/build
+.PHONY : parlight_grid_with_parsensor/fast
+
+#=============================================================================
+# Target rules for targets named parlight_grid_with_cadsensor
+
+# Build rule for target.
+parlight_grid_with_cadsensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parlight_grid_with_cadsensor
+.PHONY : parlight_grid_with_cadsensor
+
+# fast build rule for target.
+parlight_grid_with_cadsensor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_cadsensor.dir/build.make CMakeFiles/parlight_grid_with_cadsensor.dir/build
+.PHONY : parlight_grid_with_cadsensor/fast
+
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
 
@@ -371,6 +423,102 @@ src/move_ur5e.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_ur5e.dir/build.make CMakeFiles/move_ur5e.dir/src/move_ur5e.cpp.s
 .PHONY : src/move_ur5e.cpp.s
 
+src/parlight_grid.o: src/parlight_grid.cpp.o
+.PHONY : src/parlight_grid.o
+
+# target to build an object file
+src/parlight_grid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid.dir/build.make CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o
+.PHONY : src/parlight_grid.cpp.o
+
+src/parlight_grid.i: src/parlight_grid.cpp.i
+.PHONY : src/parlight_grid.i
+
+# target to preprocess a source file
+src/parlight_grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid.dir/build.make CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.i
+.PHONY : src/parlight_grid.cpp.i
+
+src/parlight_grid.s: src/parlight_grid.cpp.s
+.PHONY : src/parlight_grid.s
+
+# target to generate assembly for a file
+src/parlight_grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid.dir/build.make CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.s
+.PHONY : src/parlight_grid.cpp.s
+
+src/parlight_grid_with_cadsensor.o: src/parlight_grid_with_cadsensor.cpp.o
+.PHONY : src/parlight_grid_with_cadsensor.o
+
+# target to build an object file
+src/parlight_grid_with_cadsensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_cadsensor.dir/build.make CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.o
+.PHONY : src/parlight_grid_with_cadsensor.cpp.o
+
+src/parlight_grid_with_cadsensor.i: src/parlight_grid_with_cadsensor.cpp.i
+.PHONY : src/parlight_grid_with_cadsensor.i
+
+# target to preprocess a source file
+src/parlight_grid_with_cadsensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_cadsensor.dir/build.make CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.i
+.PHONY : src/parlight_grid_with_cadsensor.cpp.i
+
+src/parlight_grid_with_cadsensor.s: src/parlight_grid_with_cadsensor.cpp.s
+.PHONY : src/parlight_grid_with_cadsensor.s
+
+# target to generate assembly for a file
+src/parlight_grid_with_cadsensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_cadsensor.dir/build.make CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.s
+.PHONY : src/parlight_grid_with_cadsensor.cpp.s
+
+src/parlight_grid_with_hydrosystem.o: src/parlight_grid_with_hydrosystem.cpp.o
+.PHONY : src/parlight_grid_with_hydrosystem.o
+
+# target to build an object file
+src/parlight_grid_with_hydrosystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o
+.PHONY : src/parlight_grid_with_hydrosystem.cpp.o
+
+src/parlight_grid_with_hydrosystem.i: src/parlight_grid_with_hydrosystem.cpp.i
+.PHONY : src/parlight_grid_with_hydrosystem.i
+
+# target to preprocess a source file
+src/parlight_grid_with_hydrosystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.i
+.PHONY : src/parlight_grid_with_hydrosystem.cpp.i
+
+src/parlight_grid_with_hydrosystem.s: src/parlight_grid_with_hydrosystem.cpp.s
+.PHONY : src/parlight_grid_with_hydrosystem.s
+
+# target to generate assembly for a file
+src/parlight_grid_with_hydrosystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.s
+.PHONY : src/parlight_grid_with_hydrosystem.cpp.s
+
+src/parlight_grid_with_parsensor.o: src/parlight_grid_with_parsensor.cpp.o
+.PHONY : src/parlight_grid_with_parsensor.o
+
+# target to build an object file
+src/parlight_grid_with_parsensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.o
+.PHONY : src/parlight_grid_with_parsensor.cpp.o
+
+src/parlight_grid_with_parsensor.i: src/parlight_grid_with_parsensor.cpp.i
+.PHONY : src/parlight_grid_with_parsensor.i
+
+# target to preprocess a source file
+src/parlight_grid_with_parsensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.i
+.PHONY : src/parlight_grid_with_parsensor.cpp.i
+
+src/parlight_grid_with_parsensor.s: src/parlight_grid_with_parsensor.cpp.s
+.PHONY : src/parlight_grid_with_parsensor.s
+
+# target to generate assembly for a file
+src/parlight_grid_with_parsensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.s
+.PHONY : src/parlight_grid_with_parsensor.cpp.s
+
 src/russell_script1.o: src/russell_script1.cpp.o
 .PHONY : src/russell_script1.o
 
@@ -438,6 +586,10 @@ help:
 	@echo "... hydroponic_waypoint_grid"
 	@echo "... hydroponic_waypoint_grid_v2"
 	@echo "... move_ur5e"
+	@echo "... parlight_grid"
+	@echo "... parlight_grid_with_cadsensor"
+	@echo "... parlight_grid_with_hydrosystem"
+	@echo "... parlight_grid_with_parsensor"
 	@echo "... russell_script1"
 	@echo "... waypoint_grid"
 	@echo "... src/home.o"
@@ -452,6 +604,18 @@ help:
 	@echo "... src/move_ur5e.o"
 	@echo "... src/move_ur5e.i"
 	@echo "... src/move_ur5e.s"
+	@echo "... src/parlight_grid.o"
+	@echo "... src/parlight_grid.i"
+	@echo "... src/parlight_grid.s"
+	@echo "... src/parlight_grid_with_cadsensor.o"
+	@echo "... src/parlight_grid_with_cadsensor.i"
+	@echo "... src/parlight_grid_with_cadsensor.s"
+	@echo "... src/parlight_grid_with_hydrosystem.o"
+	@echo "... src/parlight_grid_with_hydrosystem.i"
+	@echo "... src/parlight_grid_with_hydrosystem.s"
+	@echo "... src/parlight_grid_with_parsensor.o"
+	@echo "... src/parlight_grid_with_parsensor.i"
+	@echo "... src/parlight_grid_with_parsensor.s"
 	@echo "... src/russell_script1.o"
 	@echo "... src/russell_script1.i"
 	@echo "... src/russell_script1.s"

@@ -75,5 +75,6 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description"
 }

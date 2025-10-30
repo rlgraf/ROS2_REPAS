@@ -1,0 +1,164 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found ur_robot_driver: 3.3.3 (/opt/ros/jazzy/share/ur_robot_driver/cmake)
+-- Found ur_description: 3.1.0 (/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake)
+-- Found moveit_visual_tools: 4.1.2 (/opt/ros/jazzy/share/moveit_visual_tools/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[ 37%] Built target parlight_grid
+[ 37%] Built target home
+[ 37%] Built target russell_script1
+[ 75%] Built target move_ur5e
+[ 75%] Built target hydroponic_waypoint_grid
+[ 75%] Built target hydroponic_waypoint_grid_v2
+[ 87%] Built target waypoint_grid
+[ 93%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o[0m
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:48:63:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kshapes::Mesh*[m[K’ to non-scalar type ‘[01m[Kshapes::ShapePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<shapes::Shape>[m[K’} requested
+   48 |   shapes::ShapePtr mesh_shape = [01;31m[Kshapes::createMeshFromResource("package://ur5e_moveit_demo/meshes/StructureResvrLightBox.stl")[m[K;
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:50:51:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kshapes::ShapeMsg&[m[K’ {aka ‘[01m[Kboost::variant<shape_msgs::msg::SolidPrimitive_<std::allocator<void> >, shape_msgs::msg::Mesh_<std::allocator<void> >, shape_msgs::msg::Plane_<std::allocator<void> > >&[m[K’} to an rvalue of type ‘[01m[Kshapes::ShapeMsg[m[K’ {aka ‘[01m[Kboost::variant<shape_msgs::msg::SolidPrimitive_<std::allocator<void> >, shape_msgs::msg::Mesh_<std::allocator<void> >, shape_msgs::msg::Plane_<std::allocator<void> > >[m[K’}
+   50 |   shapes::constructMsgFromShape(mesh_shape.get(), [01;31m[Kmesh_msg[m[K);
+      |                                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/variant.hpp:17[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shape_messages.h:37[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shape_operations.h:35[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:14[m[K:
+[01m[K/usr/include/boost/variant/variant.hpp:1724:5:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kboost::variant<T0, TN>::[01;32m[Kvariant[m[K(T&, typename boost::enable_if<boost::mpl::or_<boost::mpl::and_<boost::mpl::not_<boost::is_const<T> >, boost::mpl::not_<boost::is_same<T, boost::variant<T0, TN> > >, boost::detail::variant::is_variant_constructible_from<T&, typename boost::mpl::transform<typename boost::mpl::eval_if<is_recursive_, boost::mpl::transform<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type, boost::mpl::protect<boost::detail::variant::quoted_enable_recursive<boost::variant<T0, TN> > > >, boost::mpl::identity<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type> >::type, boost::mpl::protect<boost::detail::make_reference_content<boost::detail::void_type> > >::type> >, boost::is_same<T, boost::recursive_variant_> >, bool>::type) [35m[K[with T = shape_msgs::msg::Mesh_<std::allocator<void> >; T0_ = shape_msgs::msg::SolidPrimitive_<std::allocator<void> >; TN = {shape_msgs::msg::Mesh_<std::allocator<void> >, shape_msgs::msg::Plane_<std::allocator<void> >}; typename boost::enable_if<boost::mpl::or_<boost::mpl::and_<boost::mpl::not_<boost::is_const<T> >, boost::mpl::not_<boost::is_same<T, boost::variant<T0, TN> > >, boost::detail::variant::is_variant_constructible_from<T&, typename boost::mpl::transform<typename boost::mpl::eval_if<is_recursive_, boost::mpl::transform<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type, boost::mpl::protect<boost::detail::variant::quoted_enable_recursive<boost::variant<T0, TN> > > >, boost::mpl::identity<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type> >::type, boost::mpl::protect<boost::detail::make_reference_content<boost::detail::void_type> > >::type> >, boost::is_same<T, boost::recursive_variant_> >, bool>::type = bool; typename boost::mpl::transform<typename boost::mpl::eval_if<is_recursive_, boost::mpl::transform<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type, boost::mpl::protect<boost::detail::variant::quoted_enable_recursive<boost::variant<T0, TN> > > >, boost::mpl::identity<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type> >::type, boost::mpl::protect<boost::detail::make_reference_content<boost::detail::void_type> > >::type = boost::mpl::l_item<mpl_::long_<3>, shape_msgs::msg::SolidPrimitive_<std::allocator<void> >, boost::mpl::l_item<mpl_::long_<2>, shape_msgs::msg::Mesh_<std::allocator<void> >, boost::mpl::l_item<mpl_::long_<1>, shape_msgs::msg::Plane_<std::allocator<void> >, boost::mpl::l_end> > >; typename boost::mpl::eval_if<is_recursive_, boost::mpl::transform<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type, boost::mpl::protect<boost::detail::variant::quoted_enable_recursive<boost::variant<T0, TN> > > >, boost::mpl::identity<typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type> >::type = boost::mpl::list3<shape_msgs::msg::SolidPrimitive_<std::allocator<void> >, shape_msgs::msg::Mesh_<std::allocator<void> >, shape_msgs::msg::Plane_<std::allocator<void> > >; typename boost::mpl::eval_if<is_sequence_based_, typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, boost::detail::variant::make_variant_list<typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type, TN ...> >::type = boost::mpl::list3<shape_msgs::msg::SolidPrimitive_<std::allocator<void> >, shape_msgs::msg::Mesh_<std::allocator<void> >, shape_msgs::msg::Plane_<std::allocator<void> > >; typename boost::mpl::eval_if<is_recursive_, T0_, boost::mpl::identity<T> >::type = shape_msgs::msg::SolidPrimitive_<std::allocator<void> >][m[K[m[K’
+ 1724 |     [01;36m[Kvariant[m[K(
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shape_operations.h:55:58:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool shapes::[01;32m[KconstructMsgFromShape[m[K(const Shape*, ShapeMsg&)[m[K’
+   55 | bool constructMsgFromShape(const Shape* shape, [01;36m[KShapeMsg& shape_msg[m[K);
+      |                                                [01;36m[K~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:67:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const std::string&)[m[K’
+   67 |   moveit_visual_tools::MoveItVisualTools visual_tools(move_group.getPlanningFrame()[01;31m[K)[m[K;
+      |                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr&, const std::string&, const std::string&, moveit::core::RobotModelConstPtr)[m[K’
+  101 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:101:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:92:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr&, const std::string&, const std::string&, planning_scene_monitor::PlanningSceneMonitorPtr)[m[K’
+   92 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame, const std::string& marker_topic,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:92:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:83:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr&)[m[K’
+   83 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:83:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst rclcpp::Node::SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+   83 |   MoveItVisualTools([01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const moveit_visual_tools::MoveItVisualTools&)[m[K’
+   74 | class [01;36m[KMoveItVisualTools[m[K : public rviz_visual_tools::RvizVisualTools
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst moveit_visual_tools::MoveItVisualTools&[m[K’
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(moveit_visual_tools::MoveItVisualTools&&)[m[K’
+[01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools&&[m[K’
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:79:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishMesh(geometry_msgs::msg::Pose&, shape_msgs::msg::Mesh&, std_msgs::msg::ColorRGBA&, const char [16])[m[K’
+   79 |   [01;31m[Kvisual_tools.publishMesh(mesh_pose, mesh_msg, green, "hydroponic_mesh")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K:
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:995:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishMesh[m[K(const Eigen::Isometry3d&, const std::string&, rviz_visual_tools::Colors, double, const std::string&, std::size_t)[m[K’
+  995 |   bool [01;36m[KpublishMesh[m[K(const Eigen::Isometry3d& pose, const std::string& file_name,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:995:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  995 |   bool publishMesh([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& file_name,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:998:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishMesh[m[K(const geometry_msgs::msg::Pose&, const std::string&, rviz_visual_tools::Colors, double, const std::string&, std::size_t)[m[K’
+  998 |   bool [01;36m[KpublishMesh[m[K(const geometry_msgs::msg::Pose& pose, const std::string& file_name,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:998:77:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kshape_msgs::msg::Mesh[m[K’ {aka ‘[01m[Kshape_msgs::msg::Mesh_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  998 |   bool publishMesh(const geometry_msgs::msg::Pose& pose, [01;36m[Kconst std::string& file_name[m[K,
+      |                                                          [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:1013:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishMesh[m[K(const Eigen::Isometry3d&, const shape_msgs::msg::Mesh&, rviz_visual_tools::Colors, double, const std::string&, std::size_t)[m[K’
+ 1013 |   bool [01;36m[KpublishMesh[m[K(const Eigen::Isometry3d& pose, const shape_msgs::msg::Mesh& mesh,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:1013:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1013 |   bool publishMesh([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const shape_msgs::msg::Mesh& mesh,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:1016:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishMesh[m[K(const geometry_msgs::msg::Pose&, const shape_msgs::msg::Mesh&, rviz_visual_tools::Colors, double, const std::string&, std::size_t)[m[K’
+ 1016 |   bool [01;36m[KpublishMesh[m[K(const geometry_msgs::msg::Pose& pose, const shape_msgs::msg::Mesh& mesh,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rviz_visual_tools/rviz_visual_tools.hpp:1017:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd_msgs::msg::ColorRGBA[m[K’ {aka ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >[m[K’} to ‘[01m[Krviz_visual_tools::Colors[m[K’
+ 1017 |                    [01;36m[KColors color = CLEAR[m[K, double scale = 1, const std::string& ns = "mesh",
+      |                    [01;36m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:129:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  129 |   double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  130 | [01;35m[K    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:186:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  186 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  187 | [01;35m[K      waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

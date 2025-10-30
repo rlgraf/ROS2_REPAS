@@ -1,0 +1,144 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found ur_robot_driver: 3.3.3 (/opt/ros/jazzy/share/ur_robot_driver/cmake)
+-- Found ur_description: 3.1.0 (/home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[  6%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o[0m
+[ 43%] Built target home
+[ 43%] Built target hydroponic_waypoint_grid_v2
+[ 43%] Built target move_ur5e
+[ 56%] Built target parlight_grid
+[ 81%] Built target hydroponic_waypoint_grid
+[ 81%] Built target russell_script1
+[ 93%] Built target waypoint_grid
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:45:11:[m[K [01;31m[Kerror: [m[K‘[01m[KMesh[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   45 |   shapes::[01;31m[KMesh[m[K* m = shapes::createMeshFromResource(mesh_path);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:45:11:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/jazzy/include/urdfdom_headers/urdf_model/model.h:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/urdf/urdf/model.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/include/srdfdom/srdfdom/model.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/urdfdom_headers/urdf_model/link.h:98:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kurdf::Mesh[m[K’
+   98 | class [01;36m[KMesh[m[K : public Geometry
+      |       [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:35[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:44[m[K:
+[01m[K/opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp:135:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kshape_msgs::msg::Mesh[m[K’
+  135 | using [01;36m[KMesh[m[K =
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:45:17:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   45 |   shapes::Mesh* [01;31m[Km[m[K = shapes::createMeshFromResource(mesh_path);
+      |                 [01;31m[K^[m[K
+      |                 [32m[Ktm[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:45:29:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshFromResource[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   45 |   shapes::Mesh* m = shapes::[01;31m[KcreateMeshFromResource[m[K(mesh_path);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:50:15:[m[K [01;31m[Kerror: [m[K‘[01m[KShapeMsg[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   50 |       shapes::[01;31m[KShapeMsg[m[K shape_msg;
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:51:15:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromShape[m[K’ is not a member of ‘[01m[Kshapes[m[K’
+   51 |       shapes::[01;31m[KconstructMsgFromShape[m[K(m, shape_msg);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:51:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kshape_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kshape_msgs[m[K’?
+   51 |       shapes::constructMsgFromShape(m, [01;31m[Kshape_msg[m[K);
+      |                                        [01;31m[K^~~~~~~~~[m[K
+      |                                        [32m[Kshape_msgs[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget[m[K’ is not a member of ‘[01m[Kboost[m[K’; did you mean ‘[01m[Kstd::get[m[K’?
+   52 |       mesh_msg = boost::[01;31m[Kget[m[K<shape_msgs::msg::Mesh>(shape_msg);
+      |                         [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:29[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:1[m[K:
+[01m[K/usr/include/c++/13/variant:1180:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::get[m[K’ declared here
+ 1180 |     [01;36m[Kget[m[K(const variant<_Types...>&& __v)
+      |     [01;36m[K^~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:52:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   52 |       mesh_msg = boost::get<shape_msgs::msg::Mesh[01;31m[K>[m[K(shape_msg);
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:109:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  109 |   [01;35m[Kstart_pose.orientation.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:110:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  110 |   [01;35m[Kstart_pose.orientation.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:111:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  111 |   [01;35m[Kstart_pose.orientation.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:112:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  112 |   [01;35m[Kstart_pose.orientation.w[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:113:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  113 |   [01;35m[Kstart_pose.position.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:114:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  114 |   [01;35m[Kstart_pose.position.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:115:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  115 |   [01;35m[Kstart_pose.position.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:133:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  133 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  134 | [01;35m[K    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:211:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  211 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  212 | [01;35m[K    waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

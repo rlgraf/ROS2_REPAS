@@ -35,7 +35,7 @@ int main(int argc, char** argv)
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
   // Set target joint values
-  joint_group_positions[0] = 0.0; // shoulder pan
+  joint_group_positions[0] = -3.14; // shoulder pan
   joint_group_positions[1] = -1.5708; // shoulder lift
   joint_group_positions[2] = 1.5708; // elbow
   joint_group_positions[3] = -1.5708; // wrist 1
@@ -64,13 +64,46 @@ int main(int argc, char** argv)
   start_pose.position.y;
   start_pose.position.z;
 
+  // SET HEIGHT
+
+  double z = -6*0.0254;
+
+  double target_pose_z = start_pose.position.z + z;
+  std::vector<geometry_msgs::msg::Pose> waypoints_z;
+
+  for (int j = 0; j < 10; j++){
+      geometry_msgs::msg::Pose waypoint_z = start_pose;
+      waypoint_z.position.z += (target_pose_z - start_pose.position.z) * (j / 10.0);
+      waypoints_z.push_back(waypoint_z);
+    }
+    moveit_msgs::msg::RobotTrajectory trajectory_approach_z;
+    const double jump_threshold_z = 0.0;
+    const double eef_step_z = 0.01;
+
+    double fraction = move_group.computeCartesianPath(
+    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z);
+
+    if (fraction > 0.9)
+    {
+        move_group.execute(trajectory_approach_z);
+    }
+    else
+    {
+        RCLCPP_WARN(rclcpp::get_logger("rclcpp"), "Cartesian path planning failed: %.2f%% completed", fraction * 100.0);
+    }
+    waypoints_z.clear();
+  
+
+
+// DEFINE PATH
+
   struct Node {
   double x;
   double y;
   };
 
-  Node N1 = {-2, 10.5};
-  Node N2 = {6, 10.5};
+  //Node N1 = {-2, 10.5};
+  //Node N2 = {6, 10.5};
   Node N3 = {2, 7.5};
   Node N4 = {-6, 7.5};
   Node N5 = {-2, 4.5};
@@ -86,7 +119,7 @@ int main(int argc, char** argv)
   Node N15 = {2, -10.5};
   Node N16 = {-6, -10.5};
 
-  std::vector<Node> nodes = {N1, N2, N3, N4, N5, N6, N7, N8, 
+  std::vector<Node> nodes = {N3, N4, N5, N6, N7, N8, 
     N9, N10, N11, N12, N13, N14, N15, N16};
 
   for (size_t i = 0; i < nodes.size(); ++i) {
@@ -124,7 +157,7 @@ int main(int argc, char** argv)
     waypoints.clear();
   }
 
-  joint_group_positions[0] = 0.0; // shoulder pan
+  joint_group_positions[0] = -3.14; // shoulder pan
   joint_group_positions[1] = -1.5708; // shoulder lift
   joint_group_positions[2] = 1.5708; // elbow
   joint_group_positions[3] = -1.5708; // wrist 1

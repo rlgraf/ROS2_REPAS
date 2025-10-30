@@ -1,0 +1,39 @@
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:135:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  135 |   [01;35m[Kstart_pose.orientation.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:136:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  136 |   [01;35m[Kstart_pose.orientation.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:137:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  137 |   [01;35m[Kstart_pose.orientation.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:138:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  138 |   [01;35m[Kstart_pose.orientation.w[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:139:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  139 |   [01;35m[Kstart_pose.position.x[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:140:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  140 |   [01;35m[Kstart_pose.position.y[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:141:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  141 |   [01;35m[Kstart_pose.position.z[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:159:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  159 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  160 | [01;35m[K    waypoints_z, eef_step_z, jump_threshold_z, trajectory_approach_z)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid.cpp:237:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  237 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  238 | [01;35m[K    waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K

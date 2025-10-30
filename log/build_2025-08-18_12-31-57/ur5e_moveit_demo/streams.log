@@ -1,0 +1,116 @@
+[0.010s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.091s] [ 25%] Built target move_ur5e
+[0.092s] [ 33%] Built target russell_script1
+[0.092s] [ 66%] Built target waypoint_grid
+[0.092s] [ 66%] Built target hydroponic_waypoint_grid
+[0.093s] [ 75%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o[0m
+[0.095s] [ 91%] Built target home
+[6.744s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.745s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:59:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.745s]    59 |   [01;35m[Kstart_pose.orientation.x[m[K;
+[6.745s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.745s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:60:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.745s]    60 |   [01;35m[Kstart_pose.orientation.y[m[K;
+[6.745s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.745s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:61:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.745s]    61 |   [01;35m[Kstart_pose.orientation.z[m[K;
+[6.746s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.746s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:62:26:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.746s]    62 |   [01;35m[Kstart_pose.orientation.w[m[K;
+[6.746s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.746s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:63:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.746s]    63 |   [01;35m[Kstart_pose.position.x[m[K;
+[6.746s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.746s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:64:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.746s]    64 |   [01;35m[Kstart_pose.position.y[m[K;
+[6.747s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.747s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.747s]    65 |   [01;35m[Kstart_pose.position.z[m[K;
+[6.747s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.747s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:71:66:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to non-scalar type ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} requested
+[6.747s]    71 |   geometry_msgs::msg::Pose target_pose_z = [01;31m[Kstart_pose.position.z - z[m[K;
+[6.747s]       |                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.755s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:47:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’})
+[6.755s]    75 |       waypoint_z.position.z += ([32m[Ktarget_pose_z[m[K [01;31m[K-[m[K [34m[Kstart_pose.position.z[m[K) * (j / 10.0);
+[6.755s]       |                                 [32m[K~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.755s]       |                                 [32m[K|[m[K                                   [34m[K|[m[K
+[6.755s]       |                                 [32m[K|[m[K                                   [34m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type {aka double}[m[K
+[6.756s]       |                                 [32m[Kgeometry_msgs::msg::Pose {aka geometry_msgs::msg::Pose_<std::allocator<void> >}[m[K
+[6.756s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:67[m[K,
+[6.756s]                  from [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:63[m[K,
+[6.757s]                  from [01m[K/usr/include/c++/13/memory:69[m[K,
+[6.757s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[6.757s]                  from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:1[m[K:
+[6.757s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.757s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.758s]       |     [01;36m[K^~~~~~~~[m[K
+[6.758s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.758s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:69:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[6.758s]    75 |       waypoint_z.position.z += (target_pose_z - start_pose.position.[01;36m[Kz[m[K) * (j / 10.0);
+[6.758s]       |                                                                     [01;36m[K^[m[K
+[6.758s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.758s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.758s]       |     [01;36m[K^~~~~~~~[m[K
+[6.759s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.759s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:69:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[6.759s]    75 |       waypoint_z.position.z += (target_pose_z - start_pose.position.[01;36m[Kz[m[K) * (j / 10.0);
+[6.759s]       |                                                                     [01;36m[K^[m[K
+[6.759s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[6.759s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[6.759s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp:46[m[K,
+[6.760s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:40[m[K,
+[6.760s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:45[m[K,
+[6.760s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:40[m[K,
+[6.760s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K,
+[6.760s]                  from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:2[m[K:
+[6.760s] [01m[K/usr/include/c++/13/complex:365:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::[01;32m[Koperator-[m[K(const complex<_Tp>&, const complex<_Tp>&)[m[K’
+[6.760s]   365 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[6.760s]       |     [01;36m[K^~~~~~~~[m[K
+[6.761s] [01m[K/usr/include/c++/13/complex:365:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.761s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:69:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[6.761s]    75 |       waypoint_z.position.z += (target_pose_z - start_pose.position.[01;36m[Kz[m[K) * (j / 10.0);
+[6.761s]       |                                                                     [01;36m[K^[m[K
+[6.761s] [01m[K/usr/include/c++/13/complex:374:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::[01;32m[Koperator-[m[K(const complex<_Tp>&, const _Tp&)[m[K’
+[6.761s]   374 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x, const _Tp& __y)
+[6.761s]       |     [01;36m[K^~~~~~~~[m[K
+[6.761s] [01m[K/usr/include/c++/13/complex:374:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.761s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:69:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[6.762s]    75 |       waypoint_z.position.z += (target_pose_z - start_pose.position.[01;36m[Kz[m[K) * (j / 10.0);
+[6.762s]       |                                                                     [01;36m[K^[m[K
+[6.762s] [01m[K/usr/include/c++/13/complex:383:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::[01;32m[Koperator-[m[K(const _Tp&, const complex<_Tp>&)[m[K’
+[6.762s]   383 |     [01;36m[Koperator[m[K-(const _Tp& __x, const complex<_Tp>& __y)
+[6.762s]       |     [01;36m[K^~~~~~~~[m[K
+[6.762s] [01m[K/usr/include/c++/13/complex:383:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.762s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:69:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[6.762s]    75 |       waypoint_z.position.z += (target_pose_z - start_pose.position.[01;36m[Kz[m[K) * (j / 10.0);
+[6.762s]       |                                                                     [01;36m[K^[m[K
+[6.763s] [01m[K/usr/include/c++/13/complex:460:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::[01;32m[Koperator-[m[K(const complex<_Tp>&)[m[K’
+[6.763s]   460 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x)
+[6.763s]       |     [01;36m[K^~~~~~~~[m[K
+[6.763s] [01m[K/usr/include/c++/13/complex:460:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.763s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:75:69:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[6.763s]    75 |       waypoint_z.position.z += (target_pose_z - start_pose.position.[01;36m[Kz[m[K) * (j / 10.0);
+[6.763s]       |                                                                     [01;36m[K^[m[K
+[6.764s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:76:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoint_z[m[K’?
+[6.764s]    76 |       [01;31m[Kwaypoints[m[K.push_back(waypoint);
+[6.764s]       |       [01;31m[K^~~~~~~~~[m[K
+[6.764s]       |       [32m[Kwaypoint_z[m[K
+[6.769s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:76:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoint_z[m[K’?
+[6.769s]    76 |       waypoints.push_back([01;31m[Kwaypoint[m[K);
+[6.769s]       |                           [01;31m[K^~~~~~~~[m[K
+[6.769s]       |                           [32m[Kwaypoint_z[m[K
+[6.774s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:83:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints[m[K’ was not declared in this scope
+[6.774s]    83 |     [01;31m[Kwaypoints[m[K, eef_step_z, jump_threshold_z, trajectory_approach_z);
+[6.774s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.778s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/hydroponic_waypoint_grid_v2.cpp:145:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.778s]   145 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+[6.778s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.778s]   146 | [01;35m[K    waypoints, eef_step, jump_threshold, trajectory_approach)[m[K;
+[6.778s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.778s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.778s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[6.779s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.544s] gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o] Error 1
+[8.544s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hydroponic_waypoint_grid_v2.dir/all] Error 2
+[8.545s] gmake: *** [Makefile:146: all] Error 2
+[8.548s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

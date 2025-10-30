@@ -13,6 +13,12 @@ find_package(moveit_ros_planning_interface REQUIRED)
 find_package(ur_robot_driver REQUIRED)
 find_package(ur_description REQUIRED)
 find_package(yaml-cpp REQUIRED)
+find_package(geometric_shapes REQUIRED)
+find_package(moveit_visual_tools REQUIRED)
+
+
+include_directories(${geometric_shapes_INCLUDE_DIRS})
+
 #find_package(ur_gazebo REQUIRED)
 
 if(BUILD_TESTING)
@@ -80,6 +86,43 @@ ament_target_dependencies(
   geometry_msgs
 )
 
+add_executable(parlight_grid src/parlight_grid.cpp)
+ament_target_dependencies(
+  parlight_grid
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+)
+
+add_executable(parlight_grid_with_hydrosystem src/parlight_grid_with_hydrosystem.cpp)
+ament_target_dependencies(
+  parlight_grid_with_hydrosystem
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  geometric_shapes
+  moveit_visual_tools
+)
+
+add_executable(parlight_grid_with_parsensor src/parlight_grid_with_parsensor.cpp)
+ament_target_dependencies(
+  parlight_grid_with_parsensor
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  geometric_shapes
+  moveit_visual_tools
+)
+
+add_executable(parlight_grid_with_cadsensor src/parlight_grid_with_cadsensor.cpp)
+ament_target_dependencies(
+  parlight_grid_with_cadsensor
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  geometric_shapes
+  moveit_visual_tools
+)
 
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
@@ -97,6 +140,10 @@ install(TARGETS
   waypoint_grid
   hydroponic_waypoint_grid
   hydroponic_waypoint_grid_v2
+  parlight_grid
+  parlight_grid_with_hydrosystem
+  parlight_grid_with_parsensor
+  parlight_grid_with_cadsensor
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -104,6 +151,9 @@ install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}/
 )
 
+install(DIRECTORY meshes/
+  DESTINATION share/${PROJECT_NAME}/meshes
+)
 
 
 

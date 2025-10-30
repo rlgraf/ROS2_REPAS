@@ -16,6 +16,11 @@
   <depend>ur_description</depend>
   <depend>ur_simulation_gz</depend>
   <depend>yaml-cpp</depend>
+  <depend>moveit_visual_tools</depend>
+
+  <build_depend>geometric_shapes</build_depend>
+  <exec_depend>geometric_shapes</exec_depend>
+
   
 
   <test_depend>ament_lint_auto</test_depend>
