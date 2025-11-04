@@ -1,8 +1,0 @@
-[  6%] [32m[1mLinking CXX executable parlight_grid_with_hydrosystem[0m
-[ 18%] Built target russell_script1
-[ 31%] Built target home
-[ 56%] Built target waypoint_grid
-[ 56%] Built target hydroponic_waypoint_grid_v2
-[ 68%] Built target move_ur5e
-[ 93%] Built target hydroponic_waypoint_grid
-[ 93%] Built target parlight_grid

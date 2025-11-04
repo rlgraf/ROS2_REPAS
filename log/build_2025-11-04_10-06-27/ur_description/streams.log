@@ -1,0 +1,209 @@
+[0.018s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_description
+[0.740s] -- The C compiler identification is GNU 13.3.0
+[1.101s] -- The CXX compiler identification is GNU 13.3.0
+[1.121s] -- Detecting C compiler ABI info
+[1.372s] -- Detecting C compiler ABI info - done
+[1.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.381s] -- Detecting C compile features
+[1.381s] -- Detecting C compile features - done
+[1.391s] -- Detecting CXX compiler ABI info
+[1.530s] -- Detecting CXX compiler ABI info - done
+[1.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.539s] -- Detecting CXX compile features
+[1.540s] -- Detecting CXX compile features - done
+[1.617s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.771s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.836s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.905s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[2.629s] -- Configuring done (2.6s)
+[2.633s] -- Generating done (0.0s)
+[2.634s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/ur_description
+[2.639s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/ur_description
+[2.640s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_description -- -j24 -l24
+[2.683s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur_description -- -j24 -l24
+[2.684s] Invoking command in '/home/russell/ROS2_REPAS/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_description
+[2.692s] -- Install configuration: ""
+[2.692s] -- Execute custom install script
+[2.693s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.703s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.714s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.724s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.734s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.745s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.756s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.768s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.778s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.788s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[2.800s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[2.811s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[2.821s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[2.831s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.842s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.857s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.868s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.878s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.889s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.900s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.911s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.921s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.931s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.943s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.953s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.964s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.974s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.984s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.995s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[3.008s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[3.020s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[3.031s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[3.042s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[3.053s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[3.064s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[3.076s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[3.087s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[3.098s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[3.110s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[3.121s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[3.132s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[3.142s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[3.152s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[3.162s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[3.175s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[3.186s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[3.199s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[3.209s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[3.218s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[3.230s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[3.240s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[3.249s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[3.259s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[3.270s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[3.280s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[3.290s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[3.300s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[3.311s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[3.322s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[3.332s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[3.343s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[3.353s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[3.363s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[3.373s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[3.383s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[3.392s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[3.403s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[3.413s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[3.423s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[3.433s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[3.446s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[3.456s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[3.466s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[3.477s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[3.487s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[3.497s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[3.507s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[3.517s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[3.529s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[3.539s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[3.549s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[3.559s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[3.568s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[3.578s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[3.588s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[3.598s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[3.608s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[3.619s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[3.633s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[3.644s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[3.654s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[3.665s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[3.675s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[3.685s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[3.695s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[3.705s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[3.715s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[3.725s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[3.735s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[3.745s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[3.756s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[3.767s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[3.779s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[3.794s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[3.807s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[3.854s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[3.865s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[3.874s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[3.885s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[3.896s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[3.906s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[3.917s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[3.928s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[3.938s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[3.949s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[3.959s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[3.970s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[3.980s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[3.991s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[4.001s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[4.011s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[4.021s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[4.031s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[4.041s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[4.051s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[4.062s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[4.072s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[4.083s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[4.093s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[4.103s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[4.113s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[4.122s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[4.133s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[4.142s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[4.152s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[4.162s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[4.171s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[4.181s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[4.191s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[4.201s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[4.211s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[4.220s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[4.230s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[4.239s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[4.249s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[4.259s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[4.270s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[4.279s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[4.290s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[4.301s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[4.313s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[4.324s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[4.336s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[4.347s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[4.357s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[4.368s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[4.378s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[4.389s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[4.399s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+[4.409s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+[4.420s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[4.431s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+[4.444s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[4.453s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[4.464s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro
+[4.473s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[4.484s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[4.497s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[4.508s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[4.540s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[4.550s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[4.561s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/path.sh
+[4.570s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/environment/path.dsv
+[4.580s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.bash
+[4.590s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.sh
+[4.600s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.zsh
+[4.611s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/local_setup.dsv
+[4.620s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.dsv
+[4.630s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[4.640s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[4.651s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[4.660s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur_description/share/ur_description/package.xml
+[4.673s] Invoked command in '/home/russell/ROS2_REPAS/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur_description

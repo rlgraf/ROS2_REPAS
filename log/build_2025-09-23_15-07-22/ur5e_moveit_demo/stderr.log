@@ -1,6 +1,0 @@
-[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/parlight_grid_with_hydrosystem.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
-    1 | [01;31m[Kc[m[K
-      | [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

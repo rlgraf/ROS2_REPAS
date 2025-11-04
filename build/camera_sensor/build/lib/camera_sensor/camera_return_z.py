@@ -14,16 +14,21 @@ class CameraValuePublisher(Node):
     def get_camera_value(self):
         package_share = get_package_share_directory('camera_sensor')
         file_path = os.path.join(package_share, 'camera_z_data', 'camera_z.txt')
-        with open(file_path, 'r') as f: 
+        try:
+            with open(file_path, 'r') as f: 
             value = float(f.read().strip())
+            if not value:
+                return None
             return value
 
     def timer_callback(self):
         msg = Float32()
-        msg.data = self.get_camera_value()
-        self.publisher_.publish(msg)
-        self.get_logger().info(f'Publishing camera value: {msg.data:.3f}')
-
+        if value is not None:
+            msg.data = self.get_camera_value()
+            self.publisher_.publish(msg)
+            self.get_logger().info(f'Publishing camera value: {msg.data:.3f}')
+        else:
+            pass
 def main(args=None):
     rclpy.init(args=args)
     node = CameraValuePublisher()

@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/serial
+[0.744s] -- The C compiler identification is GNU 13.3.0
+[1.093s] -- The CXX compiler identification is GNU 13.3.0
+[1.115s] -- Detecting C compiler ABI info
+[1.377s] -- Detecting C compiler ABI info - done
+[1.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.386s] -- Detecting C compile features
+[1.386s] -- Detecting C compile features - done
+[1.395s] -- Detecting CXX compiler ABI info
+[1.536s] -- Detecting CXX compiler ABI info - done
+[1.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.545s] -- Detecting CXX compile features
+[1.545s] -- Detecting CXX compile features - done
+[1.622s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.774s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.836s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.976s] -- Configuring done (1.9s)
+[1.980s] -- Generating done (0.0s)
+[1.982s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/serial
+[1.988s] Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/serial
+[1.989s] Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/serial -- -j24 -l24
+[2.047s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.047s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.048s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[3.141s] [100%] [32m[1mLinking CXX shared library libserial.so[0m
+[3.212s] [100%] Built target serial
+[3.228s] Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/serial -- -j24 -l24
+[3.229s] Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/serial
+[3.237s] -- Install configuration: ""
+[3.238s] -- Execute custom install script
+[3.238s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/library_path.sh
+[3.248s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/library_path.dsv
+[3.258s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/lib/libserial.so
+[3.269s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/include/serial/serial.h
+[3.278s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/include/serial/v8stdint.h
+[3.289s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.299s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.310s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.320s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.331s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/path.sh
+[3.341s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/path.dsv
+[3.351s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.bash
+[3.361s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.sh
+[3.371s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.zsh
+[3.382s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.dsv
+[3.391s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/package.dsv
+[3.402s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/packages/serial
+[3.413s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.422s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.433s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/serialConfig.cmake
+[3.443s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.453s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/package.xml
+[3.467s] Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/serial
