@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f41622b9025b42213b00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur5e_moveit_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "home::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-home-71d1c86e041c330ab511.json",
+					"name" : "home",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydroponic_waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydroponic_waypoint_grid-b4774a7dc9f3a0539a7a.json",
+					"name" : "hydroponic_waypoint_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydroponic_waypoint_grid_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydroponic_waypoint_grid_v2-4fca62c6bae03be62455.json",
+					"name" : "hydroponic_waypoint_grid_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_ur5e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_ur5e-1492be9881a375e87ead.json",
+					"name" : "move_ur5e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid-39069df939350242c96b.json",
+					"name" : "parlight_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid_with_cadsensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid_with_cadsensor-1e650175e629dabc14fc.json",
+					"name" : "parlight_grid_with_cadsensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid_with_hydrosystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid_with_hydrosystem-a0c78480903b9f3be29f.json",
+					"name" : "parlight_grid_with_hydrosystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid_with_parsensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid_with_parsensor-8d2623654ce8364223a2.json",
+					"name" : "parlight_grid_with_parsensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpm_simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpm_simple-9225a1601238b7229669.json",
+					"name" : "rpm_simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "russell_script1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-russell_script1-f9d67711ac9746429a13.json",
+					"name" : "russell_script1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-15ab9e9a9a29599d19ca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5e_moveit_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5e_moveit_demo_uninstall-4d60dea6b3f1ca629c8c.json",
+					"name" : "ur5e_moveit_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_grid-7524a8353457a9164c8a.json",
+					"name" : "waypoint_grid",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo",
+		"source" : "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

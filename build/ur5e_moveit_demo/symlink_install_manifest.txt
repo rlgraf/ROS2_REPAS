@@ -8,6 +8,7 @@
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_hydrosystem
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_parsensor
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_cadsensor
+/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_simple
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid_v2.launch.py
@@ -16,6 +17,7 @@
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_cadsensor.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_hydrosystem.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_parsensor.launch.py
+/home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_simple.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py
 /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/1010-23-CL.stl

@@ -1,0 +1,28 @@
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+    4 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rpm_simple.dir/build.make:76: CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/rpm_simple.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/parlight_grid_with_parsensor.dir/build.make:76: CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/parlight_grid.dir/build.make:76: CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/parlight_grid_with_cadsensor.dir/build.make:76: CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/home.dir/build.make:76: CMakeFiles/home.dir/src/home.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/russell_script1.dir/build.make:76: CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/waypoint_grid.dir/build.make:76: CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/move_ur5e.dir/build.make:76: CMakeFiles/move_ur5e.dir/src/move_ur5e.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/hydroponic_waypoint_grid.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/home.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/hydroponic_waypoint_grid_v2.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/parlight_grid.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/parlight_grid_with_parsensor.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/parlight_grid_with_cadsensor.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/waypoint_grid.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/move_ur5e.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/russell_script1.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

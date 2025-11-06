@@ -327,6 +327,19 @@ parlight_grid_with_cadsensor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_cadsensor.dir/build.make CMakeFiles/parlight_grid_with_cadsensor.dir/build
 .PHONY : parlight_grid_with_cadsensor/fast
 
+#=============================================================================
+# Target rules for targets named rpm_simple
+
+# Build rule for target.
+rpm_simple: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_simple
+.PHONY : rpm_simple
+
+# fast build rule for target.
+rpm_simple/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple.dir/build.make CMakeFiles/rpm_simple.dir/build
+.PHONY : rpm_simple/fast
+
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
 
@@ -519,6 +532,30 @@ src/parlight_grid_with_parsensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.s
 .PHONY : src/parlight_grid_with_parsensor.cpp.s
 
+src/rpm_simple.o: src/rpm_simple.cpp.o
+.PHONY : src/rpm_simple.o
+
+# target to build an object file
+src/rpm_simple.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple.dir/build.make CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o
+.PHONY : src/rpm_simple.cpp.o
+
+src/rpm_simple.i: src/rpm_simple.cpp.i
+.PHONY : src/rpm_simple.i
+
+# target to preprocess a source file
+src/rpm_simple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple.dir/build.make CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.i
+.PHONY : src/rpm_simple.cpp.i
+
+src/rpm_simple.s: src/rpm_simple.cpp.s
+.PHONY : src/rpm_simple.s
+
+# target to generate assembly for a file
+src/rpm_simple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple.dir/build.make CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.s
+.PHONY : src/rpm_simple.cpp.s
+
 src/russell_script1.o: src/russell_script1.cpp.o
 .PHONY : src/russell_script1.o
 
@@ -590,6 +627,7 @@ help:
 	@echo "... parlight_grid_with_cadsensor"
 	@echo "... parlight_grid_with_hydrosystem"
 	@echo "... parlight_grid_with_parsensor"
+	@echo "... rpm_simple"
 	@echo "... russell_script1"
 	@echo "... waypoint_grid"
 	@echo "... src/home.o"
@@ -616,6 +654,9 @@ help:
 	@echo "... src/parlight_grid_with_parsensor.o"
 	@echo "... src/parlight_grid_with_parsensor.i"
 	@echo "... src/parlight_grid_with_parsensor.s"
+	@echo "... src/rpm_simple.o"
+	@echo "... src/rpm_simple.i"
+	@echo "... src/rpm_simple.s"
 	@echo "... src/russell_script1.o"
 	@echo "... src/russell_script1.i"
 	@echo "... src/russell_script1.s"

@@ -1,0 +1,35 @@
+[8.288s] Invoking command in '/home/russell/ROS2_REPAS/build/camera_sensor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/russell/ROS2_REPAS/build/camera_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/russell/ROS2_REPAS/build/camera_sensor/build
+[8.555s] running develop
+[8.827s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[8.827s]   self.local_index = Environment(self.shadow_path + sys.path)
+[8.860s] Removing /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera-sensor.egg-link (link to .)
+[8.886s] Invoked command in '/home/russell/ROS2_REPAS/build/camera_sensor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/russell/ROS2_REPAS/build/camera_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/russell/ROS2_REPAS/build/camera_sensor/build
+[8.887s] Invoking command in '/home/russell/ROS2_REPAS/src/camera_sensor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/russell/ROS2_REPAS/build/camera_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_sensor build --build-base /home/russell/ROS2_REPAS/build/camera_sensor/build install --record /home/russell/ROS2_REPAS/build/camera_sensor/install.log --single-version-externally-managed install_data --force
+[9.118s] running egg_info
+[9.137s] writing ../../build/camera_sensor/camera_sensor.egg-info/PKG-INFO
+[9.137s] writing dependency_links to ../../build/camera_sensor/camera_sensor.egg-info/dependency_links.txt
+[9.137s] writing entry points to ../../build/camera_sensor/camera_sensor.egg-info/entry_points.txt
+[9.137s] writing requirements to ../../build/camera_sensor/camera_sensor.egg-info/requires.txt
+[9.138s] writing top-level names to ../../build/camera_sensor/camera_sensor.egg-info/top_level.txt
+[9.177s] reading manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'
+[9.177s] writing manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'
+[9.177s] running build
+[9.178s] running build_py
+[9.178s] copying camera_sensor/camera_return_z.py -> /home/russell/ROS2_REPAS/build/camera_sensor/build/lib/camera_sensor
+[9.216s] running install
+[9.222s] running install_lib
+[9.240s] creating /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera_sensor
+[9.240s] copying /home/russell/ROS2_REPAS/build/camera_sensor/build/lib/camera_sensor/__init__.py -> /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera_sensor
+[9.240s] copying /home/russell/ROS2_REPAS/build/camera_sensor/build/lib/camera_sensor/camera_return_z.py -> /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera_sensor
+[9.241s] byte-compiling /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera_sensor/__init__.py to __init__.cpython-312.pyc
+[9.241s] byte-compiling /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera_sensor/camera_return_z.py to camera_return_z.cpython-312.pyc
+[9.242s] running install_data
+[9.242s] copying resource/camera_sensor -> /home/russell/ROS2_REPAS/install/camera_sensor/share/ament_index/resource_index/packages
+[9.242s] copying package.xml -> /home/russell/ROS2_REPAS/install/camera_sensor/share/camera_sensor
+[9.242s] copying camera_z_data/camera_z.txt -> /home/russell/ROS2_REPAS/install/camera_sensor/share/camera_sensor/camera_z_data
+[9.270s] running install_egg_info
+[9.289s] Copying ../../build/camera_sensor/camera_sensor.egg-info to /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera_sensor-0.0.0-py3.12.egg-info
+[9.324s] running install_scripts
+[9.443s] Installing camera_return_z_publisher script to /home/russell/ROS2_REPAS/install/camera_sensor/lib/camera_sensor
+[9.443s] writing list of installed files to '/home/russell/ROS2_REPAS/build/camera_sensor/install.log'
+[9.464s] Invoked command in '/home/russell/ROS2_REPAS/src/camera_sensor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/russell/ROS2_REPAS/build/camera_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_sensor build --build-base /home/russell/ROS2_REPAS/build/camera_sensor/build install --record /home/russell/ROS2_REPAS/build/camera_sensor/install.log --single-version-externally-managed install_data --force

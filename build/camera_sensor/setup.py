@@ -1,1 +1,0 @@
-/home/russell/ROS2_REPAS/src/camera_sensor/setup.py

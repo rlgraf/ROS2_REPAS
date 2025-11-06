@@ -1,0 +1,126 @@
+[0.028s] Invoking command in '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/ur5e_moveit_demo -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/install/ur5e_moveit_demo
+[0.541s] -- The C compiler identification is GNU 13.3.0
+[0.845s] -- The CXX compiler identification is GNU 13.3.0
+[0.916s] -- Detecting C compiler ABI info
+[1.151s] -- Detecting C compiler ABI info - done
+[1.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.162s] -- Detecting C compile features
+[1.162s] -- Detecting C compile features - done
+[1.174s] -- Detecting CXX compiler ABI info
+[1.302s] -- Detecting CXX compiler ABI info - done
+[1.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.311s] -- Detecting CXX compile features
+[1.312s] -- Detecting CXX compile features - done
+[1.450s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.025s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.245s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.343s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.729s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.912s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.362s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.418s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.634s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.709s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[4.134s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[4.667s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.068s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[5.144s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[5.265s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[5.464s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.464s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.904s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[5.969s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[6.025s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[6.082s] -- Found ur_robot_driver: 3.3.3 (/opt/ros/jazzy/share/ur_robot_driver/cmake)
+[6.488s] -- Found ur_description: 3.2.0 (/opt/ros/jazzy/share/ur_description/cmake)
+[6.543s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/jazzy/share/moveit_visual_tools/cmake)
+[6.748s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.790s] -- Found OGRE
+[6.790s] --   static     : OFF
+[6.791s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.791s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.791s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.791s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.791s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[6.791s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.791s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[6.791s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.792s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.792s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.792s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.903s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[6.959s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[7.233s] -- Found X11: /usr/include   
+[7.233s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.363s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.363s] -- Looking for gethostbyname
+[7.460s] -- Looking for gethostbyname - found
+[7.460s] -- Looking for connect
+[7.550s] -- Looking for connect - found
+[7.550s] -- Looking for remove
+[7.642s] -- Looking for remove - found
+[7.642s] -- Looking for shmat
+[7.734s] -- Looking for shmat - found
+[7.734s] -- Looking for IceConnectionNumber in ICE
+[7.821s] -- Looking for IceConnectionNumber in ICE - found
+[7.881s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[8.126s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.390s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.391s] -- Configured cppcheck include dirs: 
+[8.392s] -- Configured cppcheck exclude dirs and/or files: 
+[8.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.411s] -- Configured 'flake8' exclude dirs and/or files: 
+[8.416s] -- Added test 'lint_cmake' to check CMake code style
+[8.419s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.434s] -- Added test 'uncrustify' to check C / C++ code style
+[8.434s] -- Configured uncrustify additional arguments: 
+[8.436s] -- Added test 'xmllint' to check XML markup files
+[8.472s] -- Configuring done (8.4s)
+[9.056s] -- Generating done (0.5s)
+[9.091s] -- Build files have been written to: /home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo
+[9.108s] Invoked command in '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/ur5e_moveit_demo -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/install/ur5e_moveit_demo
+[9.110s] Invoking command in '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo -- -j24 -l24
+[9.176s] [ 18%] [32mBuilding CXX object CMakeFiles/home.dir/src/home.cpp.o[0m
+[9.176s] [ 18%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.o[0m
+[9.176s] [ 18%] [32mBuilding CXX object CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.o[0m
+[9.176s] [ 18%] [32mBuilding CXX object CMakeFiles/move_ur5e.dir/src/move_ur5e.cpp.o[0m
+[9.176s] [ 31%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.o[0m
+[9.176s] [ 31%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o[0m
+[9.176s] [ 31%] [32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o[0m
+[9.176s] [ 36%] [32mBuilding CXX object CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.o[0m
+[9.177s] [ 50%] [32mBuilding CXX object CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o[0m
+[9.177s] [ 50%] [32mBuilding CXX object CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o[0m
+[9.177s] [ 50%] [32mBuilding CXX object CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o[0m
+[12.775s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[12.776s]     4 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+[12.776s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.776s] compilation terminated.
+[12.791s] gmake[2]: *** [CMakeFiles/rpm_simple.dir/build.make:76: CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o] Error 1
+[12.792s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/rpm_simple.dir/all] Error 2
+[12.792s] gmake[1]: *** Waiting for unfinished jobs....
+[12.983s] gmake[2]: *** [CMakeFiles/parlight_grid_with_parsensor.dir/build.make:76: CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.o] Interrupt
+[12.983s] gmake[2]: *** [CMakeFiles/parlight_grid.dir/build.make:76: CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/parlight_grid_with_cadsensor.dir/build.make:76: CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/home.dir/build.make:76: CMakeFiles/home.dir/src/home.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/russell_script1.dir/build.make:76: CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/waypoint_grid.dir/build.make:76: CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.o] Interrupt
+[12.984s] gmake[2]: *** [CMakeFiles/move_ur5e.dir/build.make:76: CMakeFiles/move_ur5e.dir/src/move_ur5e.cpp.o] Interrupt
+[12.984s] gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/hydroponic_waypoint_grid.dir/all] Interrupt
+[12.984s] gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/home.dir/all] Interrupt
+[12.984s] gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/hydroponic_waypoint_grid_v2.dir/all] Interrupt
+[12.984s] gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/parlight_grid.dir/all] Interrupt
+[12.984s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Interrupt
+[12.984s] gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/parlight_grid_with_parsensor.dir/all] Interrupt
+[12.985s] gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/parlight_grid_with_cadsensor.dir/all] Interrupt
+[12.985s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/waypoint_grid.dir/all] Interrupt
+[12.985s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/move_ur5e.dir/all] Interrupt
+[12.985s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/russell_script1.dir/all] Interrupt
+[12.985s] gmake: *** [Makefile:146: all] Interrupt
+[13.018s] Invoked command in '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo -- -j24 -l24

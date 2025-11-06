@@ -36,6 +36,9 @@ endif()
 find_package(rclcpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
 
 
 add_executable(move_ur5e src/move_ur5e.cpp)
@@ -124,6 +127,19 @@ ament_target_dependencies(
   moveit_visual_tools
 )
 
+add_executable(rpm_simple src/rpm_simple.cpp)
+ament_target_dependencies(
+  rpm_simple
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  geometric_shapes
+  moveit_visual_tools
+  tf2_geometry_msgs
+  tf2_ros
+  tf2
+)
+
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
 )
@@ -144,6 +160,7 @@ install(TARGETS
   parlight_grid_with_hydrosystem
   parlight_grid_with_parsensor
   parlight_grid_with_cadsensor
+  rpm_simple
   DESTINATION lib/${PROJECT_NAME}
 )
 

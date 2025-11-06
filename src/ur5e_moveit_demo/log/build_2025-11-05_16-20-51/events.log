@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000448] (ur5e_moveit_demo) JobQueued: {'identifier': 'ur5e_moveit_demo', 'dependencies': OrderedDict()}
+[0.000483] (ur5e_moveit_demo) JobStarted: {'identifier': 'ur5e_moveit_demo'}
+[0.027194] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'cmake'}
+[0.027667] (ur5e_moveit_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo', '-DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/install/ur5e_moveit_demo'], 'cwd': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'OLDPWD': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2782', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/russell/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2739,unix/russell-System-Product-Name:/tmp/.ICE-unix/2739', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e0a8602_7f31_4547_8a65_8c32e0a7ce7d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099796] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.300165] (-) TimerEvent: {}
+[0.400343] (-) TimerEvent: {}
+[0.500552] (-) TimerEvent: {}
+[0.540855] (ur5e_moveit_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.600620] (-) TimerEvent: {}
+[0.700839] (-) TimerEvent: {}
+[0.801063] (-) TimerEvent: {}
+[0.845776] (ur5e_moveit_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.901128] (-) TimerEvent: {}
+[0.916674] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001208] (-) TimerEvent: {}
+[1.101359] (-) TimerEvent: {}
+[1.151628] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.162036] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.162391] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.162833] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.174574] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.201431] (-) TimerEvent: {}
+[1.301637] (-) TimerEvent: {}
+[1.302617] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.311293] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.311545] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.311931] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.401698] (-) TimerEvent: {}
+[1.450367] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.501769] (-) TimerEvent: {}
+[1.601946] (-) TimerEvent: {}
+[1.679963] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.702008] (-) TimerEvent: {}
+[1.802130] (-) TimerEvent: {}
+[1.902252] (-) TimerEvent: {}
+[2.002388] (-) TimerEvent: {}
+[2.025845] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.102457] (-) TimerEvent: {}
+[2.202700] (-) TimerEvent: {}
+[2.245729] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.302761] (-) TimerEvent: {}
+[2.343720] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.402834] (-) TimerEvent: {}
+[2.422749] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.452910] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.502917] (-) TimerEvent: {}
+[2.603110] (-) TimerEvent: {}
+[2.703304] (-) TimerEvent: {}
+[2.729162] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.803385] (-) TimerEvent: {}
+[2.903647] (-) TimerEvent: {}
+[2.912352] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.003735] (-) TimerEvent: {}
+[3.103932] (-) TimerEvent: {}
+[3.204125] (-) TimerEvent: {}
+[3.304315] (-) TimerEvent: {}
+[3.362152] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.404373] (-) TimerEvent: {}
+[3.418676] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.457952] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.504441] (-) TimerEvent: {}
+[3.604628] (-) TimerEvent: {}
+[3.634139] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[3.704719] (-) TimerEvent: {}
+[3.709058] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)\n'}
+[3.804814] (-) TimerEvent: {}
+[3.905016] (-) TimerEvent: {}
+[4.005220] (-) TimerEvent: {}
+[4.105418] (-) TimerEvent: {}
+[4.134540] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread \n'}
+[4.205504] (-) TimerEvent: {}
+[4.305718] (-) TimerEvent: {}
+[4.405907] (-) TimerEvent: {}
+[4.506094] (-) TimerEvent: {}
+[4.606279] (-) TimerEvent: {}
+[4.667762] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[4.706354] (-) TimerEvent: {}
+[4.806535] (-) TimerEvent: {}
+[4.906920] (-) TimerEvent: {}
+[5.007318] (-) TimerEvent: {}
+[5.068167] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[5.107419] (-) TimerEvent: {}
+[5.144259] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[5.207524] (-) TimerEvent: {}
+[5.264883] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem \n'}
+[5.307813] (-) TimerEvent: {}
+[5.408219] (-) TimerEvent: {}
+[5.464083] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.464273] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.508323] (-) TimerEvent: {}
+[5.608722] (-) TimerEvent: {}
+[5.708895] (-) TimerEvent: {}
+[5.809449] (-) TimerEvent: {}
+[5.903885] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[5.909523] (-) TimerEvent: {}
+[5.969143] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[6.009616] (-) TimerEvent: {}
+[6.025275] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread \n'}
+[6.081929] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found ur_robot_driver: 3.3.3 (/opt/ros/jazzy/share/ur_robot_driver/cmake)\n'}
+[6.109716] (-) TimerEvent: {}
+[6.210497] (-) TimerEvent: {}
+[6.310916] (-) TimerEvent: {}
+[6.411108] (-) TimerEvent: {}
+[6.488412] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found ur_description: 3.2.0 (/opt/ros/jazzy/share/ur_description/cmake)\n'}
+[6.511401] (-) TimerEvent: {}
+[6.543145] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.2 (/opt/ros/jazzy/share/moveit_visual_tools/cmake)\n'}
+[6.611692] (-) TimerEvent: {}
+[6.711888] (-) TimerEvent: {}
+[6.748732] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[6.790395] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found OGRE\n'}
+[6.790782] (ur5e_moveit_demo) StdoutLine: {'line': b'--   static     : OFF\n'}
+[6.790925] (ur5e_moveit_demo) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[6.791039] (ur5e_moveit_demo) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[6.791150] (ur5e_moveit_demo) StdoutLine: {'line': b'--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[6.791258] (ur5e_moveit_demo) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[6.791366] (ur5e_moveit_demo) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib\n'}
+[6.791568] (ur5e_moveit_demo) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[6.791748] (ur5e_moveit_demo) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[6.791889] (ur5e_moveit_demo) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[6.791993] (ur5e_moveit_demo) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[6.792094] (ur5e_moveit_demo) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[6.792195] (ur5e_moveit_demo) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[6.812189] (-) TimerEvent: {}
+[6.903679] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[6.912290] (-) TimerEvent: {}
+[6.959334] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[7.012371] (-) TimerEvent: {}
+[7.112548] (-) TimerEvent: {}
+[7.212749] (-) TimerEvent: {}
+[7.233468] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[7.233839] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[7.312815] (-) TimerEvent: {}
+[7.363126] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[7.363386] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[7.412923] (-) TimerEvent: {}
+[7.460443] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[7.460689] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for connect\n'}
+[7.513036] (-) TimerEvent: {}
+[7.550141] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[7.550300] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for remove\n'}
+[7.613140] (-) TimerEvent: {}
+[7.642357] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[7.642609] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[7.713252] (-) TimerEvent: {}
+[7.734687] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[7.734854] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[7.813348] (-) TimerEvent: {}
+[7.821673] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[7.881726] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[7.913425] (-) TimerEvent: {}
+[8.013691] (-) TimerEvent: {}
+[8.113956] (-) TimerEvent: {}
+[8.126628] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.214066] (-) TimerEvent: {}
+[8.314329] (-) TimerEvent: {}
+[8.390577] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.391846] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.391982] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.411188] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.411326] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[8.414406] (-) TimerEvent: {}
+[8.416100] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.419370] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.433880] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.434046] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.436529] (ur5e_moveit_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.471839] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Configuring done (8.4s)\n'}
+[8.514506] (-) TimerEvent: {}
+[8.614791] (-) TimerEvent: {}
+[8.715065] (-) TimerEvent: {}
+[8.815315] (-) TimerEvent: {}
+[8.915608] (-) TimerEvent: {}
+[9.015843] (-) TimerEvent: {}
+[9.055883] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Generating done (0.5s)\n'}
+[9.091217] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo\n'}
+[9.108733] (ur5e_moveit_demo) CommandEnded: {'returncode': 0}
+[9.109258] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'build'}
+[9.109950] (ur5e_moveit_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo', '--', '-j24', '-l24'], 'cwd': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'OLDPWD': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2782', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/russell/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2739,unix/russell-System-Product-Name:/tmp/.ICE-unix/2739', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e0a8602_7f31_4547_8a65_8c32e0a7ce7d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/build/ur5e_moveit_demo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.115895] (-) TimerEvent: {}
+[9.176142] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/home.dir/src/home.cpp.o\x1b[0m\n'}
+[9.176397] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.o\x1b[0m\n'}
+[9.176496] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.o\x1b[0m\n'}
+[9.176595] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/move_ur5e.dir/src/move_ur5e.cpp.o\x1b[0m\n'}
+[9.176669] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.o\x1b[0m\n'}
+[9.176745] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o\x1b[0m\n'}
+[9.176820] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o\x1b[0m\n'}
+[9.176896] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.o\x1b[0m\n'}
+[9.176995] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o\x1b[0m\n'}
+[9.177074] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o\x1b[0m\n'}
+[9.177164] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o\x1b[0m\n'}
+[9.215995] (-) TimerEvent: {}
+[9.316302] (-) TimerEvent: {}
+[9.416531] (-) TimerEvent: {}
+[9.516689] (-) TimerEvent: {}
+[9.616923] (-) TimerEvent: {}
+[9.717157] (-) TimerEvent: {}
+[9.817390] (-) TimerEvent: {}
+[9.917724] (-) TimerEvent: {}
+[10.018011] (-) TimerEvent: {}
+[10.118335] (-) TimerEvent: {}
+[10.218635] (-) TimerEvent: {}
+[10.318915] (-) TimerEvent: {}
+[10.419193] (-) TimerEvent: {}
+[10.519527] (-) TimerEvent: {}
+[10.619779] (-) TimerEvent: {}
+[10.720017] (-) TimerEvent: {}
+[10.820277] (-) TimerEvent: {}
+[10.920544] (-) TimerEvent: {}
+[11.020781] (-) TimerEvent: {}
+[11.121047] (-) TimerEvent: {}
+[11.221327] (-) TimerEvent: {}
+[11.321640] (-) TimerEvent: {}
+[11.421925] (-) TimerEvent: {}
+[11.522198] (-) TimerEvent: {}
+[11.622512] (-) TimerEvent: {}
+[11.722748] (-) TimerEvent: {}
+[11.823012] (-) TimerEvent: {}
+[11.923390] (-) TimerEvent: {}
+[12.023778] (-) TimerEvent: {}
+[12.124076] (-) TimerEvent: {}
+[12.224377] (-) TimerEvent: {}
+[12.324687] (-) TimerEvent: {}
+[12.424915] (-) TimerEvent: {}
+[12.525149] (-) TimerEvent: {}
+[12.625452] (-) TimerEvent: {}
+[12.725803] (-) TimerEvent: {}
+[12.775681] (ur5e_moveit_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory\n'}
+[12.775963] (ur5e_moveit_demo) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<tf2_geometry_msgs/tf2_geometry_msgs.h>\x1b[m\x1b[K\n'}
+[12.776071] (ur5e_moveit_demo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.776168] (ur5e_moveit_demo) StderrLine: {'line': b'compilation terminated.\n'}
+[12.791731] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpm_simple.dir/build.make:76: CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o] Error 1\n'}
+[12.792264] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/rpm_simple.dir/all] Error 2\n'}
+[12.792411] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.825916] (-) TimerEvent: {}
+[12.926234] (-) TimerEvent: {}
+[12.983441] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parlight_grid_with_parsensor.dir/build.make:76: CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.o] Interrupt\n'}
+[12.983668] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parlight_grid.dir/build.make:76: CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o] Interrupt\n'}
+[12.983975] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid_v2.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid_v2.dir/src/hydroponic_waypoint_grid_v2.cpp.o] Interrupt\n'}
+[12.984074] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parlight_grid_with_cadsensor.dir/build.make:76: CMakeFiles/parlight_grid_with_cadsensor.dir/src/parlight_grid_with_cadsensor.cpp.o] Interrupt\n'}
+[12.984153] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parlight_grid_with_hydrosystem.dir/build.make:76: CMakeFiles/parlight_grid_with_hydrosystem.dir/src/parlight_grid_with_hydrosystem.cpp.o] Interrupt\n'}
+[12.984287] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hydroponic_waypoint_grid.dir/build.make:76: CMakeFiles/hydroponic_waypoint_grid.dir/src/hydroponic_waypoint_grid.cpp.o] Interrupt\n'}
+[12.984392] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/home.dir/build.make:76: CMakeFiles/home.dir/src/home.cpp.o] Interrupt\n'}
+[12.984454] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/russell_script1.dir/build.make:76: CMakeFiles/russell_script1.dir/src/russell_script1.cpp.o] Interrupt\n'}
+[12.984538] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/waypoint_grid.dir/build.make:76: CMakeFiles/waypoint_grid.dir/src/waypoint_grid.cpp.o] Interrupt\n'}
+[12.984594] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_ur5e.dir/build.make:76: CMakeFiles/move_ur5e.dir/src/move_ur5e.cpp.o] Interrupt\n'}
+[12.984649] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/hydroponic_waypoint_grid.dir/all] Interrupt\n'}
+[12.984703] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/home.dir/all] Interrupt\n'}
+[12.984757] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/hydroponic_waypoint_grid_v2.dir/all] Interrupt\n'}
+[12.984810] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/parlight_grid.dir/all] Interrupt\n'}
+[12.984864] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/parlight_grid_with_hydrosystem.dir/all] Interrupt\n'}
+[12.984917] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/parlight_grid_with_parsensor.dir/all] Interrupt\n'}
+[12.984970] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/parlight_grid_with_cadsensor.dir/all] Interrupt\n'}
+[12.985024] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/waypoint_grid.dir/all] Interrupt\n'}
+[12.985077] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/move_ur5e.dir/all] Interrupt\n'}
+[12.985158] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/russell_script1.dir/all] Interrupt\n'}
+[12.985209] (ur5e_moveit_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[13.018117] (ur5e_moveit_demo) CommandEnded: {'returncode': -2}
+[13.026283] (-) TimerEvent: {}
+[13.106107] (ur5e_moveit_demo) JobEnded: {'identifier': 'ur5e_moveit_demo', 'rc': 'SIGINT'}
+[13.116438] (-) EventReactorShutdown: {}
