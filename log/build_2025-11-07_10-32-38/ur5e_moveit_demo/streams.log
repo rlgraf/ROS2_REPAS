@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.104s] [ 18%] Built target home
+[0.104s] [ 18%] Built target waypoint_grid
+[0.104s] [ 31%] Built target hydroponic_waypoint_grid
+[0.104s] [ 36%] Built target move_ur5e
+[0.105s] [ 54%] Built target hydroponic_waypoint_grid_v2
+[0.105s] [ 54%] Built target russell_script1
+[0.106s] [ 63%] Built target parlight_grid
+[0.107s] [ 72%] Built target parlight_grid_with_cadsensor
+[0.110s] [ 81%] Built target parlight_grid_with_parsensor
+[0.110s] [ 90%] Built target parlight_grid_with_hydrosystem
+[0.144s] [ 95%] [32mBuilding CXX object CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o[0m
+[3.055s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:2[m[K:
+[3.056s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.056s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.056s]       |                                                                       [01;36m[K^[m[K
+[3.056s] 
+[5.206s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[5.206s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:161:5:[m[K [01;31m[Kerror: [m[Kjump to label ‘[01m[KWAIT_RETRY[m[K’
+[5.206s]   161 |     [01;31m[KWAIT_RETRY[m[K:
+[5.206s]       |     [01;31m[K^~~~~~~~~~[m[K
+[5.206s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:93:16:[m[K [01;36m[Knote: [m[K  from here
+[5.206s]    93 |           goto [01;36m[KWAIT_RETRY[m[K; // skip this sample and try again (non-blocking outer loop)
+[5.206s]       |                [01;36m[K^~~~~~~~~~[m[K
+[5.222s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:148:60:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan[m[K’
+[5.222s]   148 |       moveit::planning_interface::MoveGroupInterface::Plan [01;36m[Kplan[m[K;
+[5.222s]       |                                                            [01;36m[K^~~~[m[K
+[5.222s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:137:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble wrist_3[m[K’
+[5.222s]   137 |       double [01;36m[Kwrist_3[m[K  = joint_values[5];
+[5.222s]       |              [01;36m[K^~~~~~~[m[K
+[5.222s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:136:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble wrist_2[m[K’
+[5.222s]   136 |       double [01;36m[Kwrist_2[m[K  = joint_values[4];
+[5.222s]       |              [01;36m[K^~~~~~~[m[K
+[5.223s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:135:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble wrist_1[m[K’
+[5.223s]   135 |       double [01;36m[Kwrist_1[m[K  = joint_values[3];
+[5.223s]       |              [01;36m[K^~~~~~~[m[K
+[5.223s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:134:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble elbow[m[K’
+[5.223s]   134 |       double [01;36m[Kelbow[m[K    = joint_values[2];
+[5.223s]       |              [01;36m[K^~~~~[m[K
+[5.223s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:133:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble shoulder[m[K’
+[5.223s]   133 |       double [01;36m[Kshoulder[m[K = joint_values[1];
+[5.224s]       |              [01;36m[K^~~~~~~~[m[K
+[5.224s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:122:27:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<double, std::allocator<double> > joint_values[m[K’
+[5.224s]   122 |       std::vector<double> [01;36m[Kjoint_values[m[K;
+[5.224s]       |                           [01;36m[K^~~~~~~~~~~~[m[K
+[5.224s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:115:12:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool found_ik[m[K’
+[5.224s]   115 |       bool [01;36m[Kfound_ik[m[K = current_state->setFromIK(jmg, target_pose, 0.1);
+[5.224s]       |            [01;36m[K^~~~~~~~[m[K
+[5.225s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:133:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshoulder[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.225s]   133 |       double [01;35m[Kshoulder[m[K = joint_values[1];
+[5.225s]       |              [01;35m[K^~~~~~~~[m[K
+[5.225s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:135:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwrist_1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.225s]   135 |       double [01;35m[Kwrist_1[m[K  = joint_values[3];
+[5.226s]       |              [01;35m[K^~~~~~~[m[K
+[5.226s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:137:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwrist_3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.226s]   137 |       double [01;35m[Kwrist_3[m[K  = joint_values[5];
+[5.226s]       |              [01;35m[K^~~~~~~[m[K
+[7.328s] gmake[2]: *** [CMakeFiles/rpm_simple.dir/build.make:76: CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o] Error 1
+[7.328s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/rpm_simple.dir/all] Error 2
+[7.329s] gmake: *** [Makefile:146: all] Error 2
+[7.332s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

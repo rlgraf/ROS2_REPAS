@@ -1,0 +1,48 @@
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:161:5:[m[K [01;31m[Kerror: [m[Kjump to label ‘[01m[KWAIT_RETRY[m[K’
+  161 |     [01;31m[KWAIT_RETRY[m[K:
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:93:16:[m[K [01;36m[Knote: [m[K  from here
+   93 |           goto [01;36m[KWAIT_RETRY[m[K; // skip this sample and try again (non-blocking outer loop)
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:148:60:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan[m[K’
+  148 |       moveit::planning_interface::MoveGroupInterface::Plan [01;36m[Kplan[m[K;
+      |                                                            [01;36m[K^~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:137:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble wrist_3[m[K’
+  137 |       double [01;36m[Kwrist_3[m[K  = joint_values[5];
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:136:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble wrist_2[m[K’
+  136 |       double [01;36m[Kwrist_2[m[K  = joint_values[4];
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:135:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble wrist_1[m[K’
+  135 |       double [01;36m[Kwrist_1[m[K  = joint_values[3];
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:134:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble elbow[m[K’
+  134 |       double [01;36m[Kelbow[m[K    = joint_values[2];
+      |              [01;36m[K^~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:133:14:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble shoulder[m[K’
+  133 |       double [01;36m[Kshoulder[m[K = joint_values[1];
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:122:27:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<double, std::allocator<double> > joint_values[m[K’
+  122 |       std::vector<double> [01;36m[Kjoint_values[m[K;
+      |                           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:115:12:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool found_ik[m[K’
+  115 |       bool [01;36m[Kfound_ik[m[K = current_state->setFromIK(jmg, target_pose, 0.1);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:133:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshoulder[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  133 |       double [01;35m[Kshoulder[m[K = joint_values[1];
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:135:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwrist_1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  135 |       double [01;35m[Kwrist_1[m[K  = joint_values[3];
+      |              [01;35m[K^~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple.cpp:137:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwrist_3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  137 |       double [01;35m[Kwrist_3[m[K  = joint_values[5];
+      |              [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rpm_simple.dir/build.make:76: CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/rpm_simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
