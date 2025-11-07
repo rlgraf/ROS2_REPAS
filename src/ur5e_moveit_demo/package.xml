@@ -18,6 +18,9 @@
   <depend>ur_simulation_gz</depend>
   <depend>yaml-cpp</depend>
   <depend>moveit_visual_tools</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>control_msgs</depend>
+  <depend>rclcpp_action</depend>
 
   <build_depend>geometric_shapes</build_depend>
   <exec_depend>geometric_shapes</exec_depend>

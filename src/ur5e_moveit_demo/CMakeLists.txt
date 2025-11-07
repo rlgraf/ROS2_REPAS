@@ -39,7 +39,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(tf2 REQUIRED)
-
+find_package(rcl_interfaces REQUIRED)
+find_package(control_msgs REQUIRED)
+find_package(rclcpp_action REQUIRED)
 
 add_executable(move_ur5e src/move_ur5e.cpp)
 ament_target_dependencies(
@@ -140,6 +142,22 @@ ament_target_dependencies(
   tf2
 )
 
+add_executable(rpm_complex src/rpm_complex.cpp)
+ament_target_dependencies(
+  rpm_complex
+  rclcpp
+  rclcpp_action
+  moveit_ros_planning_interface
+  moveit_ros_planning
+  geometry_msgs
+  geometric_shapes
+  moveit_visual_tools
+  tf2_geometry_msgs
+  tf2_ros
+  tf2
+  rcl_interfaces
+)
+
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
 )
@@ -161,6 +179,7 @@ install(TARGETS
   parlight_grid_with_parsensor
   parlight_grid_with_cadsensor
   rpm_simple
+  rpm_complex
   DESTINATION lib/${PROJECT_NAME}
 )
 

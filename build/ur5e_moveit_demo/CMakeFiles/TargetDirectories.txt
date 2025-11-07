@@ -11,6 +11,7 @@
 /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/parlight_grid_with_parsensor.dir
 /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/parlight_grid_with_cadsensor.dir
 /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/rpm_simple.dir
+/home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/rpm_complex.dir
 /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/test.dir
 /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/edit_cache.dir
 /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/CMakeFiles/rebuild_cache.dir
