@@ -1,1 +1,2 @@
-/home/russell/ROS2_REPAS/build/ur5e_moveit_demo/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ur5e_moveit_demo/environment/ament_prefix_path.sh
+source;share/ur5e_moveit_demo/environment/path.sh

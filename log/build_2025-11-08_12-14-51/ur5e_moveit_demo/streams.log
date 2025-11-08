@@ -1,0 +1,58 @@
+[0.009s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.095s] [ 30%] Built target parlight_grid
+[0.096s] [ 30%] Built target home
+[0.096s] [ 30%] Built target hydroponic_waypoint_grid
+[0.096s] [ 30%] Built target russell_script1
+[0.096s] [ 38%] Built target waypoint_grid
+[0.096s] [ 46%] Built target hydroponic_waypoint_grid_v2
+[0.096s] [ 53%] Built target move_ur5e
+[0.099s] [ 61%] Built target parlight_grid_with_hydrosystem
+[0.100s] [ 65%] [32mBuilding CXX object CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o[0m
+[0.101s] [ 73%] Built target parlight_grid_with_cadsensor
+[0.101s] [ 80%] Built target parlight_grid_with_parsensor
+[0.112s] [ 84%] [32mBuilding CXX object CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o[0m
+[0.122s] [ 88%] [32mBuilding CXX object CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o[0m
+[4.297s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.297s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:62:26:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream logfile[m[K’ has initializer but incomplete type
+[4.297s]    62 |     std::ofstream logfile[01;31m[K([m[K"rotated_vectors.csv");
+[4.297s]       |                          [01;31m[K^[m[K
+[4.301s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:48:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Krobot_model_loader[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[4.301s]   107 |     auto robot_model_loader = std::make_shared<[01;31m[Krobot_model_loader[m[K::RobotModelLoader>(node);
+[4.301s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.301s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.301s]   107 |     auto robot_model_loader = std::[01;31m[Kmake_shared<robot_model_loader::RobotModelLoader>[m[K(node);
+[4.301s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.302s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(std::shared_ptr<rclcpp::Node>&)[m[K’
+[4.302s]   107 |     auto robot_model_loader = [01;31m[Kstd::make_shared<robot_model_loader::RobotModelLoader>(node)[m[K;
+[4.302s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.302s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[4.302s]                  from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:1[m[K:
+[4.302s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[4.302s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.302s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.302s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.302s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.302s]   107 |     auto robot_model_loader = [01;31m[Kstd::make_shared<robot_model_loader::RobotModelLoader>(node)[m[K;
+[4.302s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.311s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:108:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_monitor[m[K’ was not declared in this scope
+[4.311s]   108 |     auto psm = std::make_shared<[01;31m[Kplanning_scene_monitor[m[K::PlanningSceneMonitor>(node, robot_model_loader);
+[4.312s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.312s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:108:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.312s]   108 |     auto psm = std::[01;31m[Kmake_shared<planning_scene_monitor::PlanningSceneMonitor>[m[K(node, robot_model_loader);
+[4.312s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.086s] gmake[2]: *** [CMakeFiles/rpm_simple_with_data.dir/build.make:76: CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o] Error 1
+[6.086s] gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_simple_with_data.dir/all] Error 2
+[6.086s] gmake[1]: *** Waiting for unfinished jobs....
+[6.234s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.234s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:100:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_scene_monitor[m[K’ has not been declared
+[6.234s]   100 |     moveit::[01;31m[Kplanning_scene_monitor[m[K::PlanningSceneMonitor psm(move_group->getRobotModel());
+[6.235s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.240s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+[6.240s]   101 |     [01;31m[Kpsm[m[K.startSceneMonitor();
+[6.240s]       |     [01;31m[K^~~[m[K
+[6.348s] [ 92%] [32m[1mLinking CXX executable rpm_simple[0m
+[6.726s] [ 92%] Built target rpm_simple
+[8.890s] gmake[2]: *** [CMakeFiles/rpm_complex.dir/build.make:76: CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o] Error 1
+[8.890s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/rpm_complex.dir/all] Error 2
+[8.891s] gmake: *** [Makefile:146: all] Error 2
+[8.894s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

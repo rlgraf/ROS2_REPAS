@@ -341,17 +341,17 @@ rpm_simple/fast:
 .PHONY : rpm_simple/fast
 
 #=============================================================================
-# Target rules for targets named rpm_complex
+# Target rules for targets named rpm_simple_with_data
 
 # Build rule for target.
-rpm_complex: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_complex
-.PHONY : rpm_complex
+rpm_simple_with_data: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_simple_with_data
+.PHONY : rpm_simple_with_data
 
 # fast build rule for target.
-rpm_complex/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_complex.dir/build.make CMakeFiles/rpm_complex.dir/build
-.PHONY : rpm_complex/fast
+rpm_simple_with_data/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple_with_data.dir/build.make CMakeFiles/rpm_simple_with_data.dir/build
+.PHONY : rpm_simple_with_data/fast
 
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
@@ -545,30 +545,6 @@ src/parlight_grid_with_parsensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.s
 .PHONY : src/parlight_grid_with_parsensor.cpp.s
 
-src/rpm_complex.o: src/rpm_complex.cpp.o
-.PHONY : src/rpm_complex.o
-
-# target to build an object file
-src/rpm_complex.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_complex.dir/build.make CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o
-.PHONY : src/rpm_complex.cpp.o
-
-src/rpm_complex.i: src/rpm_complex.cpp.i
-.PHONY : src/rpm_complex.i
-
-# target to preprocess a source file
-src/rpm_complex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_complex.dir/build.make CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.i
-.PHONY : src/rpm_complex.cpp.i
-
-src/rpm_complex.s: src/rpm_complex.cpp.s
-.PHONY : src/rpm_complex.s
-
-# target to generate assembly for a file
-src/rpm_complex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_complex.dir/build.make CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.s
-.PHONY : src/rpm_complex.cpp.s
-
 src/rpm_simple.o: src/rpm_simple.cpp.o
 .PHONY : src/rpm_simple.o
 
@@ -592,6 +568,30 @@ src/rpm_simple.s: src/rpm_simple.cpp.s
 src/rpm_simple.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple.dir/build.make CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.s
 .PHONY : src/rpm_simple.cpp.s
+
+src/rpm_simple_with_data.o: src/rpm_simple_with_data.cpp.o
+.PHONY : src/rpm_simple_with_data.o
+
+# target to build an object file
+src/rpm_simple_with_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple_with_data.dir/build.make CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o
+.PHONY : src/rpm_simple_with_data.cpp.o
+
+src/rpm_simple_with_data.i: src/rpm_simple_with_data.cpp.i
+.PHONY : src/rpm_simple_with_data.i
+
+# target to preprocess a source file
+src/rpm_simple_with_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple_with_data.dir/build.make CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.i
+.PHONY : src/rpm_simple_with_data.cpp.i
+
+src/rpm_simple_with_data.s: src/rpm_simple_with_data.cpp.s
+.PHONY : src/rpm_simple_with_data.s
+
+# target to generate assembly for a file
+src/rpm_simple_with_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple_with_data.dir/build.make CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.s
+.PHONY : src/rpm_simple_with_data.cpp.s
 
 src/russell_script1.o: src/russell_script1.cpp.o
 .PHONY : src/russell_script1.o
@@ -664,8 +664,8 @@ help:
 	@echo "... parlight_grid_with_cadsensor"
 	@echo "... parlight_grid_with_hydrosystem"
 	@echo "... parlight_grid_with_parsensor"
-	@echo "... rpm_complex"
 	@echo "... rpm_simple"
+	@echo "... rpm_simple_with_data"
 	@echo "... russell_script1"
 	@echo "... waypoint_grid"
 	@echo "... src/home.o"
@@ -692,12 +692,12 @@ help:
 	@echo "... src/parlight_grid_with_parsensor.o"
 	@echo "... src/parlight_grid_with_parsensor.i"
 	@echo "... src/parlight_grid_with_parsensor.s"
-	@echo "... src/rpm_complex.o"
-	@echo "... src/rpm_complex.i"
-	@echo "... src/rpm_complex.s"
 	@echo "... src/rpm_simple.o"
 	@echo "... src/rpm_simple.i"
 	@echo "... src/rpm_simple.s"
+	@echo "... src/rpm_simple_with_data.o"
+	@echo "... src/rpm_simple_with_data.i"
+	@echo "... src/rpm_simple_with_data.s"
 	@echo "... src/russell_script1.o"
 	@echo "... src/russell_script1.i"
 	@echo "... src/russell_script1.s"

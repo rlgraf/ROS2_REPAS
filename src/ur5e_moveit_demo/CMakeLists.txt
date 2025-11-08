@@ -142,20 +142,18 @@ ament_target_dependencies(
   tf2
 )
 
-add_executable(rpm_complex src/rpm_complex.cpp)
+
+add_executable(rpm_simple_with_data src/rpm_simple_with_data.cpp)
 ament_target_dependencies(
-  rpm_complex
+  rpm_simple_with_data
   rclcpp
-  rclcpp_action
   moveit_ros_planning_interface
-  moveit_ros_planning
   geometry_msgs
   geometric_shapes
   moveit_visual_tools
   tf2_geometry_msgs
   tf2_ros
   tf2
-  rcl_interfaces
 )
 
 install(TARGETS move_ur5e
@@ -179,7 +177,7 @@ install(TARGETS
   parlight_grid_with_parsensor
   parlight_grid_with_cadsensor
   rpm_simple
-  rpm_complex
+  rpm_simple_with_data
   DESTINATION lib/${PROJECT_NAME}
 )
 

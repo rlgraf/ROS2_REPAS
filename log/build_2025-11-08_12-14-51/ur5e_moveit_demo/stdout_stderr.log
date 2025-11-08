@@ -1,0 +1,56 @@
+[ 30%] Built target parlight_grid
+[ 30%] Built target home
+[ 30%] Built target hydroponic_waypoint_grid
+[ 30%] Built target russell_script1
+[ 38%] Built target waypoint_grid
+[ 46%] Built target hydroponic_waypoint_grid_v2
+[ 53%] Built target move_ur5e
+[ 61%] Built target parlight_grid_with_hydrosystem
+[ 65%] [32mBuilding CXX object CMakeFiles/rpm_simple.dir/src/rpm_simple.cpp.o[0m
+[ 73%] Built target parlight_grid_with_cadsensor
+[ 80%] Built target parlight_grid_with_parsensor
+[ 84%] [32mBuilding CXX object CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o[0m
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:62:26:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream logfile[m[K’ has initializer but incomplete type
+   62 |     std::ofstream logfile[01;31m[K([m[K"rotated_vectors.csv");
+      |                          [01;31m[K^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:48:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Krobot_model_loader[m[K’ before deduction of ‘[01m[Kauto[m[K’
+  107 |     auto robot_model_loader = std::make_shared<[01;31m[Krobot_model_loader[m[K::RobotModelLoader>(node);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  107 |     auto robot_model_loader = std::[01;31m[Kmake_shared<robot_model_loader::RobotModelLoader>[m[K(node);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(std::shared_ptr<rclcpp::Node>&)[m[K’
+  107 |     auto robot_model_loader = [01;31m[Kstd::make_shared<robot_model_loader::RobotModelLoader>(node)[m[K;
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:107:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  107 |     auto robot_model_loader = [01;31m[Kstd::make_shared<robot_model_loader::RobotModelLoader>(node)[m[K;
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:108:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_monitor[m[K’ was not declared in this scope
+  108 |     auto psm = std::make_shared<[01;31m[Kplanning_scene_monitor[m[K::PlanningSceneMonitor>(node, robot_model_loader);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_simple_with_data.cpp:108:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  108 |     auto psm = std::[01;31m[Kmake_shared<planning_scene_monitor::PlanningSceneMonitor>[m[K(node, robot_model_loader);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rpm_simple_with_data.dir/build.make:76: CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_simple_with_data.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:100:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_scene_monitor[m[K’ has not been declared
+  100 |     moveit::[01;31m[Kplanning_scene_monitor[m[K::PlanningSceneMonitor psm(move_group->getRobotModel());
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+  101 |     [01;31m[Kpsm[m[K.startSceneMonitor();
+      |     [01;31m[K^~~[m[K
+[ 92%] [32m[1mLinking CXX executable rpm_simple[0m
+[ 92%] Built target rpm_simple
+gmake[2]: *** [CMakeFiles/rpm_complex.dir/build.make:76: CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/rpm_complex.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

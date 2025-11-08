@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "robotiq_2f_gripper_msgs/action/detail/move_two_finger_gripper__functions.h"
-#include "robotiq_2f_gripper_msgs/action/detail/move_two_finger_gripper__type_support.h"
 #include "robotiq_2f_gripper_msgs/action/detail/move_two_finger_gripper__struct.h"
+#include "robotiq_2f_gripper_msgs/action/detail/move_two_finger_gripper__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

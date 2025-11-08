@@ -689,11 +689,12 @@ CMakeFiles/parlight_grid.dir/src/parlight_grid.cpp.o
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp
  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.h
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.hpp
  /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.h
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.h
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.hpp
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.hpp
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.hpp
  /opt/ros/jazzy/include/tracetools/tracetools/config.h
  /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h
  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp

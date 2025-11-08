@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.102s] [  7%] Built target home
+[0.102s] [ 15%] Built target move_ur5e
+[0.102s] [ 23%] Built target parlight_grid
+[0.102s] [ 30%] Built target waypoint_grid
+[0.103s] [ 46%] Built target hydroponic_waypoint_grid_v2
+[0.103s] [ 46%] Built target hydroponic_waypoint_grid
+[0.106s] [ 53%] Built target russell_script1
+[0.108s] [ 61%] Built target parlight_grid_with_parsensor
+[0.108s] [ 69%] Built target parlight_grid_with_hydrosystem
+[0.110s] [ 76%] Built target parlight_grid_with_cadsensor
+[0.117s] [ 84%] [32mBuilding CXX object CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o[0m
+[0.118s] [ 88%] Built target rpm_simple
+[0.132s] [ 92%] [32mBuilding CXX object CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o[0m
+[6.091s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.091s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:100:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_scene_monitor[m[K’ has not been declared
+[6.091s]   100 |     moveit::[01;31m[Kplanning_scene_monitor[m[K::PlanningSceneMonitor psm(move_group->getRobotModel());
+[6.091s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.096s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+[6.096s]   101 |     [01;31m[Kpsm[m[K.startSceneMonitor();
+[6.096s]       |     [01;31m[K^~~[m[K
+[6.278s] [ 96%] [32m[1mLinking CXX executable rpm_simple_with_data[0m
+[6.665s] [ 96%] Built target rpm_simple_with_data
+[8.668s] gmake[2]: *** [CMakeFiles/rpm_complex.dir/build.make:76: CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o] Error 1
+[8.668s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/rpm_complex.dir/all] Error 2
+[8.669s] gmake: *** [Makefile:146: all] Error 2
+[8.673s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

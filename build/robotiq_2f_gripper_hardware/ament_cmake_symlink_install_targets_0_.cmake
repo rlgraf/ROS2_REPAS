@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_hardware/robotiq_2f_gripper_node" "TARGETS" "robotiq_2f_gripper_node" "DESTINATION" "lib/robotiq_2f_gripper_hardware")

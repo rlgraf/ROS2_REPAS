@@ -1,0 +1,88 @@
+[0.012s] Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces
+[0.078s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.386s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.507s] -- Found hardware_interface: 4.32.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.579s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.599s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.954s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.959s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.992s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.069s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.072s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.091s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.094s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.103s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.116s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.447s] -- Found serial: 1.2.1 (/home/russell/ROS2_REPAS/install/serial/share/serial/cmake)
+[1.538s] -- Configuring done (1.5s)
+[1.578s] -- Generating done (0.0s)
+[1.589s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces
+[1.599s] Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_interfaces -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces
+[1.600s] Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces -- -j24 -l24
+[1.663s] [ 22%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/data_utils.cpp.o[0m
+[1.664s] [ 22%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/crc_utils.cpp.o[0m
+[1.664s] [ 55%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/default_driver_factory.cpp.o[0m
+[1.664s] [ 55%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/default_serial.cpp.o[0m
+[1.664s] [ 77%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/default_serial_factory.cpp.o[0m
+[1.664s] [ 88%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/hardware_interface.cpp.o[0m
+[1.664s] [ 88%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/fake/fake_driver.cpp.o[0m
+[1.664s] [ 88%] [32mBuilding CXX object CMakeFiles/robotiq_2f_gripper_interfaces.dir/src/default_driver.cpp.o[0m
+[6.212s] [100%] [32m[1mLinking CXX shared library librobotiq_2f_gripper_interfaces.so[0m
+[6.582s] [100%] Built target robotiq_2f_gripper_interfaces
+[6.602s] Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces -- -j24 -l24
+[6.604s] Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces
+[6.617s] -- Install configuration: ""
+[6.617s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/hardware_interface_plugin.xml
+[6.617s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/environment/library_path.sh
+[6.617s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/environment/library_path.dsv
+[6.617s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include
+[6.617s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces
+[6.617s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/driver.hpp
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/data_utils.hpp
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/default_driver_factory.hpp
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/default_driver.hpp
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/visibility_control.hpp
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/crc_utils.hpp
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/fake
+[6.618s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/fake/fake_driver.hpp
+[6.619s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/driver_factory.hpp
+[6.619s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/default_serial_factory.hpp
+[6.619s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/default_serial.hpp
+[6.619s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/driver_exception.hpp
+[6.619s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/hardware_interface.hpp
+[6.619s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/serial_factory.hpp
+[6.620s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/include/robotiq_2f_gripper_interfaces/serial.hpp
+[6.620s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib/librobotiq_2f_gripper_interfaces.so
+[6.622s] -- Set non-toolchain portion of runtime path of "/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib/librobotiq_2f_gripper_interfaces.so" to ""
+[6.622s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/ament_index/resource_index/package_run_dependencies/robotiq_2f_gripper_interfaces
+[6.623s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/ament_index/resource_index/parent_prefix_path/robotiq_2f_gripper_interfaces
+[6.623s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/environment/ament_prefix_path.sh
+[6.623s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/environment/ament_prefix_path.dsv
+[6.623s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/environment/path.sh
+[6.623s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/environment/path.dsv
+[6.624s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/local_setup.bash
+[6.624s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/local_setup.sh
+[6.624s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/local_setup.zsh
+[6.624s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/local_setup.dsv
+[6.624s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.dsv
+[6.625s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/ament_index/resource_index/packages/robotiq_2f_gripper_interfaces
+[6.625s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robotiq_2f_gripper_interfaces
+[6.625s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/robotiq_2f_gripper_interfaces_targetsExport.cmake
+[6.625s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/robotiq_2f_gripper_interfaces_targetsExport-noconfig.cmake
+[6.626s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.626s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.626s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.626s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.626s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/robotiq_2f_gripper_interfacesConfig.cmake
+[6.626s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/cmake/robotiq_2f_gripper_interfacesConfig-version.cmake
+[6.627s] -- Installing: /home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/share/robotiq_2f_gripper_interfaces/package.xml
+[6.630s] Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces' returned '0': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/russell/ROS2_REPAS/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_interfaces

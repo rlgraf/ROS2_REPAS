@@ -1,0 +1,10 @@
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:100:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_scene_monitor[m[K’ has not been declared
+  100 |     moveit::[01;31m[Kplanning_scene_monitor[m[K::PlanningSceneMonitor psm(move_group->getRobotModel());
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_complex.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+  101 |     [01;31m[Kpsm[m[K.startSceneMonitor();
+      |     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/rpm_complex.dir/build.make:76: CMakeFiles/rpm_complex.dir/src/rpm_complex.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/rpm_complex.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
