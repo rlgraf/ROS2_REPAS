@@ -1,0 +1,21 @@
+[0.035s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.687s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[25.159s] Traceback (most recent call last):
+[25.159s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[25.159s]     from ament_package.templates import get_environment_hook_template_path
+[25.159s] ModuleNotFoundError: No module named 'ament_package'
+[25.207s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[25.208s]   execute_process(/usr/bin/python3
+[25.208s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[25.208s]   /home/russell/ROS2_REPAS/build/ur5e_moveit_demo/ament_cmake_package_templates/templates.cmake)
+[25.208s]   returned error code 1
+[25.208s] Call Stack (most recent call first):
+[25.208s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[25.208s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[25.209s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[25.209s]   CMakeLists.txt:9 (find_package)
+[25.209s] 
+[25.209s] [0m
+[25.209s] -- Configuring incomplete, errors occurred!
+[25.213s] gmake: *** [Makefile:759: cmake_check_build_system] Error 1
+[25.216s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': AMENT_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

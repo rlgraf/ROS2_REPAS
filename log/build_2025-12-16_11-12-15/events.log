@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.000358] (-) JobUnselected: {'identifier': 'librealsense2'}
+[0.000471] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_description'}
+[0.000488] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_hardware'}
+[0.000502] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_interfaces'}
+[0.000521] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_msgs'}
+[0.000538] (-) JobUnselected: {'identifier': 'serial'}
+[0.000551] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000568] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.000583] (ur5e_moveit_demo) JobQueued: {'identifier': 'ur5e_moveit_demo', 'dependencies': OrderedDict({'ur_description': '/home/russell/ROS2_REPAS/install/ur_description', 'ur_simulation_gz': '/home/russell/ROS2_REPAS/install/ur_simulation_gz'})}
+[0.000605] (ur5e_moveit_demo) JobStarted: {'identifier': 'ur5e_moveit_demo'}
+[0.012242] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'cmake'}
+[0.013823] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'build'}
+[0.014501] (ur5e_moveit_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', '--', '-j24', '-l24'], 'cwd': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2994', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/russell/ROS2_REPAS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/russell/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2951,unix/russell-System-Product-Name:/tmp/.ICE-unix/2951', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d56e1e85_c694_4d48_8d5f_22ebbd41592e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/python3.12/site-packages:/home/russell/ROS2_REPAS/build/camera_sensor:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy'}), 'shell': False}
+[0.099865] (-) TimerEvent: {}
+[0.106970] (ur5e_moveit_demo) StdoutLine: {'line': b'[  7%] Built target rpm_continuous\n'}
+[0.111442] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 35%] Built target hydroponic_waypoint_grid_v2\n'}
+[0.111709] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 25%] Built target home\n'}
+[0.111790] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 42%] Built target russell_script1\n'}
+[0.111861] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 35%] Built target move_ur5e\n'}
+[0.111932] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 46%] Built target parlight_grid\n'}
+[0.112002] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 50%] Built target waypoint_grid\n'}
+[0.112434] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 57%] Built target hydroponic_waypoint_grid\n'}
+[0.112580] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 64%] Built target rpm_simple_with_data\n'}
+[0.115078] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/rpm_pos_agnostic_with_data.dir/src/rpm_pos_agnostic_with_data.cpp.o\x1b[0m\n'}
+[0.115247] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 75%] Built target parlight_grid_with_parsensor\n'}
+[0.115418] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 89%] Built target parlight_grid_with_cadsensor\n'}
+[0.115497] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 89%] Built target parlight_grid_with_hydrosystem\n'}
+[0.116034] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 96%] Built target rpm_simple\n'}
+[0.200017] (-) TimerEvent: {}
+[0.300308] (-) TimerEvent: {}
+[0.400640] (-) TimerEvent: {}
+[0.501012] (-) TimerEvent: {}
+[0.601445] (-) TimerEvent: {}
+[0.701849] (-) TimerEvent: {}
+[0.802152] (-) TimerEvent: {}
+[0.902502] (-) TimerEvent: {}
+[1.002877] (-) TimerEvent: {}
+[1.103193] (-) TimerEvent: {}
+[1.203553] (-) TimerEvent: {}
+[1.303944] (-) TimerEvent: {}
+[1.404327] (-) TimerEvent: {}
+[1.504640] (-) TimerEvent: {}
+[1.605128] (-) TimerEvent: {}
+[1.705461] (-) TimerEvent: {}
+[1.805888] (-) TimerEvent: {}
+[1.906259] (-) TimerEvent: {}
+[2.006497] (-) TimerEvent: {}
+[2.106893] (-) TimerEvent: {}
+[2.207155] (-) TimerEvent: {}
+[2.307533] (-) TimerEvent: {}
+[2.407921] (-) TimerEvent: {}
+[2.508299] (-) TimerEvent: {}
+[2.608666] (-) TimerEvent: {}
+[2.708946] (-) TimerEvent: {}
+[2.809256] (-) TimerEvent: {}
+[2.909578] (-) TimerEvent: {}
+[3.010008] (-) TimerEvent: {}
+[3.082075] (ur5e_moveit_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_pos_agnostic_with_data.cpp:10\x1b[m\x1b[K:\n'}
+[3.082384] (ur5e_moveit_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.082545] (ur5e_moveit_demo) StderrLine: {'line': b'   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.082673] (ur5e_moveit_demo) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.110099] (-) TimerEvent: {}
+[3.210382] (-) TimerEvent: {}
+[3.310726] (-) TimerEvent: {}
+[3.411014] (-) TimerEvent: {}
+[3.511328] (-) TimerEvent: {}
+[3.611623] (-) TimerEvent: {}
+[3.711928] (-) TimerEvent: {}
+[3.812228] (-) TimerEvent: {}
+[3.912488] (-) TimerEvent: {}
+[4.012788] (-) TimerEvent: {}
+[4.113051] (-) TimerEvent: {}
+[4.213324] (-) TimerEvent: {}
+[4.313633] (-) TimerEvent: {}
+[4.413918] (-) TimerEvent: {}
+[4.514202] (-) TimerEvent: {}
+[4.614493] (-) TimerEvent: {}
+[4.714783] (-) TimerEvent: {}
+[4.815051] (-) TimerEvent: {}
+[4.915315] (-) TimerEvent: {}
+[5.015614] (-) TimerEvent: {}
+[5.115950] (-) TimerEvent: {}
+[5.171842] (ur5e_moveit_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_pos_agnostic_with_data.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.172121] (ur5e_moveit_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_pos_agnostic_with_data.cpp:70:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::setOrientationTarget(geometry_msgs::msg::Quaternion, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.172207] (ur5e_moveit_demo) StderrLine: {'line': b'   70 |         \x1b[01;31m\x1b[Kmove_group->setOrientationTarget(tf2::toMsg(q), move_group->getEndEffectorLink())\x1b[m\x1b[K;\n'}
+[5.172289] (ur5e_moveit_demo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.172361] (ur5e_moveit_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K:\n'}
+[5.172439] (ur5e_moveit_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:549:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::planning_interface::MoveGroupInterface::\x1b[01;32m\x1b[KsetOrientationTarget\x1b[m\x1b[K(double, double, double, double, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.172506] (ur5e_moveit_demo) StderrLine: {'line': b'  549 |   bool \x1b[01;36m\x1b[KsetOrientationTarget\x1b[m\x1b[K(double x, double y, double z, double w, const std::string& end_effector_link = "");\n'}
+[5.172581] (ur5e_moveit_demo) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.172659] (ur5e_moveit_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:549:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[5.216050] (-) TimerEvent: {}
+[5.316324] (-) TimerEvent: {}
+[5.416617] (-) TimerEvent: {}
+[5.516908] (-) TimerEvent: {}
+[5.617234] (-) TimerEvent: {}
+[5.717907] (-) TimerEvent: {}
+[5.818247] (-) TimerEvent: {}
+[5.918567] (-) TimerEvent: {}
+[6.018940] (-) TimerEvent: {}
+[6.119285] (-) TimerEvent: {}
+[6.219610] (-) TimerEvent: {}
+[6.319891] (-) TimerEvent: {}
+[6.420175] (-) TimerEvent: {}
+[6.520622] (-) TimerEvent: {}
+[6.620992] (-) TimerEvent: {}
+[6.721292] (-) TimerEvent: {}
+[6.821618] (-) TimerEvent: {}
+[6.921991] (-) TimerEvent: {}
+[7.022406] (-) TimerEvent: {}
+[7.122978] (-) TimerEvent: {}
+[7.223257] (-) TimerEvent: {}
+[7.282241] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rpm_pos_agnostic_with_data.dir/build.make:76: CMakeFiles/rpm_pos_agnostic_with_data.dir/src/rpm_pos_agnostic_with_data.cpp.o] Error 1\n'}
+[7.282892] (ur5e_moveit_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/rpm_pos_agnostic_with_data.dir/all] Error 2\n'}
+[7.283251] (ur5e_moveit_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.287129] (ur5e_moveit_demo) CommandEnded: {'returncode': 2}
+[7.298043] (ur5e_moveit_demo) JobEnded: {'identifier': 'ur5e_moveit_demo', 'rc': 2}
+[7.308700] (-) EventReactorShutdown: {}
