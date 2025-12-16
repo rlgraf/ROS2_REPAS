@@ -1,0 +1,8 @@
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:56:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+   56 |         if (!plan.[01;31m[Ktrajectory_[m[K.joint_trajectory.points.empty())
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+      |                   [32m[Ktrajectory[m[K
+gmake[2]: *** [CMakeFiles/rpm_continuous.dir/build.make:76: CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_continuous.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

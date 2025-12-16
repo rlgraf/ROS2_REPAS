@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/russell/ROS2_REPAS/build/serial
+[100%] Built target serial
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/lib/libserial.so
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/include/serial/serial.h
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/include/serial/v8stdint.h
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/path.sh
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.bash
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.sh
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/package.dsv
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/package.xml

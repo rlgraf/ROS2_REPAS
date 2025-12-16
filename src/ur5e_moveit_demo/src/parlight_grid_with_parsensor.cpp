@@ -253,7 +253,12 @@ int main(int argc, char** argv)
   // SET HEIGHT
 
   //double z = -5*0.0254;
-  double z = g_camera_z_value.load() * 0.0254;
+  double z = g_camera_z_value.load()* 0.0254;
+  //double z_raw = g_camera_z_value.load()* 0.0254;
+  //double z_to_canopy = -((9.5)*0.0254 + z_raw);
+  //double z = z_to_canopy + 0.0; // 0.0 cm buffer to not hit plants
+  
+  //double z = -((12 - 3.5)* 0.0254 - (-z_raw) + 0.01);
   RCLCPP_INFO(node->get_logger(), "Using camera z value (in inches): %.3f", g_camera_z_value.load());
 
 
@@ -313,18 +318,18 @@ int main(int argc, char** argv)
   //Node NB = {0, 14};
  // Node NC = {8, 14};
 
-  //Node N1 = {-8, 11};
-  //Node N2 = {0, 11};
-  //Node N3 = {8, 11};
-  //Node N4 = {8, 4};
-  //Node N5 = {0, 4};
-  //Node N6 = {-8, 4};
-  //Node N7 = {-8, -4};
-  //Node N8 = {0, -4};
-  //Node N9 = {8, -4};
-  //Node N10 = {8, -11};
-  //Node N11 = {0, -11};
-  //Node N12 = {-8, -11};
+  Node N1 = {-8, 10};
+  Node N2 = {0, 10};
+  Node N3 = {8, 10};
+  Node N4 = {8, 4};
+  Node N5 = {0, 4};
+  Node N6 = {-8, 4};
+  Node N7 = {-8, -4};
+  Node N8 = {0, -4};
+  Node N9 = {8, -4};
+  Node N10 = {8, -10};
+  Node N11 = {0, -10};
+  Node N12 = {-8, -10};
 
   //Node N1 = {10, 0};
   //Node N2 = {10, 11.0};
@@ -332,7 +337,7 @@ int main(int argc, char** argv)
   //Node N4 = {-8, 11.0};
   //Node N5 = {10, 11.0};
 
-  Node N6 = {10, 0};
+  //Node N6 = {10, 0};
   //Node N7 = {10, -11.0};
   //Node N8 = {0, -11.0};
   //Node N9 = {-8, -11.0};
@@ -340,7 +345,7 @@ int main(int argc, char** argv)
 
 
   //std::vector<Node> nodes = {N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12};
-  std::vector<Node> nodes = {N6};
+  std::vector<Node> nodes = {N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12};
 
 
   for (size_t i = 0; i < nodes.size(); ++i) {

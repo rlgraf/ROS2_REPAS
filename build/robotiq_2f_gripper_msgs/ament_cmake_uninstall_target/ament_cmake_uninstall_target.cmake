@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

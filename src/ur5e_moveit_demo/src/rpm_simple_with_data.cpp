@@ -70,7 +70,7 @@ int main(int argc, char** argv)
     }
 
 // Build the full file path
-    std::filesystem::path file_path = data_dir / "rotated_vectors.csv";
+    std::filesystem::path file_path = data_dir / "rotated_vectors_successful_24hours_2.csv";
 
     std::ofstream logfile(file_path);
     if (!logfile.is_open()) {
@@ -89,8 +89,8 @@ int main(int argc, char** argv)
     node->declare_parameter("workspace_min_z", 0.2);
     node->declare_parameter("workspace_max_z", 0.8);
     node->declare_parameter("planning_time", 5.0);
-    node->declare_parameter("max_velocity_scaling", 0.3);
-    node->declare_parameter("max_acceleration_scaling", 0.3);
+    node->declare_parameter("max_velocity_scaling", 0.1);
+    node->declare_parameter("max_acceleration_scaling", 0.1);
 
     double workspace_min_x = node->get_parameter("workspace_min_x").as_double();
     double workspace_max_x = node->get_parameter("workspace_max_x").as_double();
@@ -151,6 +151,25 @@ int main(int argc, char** argv)
             RCLCPP_INFO(node->get_logger(), "Plan found, executing...");
             move_group->execute(plan);
             success_count++;
+
+            tf2::Vector3 fixed_v(1.0, 0.0, 0.0);
+            tf2::Quaternion q;
+            tf2::fromMsg(target_pose.orientation, q);
+            tf2::Vector3 rotated_v = tf2::quatRotate(q, fixed_v);
+
+            running_sum += rotated_v;
+            tf2::Vector3 running_mean = running_sum / success_count;
+
+            logfile << std::fixed << std::setprecision(6)
+                << rotated_v.x() << ","
+                << rotated_v.y() << ","
+                << rotated_v.z() << ","
+                << running_mean.x() << ","
+                << running_mean.y() << ","
+                << running_mean.z() << "\n";
+
+            logfile.flush();
+
             RCLCPP_INFO(node->get_logger(),
                         "Success rate: %d/%d (%.1f%%)",
                         success_count, attempt_count,
@@ -162,23 +181,7 @@ int main(int argc, char** argv)
         }
 
         // Rotate a fixed vector by the target orientation and track running mean
-        tf2::Vector3 fixed_v(1.0, 0.0, 0.0);
-        tf2::Quaternion q;
-        tf2::fromMsg(target_pose.orientation, q);
-        tf2::Vector3 rotated_v = tf2::quatRotate(q, fixed_v);
-
-        running_sum += rotated_v;
-        tf2::Vector3 running_mean = running_sum / attempt_count;
-
-        logfile << std::fixed << std::setprecision(6)
-                << rotated_v.x() << ","
-                << rotated_v.y() << ","
-                << rotated_v.z() << ","
-                << running_mean.x() << ","
-                << running_mean.y() << ","
-                << running_mean.z() << "\n";
-
-        logfile.flush();
+        
 
         std::this_thread::sleep_for(std::chrono::milliseconds(500));
     }

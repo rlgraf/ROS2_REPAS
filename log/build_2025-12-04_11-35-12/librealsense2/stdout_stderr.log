@@ -1,0 +1,1644 @@
+[  0%] [34m[1mCreating directories for 'libcurl'[0m
+[  0%] [32mBuilding C object common/fw/CMakeFiles/fw.dir/D4XX_FW_Image.c.o[0m
+[  0%] [32mBuilding C object common/fw/CMakeFiles/fw.dir/empty.c.o[0m
+[  0%] [34m[1mPerforming download step (git clone) for 'libcurl'[0m
+[  0%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/header.cpp.o[0m
+[  0%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/console_bridge/src/console.cpp.o[0m
+[  0%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/debug.cpp.o[0m
+[  0%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag_player.cpp.o[0m
+[  0%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/uncompressed_stream.cpp.o[0m
+[  1%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/buffer.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/lz4_stream.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/message_instance.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/query.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/chunked_file.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/stream.cpp.o[0m
+[  3%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roslz4/src/lz4s.c.o[0m
+[  3%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roscpp_serialization/src/serialization.cpp.o[0m
+[  3%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roslz4/src/xxhash.c.o[0m
+[  3%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/duration.cpp.o[0m
+[  3%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/rate.cpp.o[0m
+[  3%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/view.cpp.o[0m
+[  4%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/time.cpp.o[0m
+[  4%] [32mBuilding CXX object tools/embed/CMakeFiles/rs-embed.dir/rs-embed.cpp.o[0m
+Cloning into 'libcurl'...
+[  4%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/__/easyloggingpp/src/easylogging++.cc.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/hexarray.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/dispatcher.cpp.o[0m
+[  5%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/lz4/lz4.c.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/control-c-handler.cpp.o[0m
+[  5%] [32mBuilding C object tools/embed/CMakeFiles/rs-embed.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/configure-elpp-logger.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/crc32.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/float3.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/byte-manipulation.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ensure-console.cpp.o[0m
+[  6%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/fourcc.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ios.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/hexdump.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ip-address.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/from.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/executable-name.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/json.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/network-adapter-watcher.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/rsutilgpu.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/os.cpp.o[0m
+[  7%] [32m[1mLinking C static library ../../Release/libfw.a[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/shorten-json-string.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/special-folder.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/version.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/word-format.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/work-week.cpp.o[0m
+In file included from [01m[K/usr/include/features.h:502[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:679[m[K,
+                 from [01m[K/usr/include/c++/13/ctime:41[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.h:354[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.cc:17[m[K:
+In function ‘[01m[Ksize_t[01;32m[K wcstombs[m[K(char*, const wchar_t*, size_t)[m[K’,
+    inlined from ‘[01m[Kstatic char* el::base::utils::Str::[01;32m[KwcharPtrToCharPtr[m[K(const wchar_t*)[m[K’ at [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.cc:1022:16[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:146:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t[01;32m[K __wcstombs_alias[m[K(char*, const wchar_t*, size_t)[m[K’ specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+  146 |   return [01;35m[K__glibc_fortify[m[K (wcstombs, __len, sizeof (char),
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:[m[K In static member function ‘[01m[Kstatic char* el::base::utils::Str::[01;32m[KwcharPtrToCharPtr[m[K(const wchar_t*)[m[K’:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:131:15:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Ksize_t[01;32m[K __wcstombs_alias[m[K(char*, const wchar_t*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2)[m[K’
+  131 | extern size_t [01;36m[K__REDIRECT_NTH[m[K (__wcstombs_alias,
+      |               [01;36m[K^~~~~~~~~~~~~~[m[K
+[  8%] Built target fw
+[  8%] [32m[1mLinking CXX static library ../../Release/librealsense-file.a[0m
+[  8%] Built target realsense-file
+[  9%] [32m[1mLinking CXX static library ../../Release/librsutils.a[0m
+[  9%] Built target rsutils
+[  9%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/notification.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-watcher.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-registry.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-options.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-container.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-private.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-motion.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-device.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-nonmonochrome.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-color.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-factory.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-auto-calibration.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-active.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/matcher-factory.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-active.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-fw-update-device.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-motion.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-private.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-color.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-device.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-factory.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/hw_monitor_extended_buffers.cpp.o[0m
+[ 13%] [32m[1mLinking CXX executable ../../Release/rs-embed[0m
+[ 13%] Built target rs-embed
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-options.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-debug-protocol-calibration-engine.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-fw-update-device.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-auto-calibration.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-device-common.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-motion-common.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-color-common.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-active-common.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-private.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-timestamp.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-options.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/rs_advanced_mode.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/presets.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/advanced_mode.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-calib-parsers.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-calib-common.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-thermal-monitor.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/amplitude-factor-feature.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/auto-exposure-roi-feature.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/emitter-frequency-feature.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/remove-ir-pattern-feature.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/auto-exposure-limit-feature.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/gain-limit-feature.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/gyro-sensitivity-feature.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/record/record_device.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/record/record_sensor.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/playback/playback_device.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/ros/ros_reader.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/playback/playback_sensor.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/ros/ros_writer.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sse/sse-align.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sse/sse-pointcloud.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/neon/image-neon.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/neon/neon-pointcloud.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/neon/neon-align.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/processing-blocks-factory.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/align.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/colorizer.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/pointcloud.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/occlusion-filter.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/synthetic-stream.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/syncer-processing-block.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/decimation-filter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rotation-filter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/spatial-filter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/temporal-filter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/hdr-merge.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sequence-id-filter.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/hole-filling-filter.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/disparity-transform.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y8i-to-y8y8.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y8i-to-y8y8-mipi.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y12i-to-y16y16.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y12i-to-y16y16-mipi.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y16i-10msb-to-y16y16.cpp.o[0m
+HEAD is now at fd567d4f06 RELEASE-NOTES: synced
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y16-10msb-to-y16.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/identity-processing-block.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/threshold.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rates-printer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/units-transform.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rotation-transform.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/color-formats-converter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/depth-formats-converter.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/motion-transform.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/auto-exposure-processor.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y411-converter.cpp.o[0m
+[ 26%] [34m[1mNo update step for 'libcurl'[0m
+[ 26%] [34m[1mNo patch step for 'libcurl'[0m
+[ 27%] [34m[1mPerforming configure step for 'libcurl'[0m
+-- Using CMake version 3.28.3
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/formats-converter.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/pipeline.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/config.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/profile.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/aggregator.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-log-data.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-formatting-options.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-parser.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-xml-helper.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-string-formatter.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-device.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-factory.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-unsigned.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/context-libusb.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/interface-libusb.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/messenger-libusb.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/device-libusb.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/request-libusb.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/enumerator-libusb.cpp.o[0m
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/backend-v4l2.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/backend-hid.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/algo.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/udev-device-watcher.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/archive.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/backend.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/backend-device-factory.cpp.o[0m
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- curl version=[8.8.0-DEV]
+-- Performing Test OPT_Wdouble_promotion
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/context.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device-info.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device_hub.cpp.o[0m
+-- Performing Test OPT_Wdouble_promotion - Success
+-- Performing Test OPT_Wenum_conversion
+-- Performing Test OPT_Wenum_conversion - Success
+-- Performing Test OPT_Wpragmas
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/environment.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/error-handling.cpp.o[0m
+-- Performing Test OPT_Wpragmas - Success
+-- Performing Test OPT_Wunused_const_variable
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/firmware_logger_device.cpp.o[0m
+-- Performing Test OPT_Wunused_const_variable - Success
+-- Picky compiler options: -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/global_timestamp_reader.cpp.o[0m
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hdr-config.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hw-monitor.cpp.o[0m
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR - Success
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Success
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/image.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/image-avx.cpp.o[0m
+-- Found Perl: /usr/bin/perl (found version "5.38.2") 
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/log.cpp.o[0m
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for connect in socket
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/option.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform-camera.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/rs.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/sensor.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hid-sensor.cpp.o[0m
+-- Looking for connect in socket - not found
+-- Looking for gethostname
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/uvc-sensor.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/rscore-pp-block-factory.cpp.o[0m
+-- Looking for gethostname - found
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-device.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-device-info.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-sensor.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/source.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/stream.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/sync.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/terminal-parser.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/types.cpp.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/realsense2.dir/src/verify.c.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/serialized-utilities.cpp.o[0m
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Looking for OPENSSL_IS_BORINGSSL
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/frame.cpp.o[0m
+-- Looking for OPENSSL_IS_BORINGSSL - not found
+-- Looking for OPENSSL_IS_AWSLC
+-- Looking for OPENSSL_IS_AWSLC - not found
+-- Looking for SSL_set0_wbio
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/points.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/to-string.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform/platform-utils.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform/uvc-option.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/auto-calibrated-proxy.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/synthetic-options-watcher.cpp.o[0m
+-- Looking for SSL_set0_wbio - found
+-- Looking for SSL_CTX_set_srp_username
+[ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/third-party/easyloggingpp/src/easylogging++.cc.o[0m
+-- Looking for SSL_CTX_set_srp_username - found
+-- Looking for idn2_lookup_ul in idn2
+-- Looking for idn2_lookup_ul in idn2 - not found
+-- Could NOT find LibPSL (missing: LIBPSL_LIBRARY LIBPSL_INCLUDE_DIR) 
+-- Performing Test USE_UNIX_SOCKETS
+-- Performing Test USE_UNIX_SOCKETS - Success
+-- Found CA bundle: /etc/ssl/certs/ca-certificates.crt
+-- Looking for include file sys/filio.h
+-- Looking for include file sys/filio.h - not found
+-- Looking for include file sys/wait.h
+-- Looking for include file sys/wait.h - found
+-- Looking for include files sys/wait.h, sys/ioctl.h
+-- Looking for include files sys/wait.h, sys/ioctl.h - found
+-- Looking for 3 include files sys/wait.h, ..., sys/param.h
+-- Looking for 3 include files sys/wait.h, ..., sys/param.h - found
+-- Looking for 4 include files sys/wait.h, ..., sys/poll.h
+-- Looking for 4 include files sys/wait.h, ..., sys/poll.h - found
+-- Looking for 5 include files sys/wait.h, ..., sys/resource.h
+-- Looking for 5 include files sys/wait.h, ..., sys/resource.h - found
+-- Looking for 6 include files sys/wait.h, ..., sys/select.h
+-- Looking for 6 include files sys/wait.h, ..., sys/select.h - found
+-- Looking for 7 include files sys/wait.h, ..., sys/socket.h
+-- Looking for 7 include files sys/wait.h, ..., sys/socket.h - found
+-- Looking for 8 include files sys/wait.h, ..., sys/sockio.h
+-- Looking for 8 include files sys/wait.h, ..., sys/sockio.h - not found
+-- Looking for 8 include files sys/wait.h, ..., sys/stat.h
+-- Looking for 8 include files sys/wait.h, ..., sys/stat.h - found
+-- Looking for 9 include files sys/wait.h, ..., sys/time.h
+-- Looking for 9 include files sys/wait.h, ..., sys/time.h - found
+-- Looking for 10 include files sys/wait.h, ..., sys/types.h
+-- Looking for 10 include files sys/wait.h, ..., sys/types.h - found
+-- Looking for 11 include files sys/wait.h, ..., sys/un.h
+In file included from [01m[K/usr/include/features.h:502[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:679[m[K,
+                 from [01m[K/usr/include/c++/13/ctime:41[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.h:354[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.cc:17[m[K:
+In function ‘[01m[Ksize_t[01;32m[K wcstombs[m[K(char*, const wchar_t*, size_t)[m[K’,
+    inlined from ‘[01m[Kstatic char* el::base::utils::Str::[01;32m[KwcharPtrToCharPtr[m[K(const wchar_t*)[m[K’ at [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.cc:1022:16[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:146:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t[01;32m[K __wcstombs_alias[m[K(char*, const wchar_t*, size_t)[m[K’ specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+  146 |   return [01;35m[K__glibc_fortify[m[K (wcstombs, __len, sizeof (char),
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:[m[K In static member function ‘[01m[Kstatic char* el::base::utils::Str::[01;32m[KwcharPtrToCharPtr[m[K(const wchar_t*)[m[K’:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:131:15:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Ksize_t[01;32m[K __wcstombs_alias[m[K(char*, const wchar_t*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2)[m[K’
+  131 | extern size_t [01;36m[K__REDIRECT_NTH[m[K (__wcstombs_alias,
+      |               [01;36m[K^~~~~~~~~~~~~~[m[K
+-- Looking for 11 include files sys/wait.h, ..., sys/un.h - found
+-- Looking for 12 include files sys/wait.h, ..., sys/utime.h
+-- Looking for 12 include files sys/wait.h, ..., sys/utime.h - not found
+-- Looking for 12 include files sys/wait.h, ..., sys/xattr.h
+-- Looking for 12 include files sys/wait.h, ..., sys/xattr.h - found
+-- Looking for 13 include files sys/wait.h, ..., arpa/inet.h
+-- Looking for 13 include files sys/wait.h, ..., arpa/inet.h - found
+-- Looking for 14 include files sys/wait.h, ..., dirent.h
+-- Looking for 14 include files sys/wait.h, ..., dirent.h - found
+-- Looking for 15 include files sys/wait.h, ..., fcntl.h
+-- Looking for 15 include files sys/wait.h, ..., fcntl.h - found
+-- Looking for 16 include files sys/wait.h, ..., ifaddrs.h
+-- Looking for 16 include files sys/wait.h, ..., ifaddrs.h - found
+-- Looking for 17 include files sys/wait.h, ..., io.h
+-- Looking for 17 include files sys/wait.h, ..., io.h - not found
+-- Looking for 17 include files sys/wait.h, ..., libgen.h
+-- Looking for 17 include files sys/wait.h, ..., libgen.h - found
+-- Looking for 18 include files sys/wait.h, ..., locale.h
+-- Looking for 18 include files sys/wait.h, ..., locale.h - found
+-- Looking for 19 include files sys/wait.h, ..., net/if.h
+-- Looking for 19 include files sys/wait.h, ..., net/if.h - found
+-- Looking for 20 include files sys/wait.h, ..., netdb.h
+-- Looking for 20 include files sys/wait.h, ..., netdb.h - found
+-- Looking for 21 include files sys/wait.h, ..., netinet/in.h
+-- Looking for 21 include files sys/wait.h, ..., netinet/in.h - found
+-- Looking for 22 include files sys/wait.h, ..., netinet/tcp.h
+-- Looking for 22 include files sys/wait.h, ..., netinet/tcp.h - found
+-- Looking for 23 include files sys/wait.h, ..., netinet/udp.h
+-- Looking for 23 include files sys/wait.h, ..., netinet/udp.h - found
+-- Looking for linux/tcp.h
+-- Looking for linux/tcp.h - found
+-- Looking for 24 include files sys/wait.h, ..., poll.h
+-- Looking for 24 include files sys/wait.h, ..., poll.h - found
+-- Looking for 25 include files sys/wait.h, ..., pwd.h
+-- Looking for 25 include files sys/wait.h, ..., pwd.h - found
+-- Looking for 26 include files sys/wait.h, ..., stdatomic.h
+-- Looking for 26 include files sys/wait.h, ..., stdatomic.h - found
+-- Looking for 27 include files sys/wait.h, ..., stdbool.h
+-- Looking for 27 include files sys/wait.h, ..., stdbool.h - found
+-- Looking for 28 include files sys/wait.h, ..., strings.h
+-- Looking for 28 include files sys/wait.h, ..., strings.h - found
+-- Looking for 29 include files sys/wait.h, ..., stropts.h
+-- Looking for 29 include files sys/wait.h, ..., stropts.h - not found
+-- Looking for 29 include files sys/wait.h, ..., termio.h
+-- Looking for 29 include files sys/wait.h, ..., termio.h - found
+-- Looking for 30 include files sys/wait.h, ..., termios.h
+-- Looking for 30 include files sys/wait.h, ..., termios.h - found
+-- Looking for 31 include files sys/wait.h, ..., unistd.h
+-- Looking for 31 include files sys/wait.h, ..., unistd.h - found
+-- Looking for 32 include files sys/wait.h, ..., utime.h
+-- Looking for 32 include files sys/wait.h, ..., utime.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of time_t
+-- Check size of time_t - done
+-- Check size of suseconds_t
+-- Check size of suseconds_t - done
+-- Looking for fnmatch
+-- Looking for fnmatch - found
+-- Looking for basename
+-- Looking for basename - found
+-- Looking for opendir
+-- Looking for opendir - found
+-- Looking for socket
+-- Looking for socket - found
+-- Looking for sched_yield
+-- Looking for sched_yield - found
+-- Looking for socketpair
+-- Looking for socketpair - found
+-- Looking for recv
+-- Looking for recv - found
+-- Looking for send
+-- Looking for send - found
+-- Looking for sendmsg
+-- Looking for sendmsg - found
+-- Looking for select
+-- Looking for select - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strtok_r
+-- Looking for strtok_r - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for strcmpi
+-- Looking for strcmpi - not found
+-- Looking for memrchr
+-- Looking for memrchr - not found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Looking for arc4random
+-- Looking for arc4random - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for getppid
+-- Looking for getppid - found
+-- Looking for utimes
+-- Looking for utimes - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for closesocket
+-- Looking for closesocket - not found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - found
+-- Looking for getpass_r
+-- Looking for getpass_r - not found
+-- Looking for getpwuid
+-- Looking for getpwuid - found
+-- Looking for getpwuid_r
+-- Looking for getpwuid_r - found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Looking for utime
+-- Looking for utime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Looking for siginterrupt
+-- Looking for siginterrupt - found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for getifaddrs
+-- Looking for getifaddrs - found
+-- Looking for freeaddrinfo
+-- Looking for freeaddrinfo - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for _fseeki64
+-- Looking for _fseeki64 - not found
+-- Looking for getpeername
+-- Looking for getpeername - found
+-- Looking for getsockname
+-- Looking for getsockname - found
+-- Looking for if_nametoindex
+-- Looking for if_nametoindex - found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for setmode
+-- Looking for setmode - not found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for mach_absolute_time
+-- Looking for mach_absolute_time - not found
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for fsetxattr
+-- Looking for fsetxattr - found
+-- Performing Test HAVE_FSETXATTR_5
+-- Performing Test HAVE_FSETXATTR_5 - Success
+-- Performing Test HAVE_FSETXATTR_6
+-- Performing Test HAVE_FSETXATTR_6 - Failed
+-- Check size of sa_family_t
+-- Check size of sa_family_t - done
+-- Performing Test HAVE_FCNTL_O_NONBLOCK
+-- Performing Test HAVE_FCNTL_O_NONBLOCK - Success
+-- Performing Test HAVE_IOCTLSOCKET
+[ 40%] [32m[1mLinking CXX shared library Release/librealsense2.so[0m
+-- Performing Test HAVE_IOCTLSOCKET - Failed
+-- Performing Test HAVE_IOCTLSOCKET_CAMEL
+-- Performing Test HAVE_IOCTLSOCKET_CAMEL - Failed
+-- Performing Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO
+-- Performing Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO - Failed
+-- Performing Test HAVE_IOCTLSOCKET_FIONBIO
+-- Performing Test HAVE_IOCTLSOCKET_FIONBIO - Failed
+-- Performing Test HAVE_IOCTL_FIONBIO
+-- Performing Test HAVE_IOCTL_FIONBIO - Success
+-- Performing Test HAVE_IOCTL_SIOCGIFADDR
+-- Performing Test HAVE_IOCTL_SIOCGIFADDR - Success
+-- Performing Test HAVE_SETSOCKOPT_SO_NONBLOCK
+-- Performing Test HAVE_SETSOCKOPT_SO_NONBLOCK - Failed
+-- Performing Test HAVE_O_NONBLOCK
+-- Performing Test HAVE_O_NONBLOCK - Failed
+-- Performing Test HAVE_GETHOSTBYNAME_R_3
+-- Performing Test HAVE_GETHOSTBYNAME_R_3 - Failed
+-- Performing Test HAVE_GETHOSTBYNAME_R_5
+-- Performing Test HAVE_GETHOSTBYNAME_R_5 - Failed
+-- Performing Test HAVE_GETHOSTBYNAME_R_6
+[ 40%] Built target realsense2
+-- Performing Test HAVE_GETHOSTBYNAME_R_6 - Success
+-- Performing Test HAVE_GETHOSTBYNAME_R_3_REENTRANT
+-- Performing Test HAVE_GETHOSTBYNAME_R_3_REENTRANT - Failed
+-- Performing Test HAVE_GETHOSTBYNAME_R_5_REENTRANT
+[ 41%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/rs-capture.cpp.o[0m
+[ 41%] [32mBuilding CXX object examples/save-to-disk/CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o[0m
+[ 41%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/y4112rgb-gl.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/synthetic-stream-gl.cpp.o[0m
+[ 41%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 42%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/yuy2rgb-gl.cpp.o[0m
+[ 42%] [32mBuilding CXX object examples/hello-realsense/CMakeFiles/rs-hello-realsense.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 42%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 42%] [32mBuilding CXX object examples/callback/CMakeFiles/rs-callback.dir/rs-callback.cpp.o[0m
+[ 42%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 42%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/rs-software-device.cpp.o[0m
+[ 41%] [32mBuilding CXX object examples/hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o[0m
+[ 43%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 43%] [32mBuilding CXX object examples/callback/CMakeFiles/rs-callback.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+-- Performing Test HAVE_GETHOSTBYNAME_R_5_REENTRANT - Failed
+-- Performing Test HAVE_GETHOSTBYNAME_R_6_REENTRANT
+[ 43%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/rs-align-advanced.cpp.o[0m
+[ 44%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/rs-sensor-control.cpp.o[0m
+[ 44%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/rs-pointcloud.cpp.o[0m
+[ 44%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/rs-align.cpp.o[0m
+[ 44%] [32mBuilding C object examples/C/depth/CMakeFiles/rs-depth.dir/rs-depth.c.o[0m
+-- Performing Test HAVE_GETHOSTBYNAME_R_6_REENTRANT - Success
+-- Performing Test HAVE_IN_ADDR_T
+[ 44%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/rs-multicam.cpp.o[0m
+[ 44%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/rs-measure.cpp.o[0m
+-- Performing Test HAVE_IN_ADDR_T - Success
+-- Performing Test HAVE_BOOL_T
+-- Performing Test HAVE_BOOL_T - Success
+-- Performing Test STDC_HEADERS
+-- Performing Test STDC_HEADERS - Success
+-- Performing Test HAVE_FILE_OFFSET_BITS
+-- Performing Test HAVE_FILE_OFFSET_BITS - Success
+-- Performing Test HAVE_ATOMIC
+[ 45%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 45%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+-- Performing Test HAVE_ATOMIC - Success
+-- Check size of off_t
+[ 46%] [32mBuilding C object examples/C/color/CMakeFiles/rs-color.dir/rs-color.c.o[0m
+[ 46%] [32mBuilding C object examples/C/distance/CMakeFiles/rs-distance.dir/rs-distance.c.o[0m
+-- Check size of off_t - done
+-- Looking for fseeko
+[ 46%] [32m[1mLinking CXX executable ../../../Release/rs-color[0m
+[ 46%] [32m[1mLinking CXX executable ../../../Release/rs-distance[0m
+[ 46%] [32m[1mLinking CXX executable ../../../Release/rs-depth[0m
+-- Looking for fseeko - found
+-- Check size of curl_off_t
+[ 46%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+-- Check size of curl_off_t - done
+-- Check size of curl_socket_t
+-- Check size of curl_socket_t - done
+-- Performing Test HAVE_WRITABLE_ARGV
+-- Performing Test HAVE_WRITABLE_ARGV - Success
+-- Performing Test HAVE_GLIBC_STRERROR_R
+[ 46%] Built target rs-color
+[ 46%] Built target rs-distance
+[ 46%] Built target rs-depth
+[ 46%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 47%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 47%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/rs-post-processing.cpp.o[0m
+-- Performing Test HAVE_GLIBC_STRERROR_R - Failed
+-- Performing Test HAVE_POSIX_STRERROR_R
+-- Performing Test HAVE_POSIX_STRERROR_R - Success
+-- Performing Test HAVE_CLOCK_GETTIME_MONOTONIC
+-- Performing Test HAVE_CLOCK_GETTIME_MONOTONIC - Success
+-- Performing Test HAVE_BUILTIN_AVAILABLE
+-- Performing Test HAVE_BUILTIN_AVAILABLE - Failed
+-- Check size of struct sockaddr_storage
+-- Check size of struct sockaddr_storage - done
+-- Performing Test HAVE_MSG_NOSIGNAL
+[ 47%] [32m[1mLinking CXX executable ../../Release/rs-save-to-disk[0m
+-- Performing Test HAVE_MSG_NOSIGNAL - Success
+-- Performing Test HAVE_STRUCT_TIMEVAL
+-- Performing Test HAVE_STRUCT_TIMEVAL - Success
+-- Performing Test HAVE_POLL_FINE
+[ 47%] Built target rs-save-to-disk
+[ 48%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/pointcloud-gl.cpp.o[0m
+[ 48%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 48%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+-- Performing Test HAVE_POLL_FINE - Success
+-- Performing Test HAVE_H_ERRNO
+[ 49%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 49%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+-- Performing Test HAVE_H_ERRNO - Success
+-- Performing Test HAVE_CLOCK_GETTIME_MONOTONIC_RAW
+[ 49%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 49%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+-- Performing Test HAVE_CLOCK_GETTIME_MONOTONIC_RAW - Success
+[ 49%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+-- Enabled features: SSL IPv6 UnixSockets AsynchDNS Largefile alt-svc HSTS NTLM TLS-SRP HTTPS-proxy threadsafe
+-- Enabled protocols: HTTP HTTPS IPFS IPNS
+-- Enabled SSL backends: OpenSSL
+-- Configuring done (30.7s)
+[ 49%] [32m[1mLinking CXX executable ../../Release/rs-hello-realsense[0m
+-- Generating done (0.1s)
+-- Build files have been written to: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-build
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ANDROID_ABI
+    ANDROID_STL
+    CMAKE_CXX_FLAGS
+    CMAKE_CXX_STANDARD_LIBRARIES
+    CURL_DISABLE_CRYPTO_AUTH
+
+[0m
+[ 49%] [34m[1mPerforming build step for 'libcurl'[0m
+[ 49%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/rs-gl.cpp.o[0m
+[ 49%] Built target rs-hello-realsense
+[ 49%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[  0%] [34m[1mGenerating curl-config.1[0m
+[ 49%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/rs-record-playback.cpp.o[0m
+[  0%] Built target curl-generate-curl-config.1
+[  1%] [34m[1mGenerating mk-ca-bundle.1[0m
+[ 49%] [32m[1mLinking CXX executable ../../Release/rs-callback[0m
+[  1%] Built target curl-generate-mk-ca-bundle.1
+[  1%] [34m[1mGenerating CURLINFO_ACTIVESOCKET.3, CURLINFO_APPCONNECT_TIME.3, CURLINFO_APPCONNECT_TIME_T.3, CURLINFO_CAINFO.3, CURLINFO_CAPATH.3, CURLINFO_CERTINFO.3, CURLINFO_CONDITION_UNMET.3, CURLINFO_CONNECT_TIME.3, CURLINFO_CONNECT_TIME_T.3, CURLINFO_CONN_ID.3, CURLINFO_CONTENT_LENGTH_DOWNLOAD.3, CURLINFO_CONTENT_LENGTH_DOWNLOAD_T.3, CURLINFO_CONTENT_LENGTH_UPLOAD.3, CURLINFO_CONTENT_LENGTH_UPLOAD_T.3, CURLINFO_CONTENT_TYPE.3, CURLINFO_COOKIELIST.3, CURLINFO_EFFECTIVE_METHOD.3, CURLINFO_EFFECTIVE_URL.3, CURLINFO_FILETIME.3, CURLINFO_FILETIME_T.3, CURLINFO_FTP_ENTRY_PATH.3, CURLINFO_HEADER_SIZE.3, CURLINFO_HTTP_CONNECTCODE.3, CURLINFO_HTTP_VERSION.3, CURLINFO_HTTPAUTH_AVAIL.3, CURLINFO_LASTSOCKET.3, CURLINFO_LOCAL_IP.3, CURLINFO_LOCAL_PORT.3, CURLINFO_NAMELOOKUP_TIME.3, CURLINFO_NAMELOOKUP_TIME_T.3, CURLINFO_NUM_CONNECTS.3, CURLINFO_OS_ERRNO.3, CURLINFO_PRETRANSFER_TIME.3, CURLINFO_PRETRANSFER_TIME_T.3, CURLINFO_PRIMARY_IP.3, CURLINFO_PRIMARY_PORT.3, CURLINFO_PRIVATE.3, CURLINFO_PROTOCOL.3, CURLINFO_PROXY_ERROR.3, CURLINFO_PROXY_SSL_VERIFYRESULT.3, CURLINFO_PROXYAUTH_AVAIL.3, CURLINFO_QUEUE_TIME_T.3, CURLINFO_REDIRECT_COUNT.3, CURLINFO_REDIRECT_TIME.3, CURLINFO_REDIRECT_TIME_T.3, CURLINFO_REDIRECT_URL.3, CURLINFO_REFERER.3, CURLINFO_REQUEST_SIZE.3, CURLINFO_RESPONSE_CODE.3, CURLINFO_RETRY_AFTER.3, CURLINFO_RTSP_CLIENT_CSEQ.3, CURLINFO_RTSP_CSEQ_RECV.3, CURLINFO_RTSP_SERVER_CSEQ.3, CURLINFO_RTSP_SESSION_ID.3, CURLINFO_SCHEME.3, CURLINFO_SIZE_DOWNLOAD.3, CURLINFO_SIZE_DOWNLOAD_T.3, CURLINFO_SIZE_UPLOAD.3, CURLINFO_SIZE_UPLOAD_T.3, CURLINFO_SPEED_DOWNLOAD.3, CURLINFO_SPEED_DOWNLOAD_T.3, CURLINFO_SPEED_UPLOAD.3, CURLINFO_SPEED_UPLOAD_T.3, CURLINFO_SSL_ENGINES.3, CURLINFO_SSL_VERIFYRESULT.3, CURLINFO_STARTTRANSFER_TIME.3, CURLINFO_STARTTRANSFER_TIME_T.3, CURLINFO_TLS_SESSION.3, CURLINFO_TLS_SSL_PTR.3, CURLINFO_TOTAL_TIME.3, CURLINFO_TOTAL_TIME_T.3, CURLINFO_USED_PROXY.3, CURLINFO_XFER_ID.3, CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3, CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3, CURLMOPT_MAX_CONCURRENT_STREAMS.3, CURLMOPT_MAX_HOST_CONNECTIONS.3, CURLMOPT_MAX_PIPELINE_LENGTH.3, CURLMOPT_MAX_TOTAL_CONNECTIONS.3, CURLMOPT_MAXCONNECTS.3, CURLMOPT_PIPELINING.3, CURLMOPT_PIPELINING_SERVER_BL.3, CURLMOPT_PIPELINING_SITE_BL.3, CURLMOPT_PUSHDATA.3, CURLMOPT_PUSHFUNCTION.3, CURLMOPT_SOCKETDATA.3, CURLMOPT_SOCKETFUNCTION.3, CURLMOPT_TIMERDATA.3, CURLMOPT_TIMERFUNCTION.3, CURLOPT_ABSTRACT_UNIX_SOCKET.3, CURLOPT_ACCEPT_ENCODING.3, CURLOPT_ACCEPTTIMEOUT_MS.3, CURLOPT_ADDRESS_SCOPE.3, CURLOPT_ALTSVC.3, CURLOPT_ALTSVC_CTRL.3, CURLOPT_APPEND.3, CURLOPT_AUTOREFERER.3, CURLOPT_AWS_SIGV4.3, CURLOPT_BUFFERSIZE.3, CURLOPT_CAINFO.3, CURLOPT_CAINFO_BLOB.3, CURLOPT_CAPATH.3, CURLOPT_CA_CACHE_TIMEOUT.3, CURLOPT_CERTINFO.3, CURLOPT_CHUNK_BGN_FUNCTION.3, CURLOPT_CHUNK_DATA.3, CURLOPT_CHUNK_END_FUNCTION.3, CURLOPT_CLOSESOCKETDATA.3, CURLOPT_CLOSESOCKETFUNCTION.3, CURLOPT_CONNECT_ONLY.3, CURLOPT_CONNECT_TO.3, CURLOPT_CONNECTTIMEOUT.3, CURLOPT_CONNECTTIMEOUT_MS.3, CURLOPT_CONV_FROM_NETWORK_FUNCTION.3, CURLOPT_CONV_FROM_UTF8_FUNCTION.3, CURLOPT_CONV_TO_NETWORK_FUNCTION.3, CURLOPT_COOKIE.3, CURLOPT_COOKIEFILE.3, CURLOPT_COOKIEJAR.3, CURLOPT_COOKIELIST.3, CURLOPT_COOKIESESSION.3, CURLOPT_COPYPOSTFIELDS.3, CURLOPT_CRLF.3, CURLOPT_CRLFILE.3, CURLOPT_CURLU.3, CURLOPT_CUSTOMREQUEST.3, CURLOPT_DEBUGDATA.3, CURLOPT_DEBUGFUNCTION.3, CURLOPT_DEFAULT_PROTOCOL.3, CURLOPT_DIRLISTONLY.3, CURLOPT_DISALLOW_USERNAME_IN_URL.3, CURLOPT_DNS_CACHE_TIMEOUT.3, CURLOPT_DNS_INTERFACE.3, CURLOPT_DNS_LOCAL_IP4.3, CURLOPT_DNS_LOCAL_IP6.3, CURLOPT_DNS_SERVERS.3, CURLOPT_DNS_SHUFFLE_ADDRESSES.3, CURLOPT_DNS_USE_GLOBAL_CACHE.3, CURLOPT_DOH_SSL_VERIFYHOST.3, CURLOPT_DOH_SSL_VERIFYPEER.3, CURLOPT_DOH_SSL_VERIFYSTATUS.3, CURLOPT_DOH_URL.3, CURLOPT_ECH.3, CURLOPT_EGDSOCKET.3, CURLOPT_ERRORBUFFER.3, CURLOPT_EXPECT_100_TIMEOUT_MS.3, CURLOPT_FAILONERROR.3, CURLOPT_FILETIME.3, CURLOPT_FNMATCH_DATA.3, CURLOPT_FNMATCH_FUNCTION.3, CURLOPT_FOLLOWLOCATION.3, CURLOPT_FORBID_REUSE.3, CURLOPT_FRESH_CONNECT.3, CURLOPT_FTP_ACCOUNT.3, CURLOPT_FTP_ALTERNATIVE_TO_USER.3, CURLOPT_FTP_CREATE_MISSING_DIRS.3, CURLOPT_FTP_FILEMETHOD.3, CURLOPT_FTP_SKIP_PASV_IP.3, CURLOPT_FTP_SSL_CCC.3, CURLOPT_FTP_USE_EPRT.3, CURLOPT_FTP_USE_EPSV.3, CURLOPT_FTP_USE_PRET.3, CURLOPT_FTPPORT.3, CURLOPT_FTPSSLAUTH.3, CURLOPT_GSSAPI_DELEGATION.3, CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS.3, CURLOPT_HAPROXYPROTOCOL.3, CURLOPT_HAPROXY_CLIENT_IP.3, CURLOPT_HEADER.3, CURLOPT_HEADERDATA.3, CURLOPT_HEADERFUNCTION.3, CURLOPT_HEADEROPT.3, CURLOPT_HSTS.3, CURLOPT_HSTS_CTRL.3, CURLOPT_HSTSREADDATA.3, CURLOPT_HSTSREADFUNCTION.3, CURLOPT_HSTSWRITEDATA.3, CURLOPT_HSTSWRITEFUNCTION.3, CURLOPT_HTTP09_ALLOWED.3, CURLOPT_HTTP200ALIASES.3, CURLOPT_HTTP_CONTENT_DECODING.3, CURLOPT_HTTP_TRANSFER_DECODING.3, CURLOPT_HTTP_VERSION.3, CURLOPT_HTTPAUTH.3, CURLOPT_HTTPGET.3, CURLOPT_HTTPHEADER.3, CURLOPT_HTTPPOST.3, CURLOPT_HTTPPROXYTUNNEL.3, CURLOPT_IGNORE_CONTENT_LENGTH.3, CURLOPT_INFILESIZE.3, CURLOPT_INFILESIZE_LARGE.3, CURLOPT_INTERFACE.3, CURLOPT_INTERLEAVEDATA.3, CURLOPT_INTERLEAVEFUNCTION.3, CURLOPT_IOCTLDATA.3, CURLOPT_IOCTLFUNCTION.3, CURLOPT_IPRESOLVE.3, CURLOPT_ISSUERCERT.3, CURLOPT_ISSUERCERT_BLOB.3, CURLOPT_KEEP_SENDING_ON_ERROR.3, CURLOPT_KEYPASSWD.3, CURLOPT_KRBLEVEL.3, CURLOPT_LOCALPORT.3, CURLOPT_LOCALPORTRANGE.3, CURLOPT_LOGIN_OPTIONS.3, CURLOPT_LOW_SPEED_LIMIT.3, CURLOPT_LOW_SPEED_TIME.3, CURLOPT_MAIL_AUTH.3, CURLOPT_MAIL_FROM.3, CURLOPT_MAIL_RCPT.3, CURLOPT_MAIL_RCPT_ALLOWFAILS.3, CURLOPT_MAX_RECV_SPEED_LARGE.3, CURLOPT_MAX_SEND_SPEED_LARGE.3, CURLOPT_MAXAGE_CONN.3, CURLOPT_MAXCONNECTS.3, CURLOPT_MAXFILESIZE.3, CURLOPT_MAXFILESIZE_LARGE.3, CURLOPT_MAXLIFETIME_CONN.3, CURLOPT_MAXREDIRS.3, CURLOPT_MIME_OPTIONS.3, CURLOPT_MIMEPOST.3, CURLOPT_NETRC.3, CURLOPT_NETRC_FILE.3, CURLOPT_NEW_DIRECTORY_PERMS.3, CURLOPT_NEW_FILE_PERMS.3, CURLOPT_NOBODY.3, CURLOPT_NOPROGRESS.3, CURLOPT_NOPROXY.3, CURLOPT_NOSIGNAL.3, CURLOPT_OPENSOCKETDATA.3, CURLOPT_OPENSOCKETFUNCTION.3, CURLOPT_PASSWORD.3, CURLOPT_PATH_AS_IS.3, CURLOPT_PINNEDPUBLICKEY.3, CURLOPT_PIPEWAIT.3, CURLOPT_PORT.3, CURLOPT_POST.3, CURLOPT_POSTFIELDS.3, CURLOPT_POSTFIELDSIZE.3, CURLOPT_POSTFIELDSIZE_LARGE.3, CURLOPT_POSTQUOTE.3, CURLOPT_POSTREDIR.3, CURLOPT_PRE_PROXY.3, CURLOPT_PREQUOTE.3, CURLOPT_PREREQDATA.3, CURLOPT_PREREQFUNCTION.3, CURLOPT_PRIVATE.3, CURLOPT_PROGRESSDATA.3, CURLOPT_PROGRESSFUNCTION.3, CURLOPT_PROTOCOLS.3, CURLOPT_PROTOCOLS_STR.3, CURLOPT_PROXY.3, CURLOPT_PROXY_CAINFO.3, CURLOPT_PROXY_CAINFO_BLOB.3, CURLOPT_PROXY_CAPATH.3, CURLOPT_PROXY_CRLFILE.3, CURLOPT_PROXY_ISSUERCERT.3, CURLOPT_PROXY_ISSUERCERT_BLOB.3, CURLOPT_PROXY_KEYPASSWD.3, CURLOPT_PROXY_PINNEDPUBLICKEY.3, CURLOPT_PROXY_SERVICE_NAME.3, CURLOPT_PROXY_SSL_CIPHER_LIST.3, CURLOPT_PROXY_SSL_OPTIONS.3, CURLOPT_PROXY_SSL_VERIFYHOST.3, CURLOPT_PROXY_SSL_VERIFYPEER.3, CURLOPT_PROXY_SSLCERT.3, CURLOPT_PROXY_SSLCERT_BLOB.3, CURLOPT_PROXY_SSLCERTTYPE.3, CURLOPT_PROXY_SSLKEY.3, CURLOPT_PROXY_SSLKEY_BLOB.3, CURLOPT_PROXY_SSLKEYTYPE.3, CURLOPT_PROXY_SSLVERSION.3, CURLOPT_PROXY_TLS13_CIPHERS.3, CURLOPT_PROXY_TLSAUTH_PASSWORD.3, CURLOPT_PROXY_TLSAUTH_TYPE.3, CURLOPT_PROXY_TLSAUTH_USERNAME.3, CURLOPT_PROXY_TRANSFER_MODE.3, CURLOPT_PROXYAUTH.3, CURLOPT_PROXYHEADER.3, CURLOPT_PROXYPASSWORD.3, CURLOPT_PROXYPORT.3, CURLOPT_PROXYTYPE.3, CURLOPT_PROXYUSERNAME.3, CURLOPT_PROXYUSERPWD.3, CURLOPT_PUT.3, CURLOPT_QUICK_EXIT.3, CURLOPT_QUOTE.3, CURLOPT_RANDOM_FILE.3, CURLOPT_RANGE.3, CURLOPT_READDATA.3, CURLOPT_READFUNCTION.3, CURLOPT_REDIR_PROTOCOLS.3, CURLOPT_REDIR_PROTOCOLS_STR.3, CURLOPT_REFERER.3, CURLOPT_REQUEST_TARGET.3, CURLOPT_RESOLVE.3, CURLOPT_RESOLVER_START_DATA.3, CURLOPT_RESOLVER_START_FUNCTION.3, CURLOPT_RESUME_FROM.3, CURLOPT_RESUME_FROM_LARGE.3, CURLOPT_RTSP_CLIENT_CSEQ.3, CURLOPT_RTSP_REQUEST.3, CURLOPT_RTSP_SERVER_CSEQ.3, CURLOPT_RTSP_SESSION_ID.3, CURLOPT_RTSP_STREAM_URI.3, CURLOPT_RTSP_TRANSPORT.3, CURLOPT_SASL_AUTHZID.3, CURLOPT_SASL_IR.3, CURLOPT_SEEKDATA.3, CURLOPT_SEEKFUNCTION.3, CURLOPT_SERVER_RESPONSE_TIMEOUT.3, CURLOPT_SERVER_RESPONSE_TIMEOUT_MS.3, CURLOPT_SERVICE_NAME.3, CURLOPT_SHARE.3, CURLOPT_SOCKOPTDATA.3, CURLOPT_SOCKOPTFUNCTION.3, CURLOPT_SOCKS5_AUTH.3, CURLOPT_SOCKS5_GSSAPI_NEC.3, CURLOPT_SOCKS5_GSSAPI_SERVICE.3, CURLOPT_SSH_AUTH_TYPES.3, CURLOPT_SSH_COMPRESSION.3, CURLOPT_SSH_HOSTKEYDATA.3, CURLOPT_SSH_HOSTKEYFUNCTION.3, CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3, CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256.3, CURLOPT_SSH_KEYDATA.3, CURLOPT_SSH_KEYFUNCTION.3, CURLOPT_SSH_KNOWNHOSTS.3, CURLOPT_SSH_PRIVATE_KEYFILE.3, CURLOPT_SSH_PUBLIC_KEYFILE.3, CURLOPT_SSL_CIPHER_LIST.3, CURLOPT_SSL_CTX_DATA.3, CURLOPT_SSL_CTX_FUNCTION.3, CURLOPT_SSL_EC_CURVES.3, CURLOPT_SSL_ENABLE_ALPN.3, CURLOPT_SSL_ENABLE_NPN.3, CURLOPT_SSL_FALSESTART.3, CURLOPT_SSL_OPTIONS.3, CURLOPT_SSL_SESSIONID_CACHE.3, CURLOPT_SSL_VERIFYHOST.3, CURLOPT_SSL_VERIFYPEER.3, CURLOPT_SSL_VERIFYSTATUS.3, CURLOPT_SSLCERT.3, CURLOPT_SSLCERT_BLOB.3, CURLOPT_SSLCERTTYPE.3, CURLOPT_SSLENGINE.3, CURLOPT_SSLENGINE_DEFAULT.3, CURLOPT_SSLKEY.3, CURLOPT_SSLKEY_BLOB.3, CURLOPT_SSLKEYTYPE.3, CURLOPT_SSLVERSION.3, CURLOPT_STDERR.3, CURLOPT_STREAM_DEPENDS.3, CURLOPT_STREAM_DEPENDS_E.3, CURLOPT_STREAM_WEIGHT.3, CURLOPT_SUPPRESS_CONNECT_HEADERS.3, CURLOPT_TCP_FASTOPEN.3, CURLOPT_TCP_KEEPALIVE.3, CURLOPT_TCP_KEEPIDLE.3, CURLOPT_TCP_KEEPINTVL.3, CURLOPT_TCP_NODELAY.3, CURLOPT_TELNETOPTIONS.3, CURLOPT_TFTP_BLKSIZE.3, CURLOPT_TFTP_NO_OPTIONS.3, CURLOPT_TIMECONDITION.3, CURLOPT_TIMEOUT.3, CURLOPT_TIMEOUT_MS.3, CURLOPT_TIMEVALUE.3, CURLOPT_TIMEVALUE_LARGE.3, CURLOPT_TLS13_CIPHERS.3, CURLOPT_TLSAUTH_PASSWORD.3, CURLOPT_TLSAUTH_TYPE.3, CURLOPT_TLSAUTH_USERNAME.3, CURLOPT_TRAILERDATA.3, CURLOPT_TRAILERFUNCTION.3, CURLOPT_TRANSFER_ENCODING.3, CURLOPT_TRANSFERTEXT.3, CURLOPT_UNIX_SOCKET_PATH.3, CURLOPT_UNRESTRICTED_AUTH.3, CURLOPT_UPKEEP_INTERVAL_MS.3, CURLOPT_UPLOAD.3, CURLOPT_UPLOAD_BUFFERSIZE.3, CURLOPT_URL.3, CURLOPT_USE_SSL.3, CURLOPT_USERAGENT.3, CURLOPT_USERNAME.3, CURLOPT_USERPWD.3, CURLOPT_VERBOSE.3, CURLOPT_WILDCARDMATCH.3, CURLOPT_WRITEDATA.3, CURLOPT_WRITEFUNCTION.3, CURLOPT_WS_OPTIONS.3, CURLOPT_XFERINFODATA.3, CURLOPT_XFERINFOFUNCTION.3, CURLOPT_XOAUTH2_BEARER.3, CURLSHOPT_LOCKFUNC.3, CURLSHOPT_SHARE.3, CURLSHOPT_UNLOCKFUNC.3, CURLSHOPT_UNSHARE.3, CURLSHOPT_USERDATA.3[0m
+[ 49%] Built target rs-callback
+[ 49%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 50%] [32mBuilding C object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/glad/glad.c.o[0m
+[ 50%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/rs-motion.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[  2%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/altsvc.c.o[0m
+[ 50%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/__/__/common/opengl3.cpp.o[0m
+[ 51%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 52%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[  3%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/amigaos.c.o[0m
+[ 53%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[  3%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/asyn-ares.c.o[0m
+[  4%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/asyn-thread.c.o[0m
+[  4%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/base64.c.o[0m
+[ 54%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 54%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/rs-hdr.cpp.o[0m
+[  5%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/bufq.c.o[0m
+[ 54%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 54%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable ../../Release/rs-capture[0m
+[ 54%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/pc-shader.cpp.o[0m
+[ 54%] [32mBuilding CXX object examples/on-chip-calib/CMakeFiles/rs-on-chip-calib.dir/rs-on-chip-calib.cpp.o[0m
+[  5%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/bufref.c.o[0m
+[ 55%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[  6%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/c-hyper.c.o[0m
+[ 55%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[  7%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cf-h1-proxy.c.o[0m
+[ 56%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 56%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 56%] Built target rs-capture
+[ 56%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 56%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[  7%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cf-h2-proxy.c.o[0m
+[ 56%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[  8%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cf-haproxy.c.o[0m
+[  8%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cf-https-connect.c.o[0m
+[ 56%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 56%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 56%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[  9%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cf-socket.c.o[0m
+[  9%] Built target curl-opts-man
+[ 58%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 58%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 59%] [32mBuilding C object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[  9%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cfilters.c.o[0m
+[ 59%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 59%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 10%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/conncache.c.o[0m
+[ 59%] [32mBuilding CXX object examples/on-chip-calib/CMakeFiles/rs-on-chip-calib.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 59%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/rs-convert.cpp.o[0m
+[ 11%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/connect.c.o[0m
+[ 60%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 11%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/content_encoding.c.o[0m
+[ 60%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 12%] [34m[1mGenerating libcurl-symbols.md[0m
+[ 60%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 12%] [34m[1mGenerating curl_easy_cleanup.3, curl_easy_duphandle.3, curl_easy_escape.3, curl_easy_getinfo.3, curl_easy_header.3, curl_easy_init.3, curl_easy_nextheader.3, curl_easy_option_by_id.3, curl_easy_option_by_name.3, curl_easy_option_next.3, curl_easy_pause.3, curl_easy_perform.3, curl_easy_recv.3, curl_easy_reset.3, curl_easy_send.3, curl_easy_setopt.3, curl_easy_strerror.3, curl_easy_unescape.3, curl_easy_upkeep.3, curl_escape.3, curl_formadd.3, curl_formfree.3, curl_formget.3, curl_free.3, curl_getdate.3, curl_getenv.3, curl_global_cleanup.3, curl_global_init.3, curl_global_init_mem.3, curl_global_trace.3, curl_global_sslset.3, curl_mime_addpart.3, curl_mime_data.3, curl_mime_data_cb.3, curl_mime_encoder.3, curl_mime_filedata.3, curl_mime_filename.3, curl_mime_free.3, curl_mime_headers.3, curl_mime_init.3, curl_mime_name.3, curl_mime_subparts.3, curl_mime_type.3, curl_mprintf.3, curl_multi_add_handle.3, curl_multi_assign.3, curl_multi_cleanup.3, curl_multi_fdset.3, curl_multi_get_handles.3, curl_multi_info_read.3, curl_multi_init.3, curl_multi_perform.3, curl_multi_poll.3, curl_multi_remove_handle.3, curl_multi_setopt.3, curl_multi_socket.3, curl_multi_socket_action.3, curl_multi_socket_all.3, curl_multi_strerror.3, curl_multi_timeout.3, curl_multi_wakeup.3, curl_multi_wait.3, curl_multi_waitfds.3, curl_pushheader_bynum.3, curl_pushheader_byname.3, curl_share_cleanup.3, curl_share_init.3, curl_share_setopt.3, curl_share_strerror.3, curl_slist_append.3, curl_slist_free_all.3, curl_strequal.3, curl_strnequal.3, curl_unescape.3, curl_url.3, curl_url_cleanup.3, curl_url_dup.3, curl_url_get.3, curl_url_set.3, curl_url_strerror.3, curl_version.3, curl_version_info.3, curl_ws_meta.3, curl_ws_recv.3, curl_ws_send.3, libcurl-easy.3, libcurl-env.3, libcurl-env-dbg.3, libcurl-errors.3, libcurl-multi.3, libcurl-security.3, libcurl-share.3, libcurl-symbols.3, libcurl-thread.3, libcurl-tutorial.3, libcurl-url.3, libcurl-ws.3, libcurl.3[0m
+[ 13%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cookie.c.o[0m
+[ 60%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/camera-shader.cpp.o[0m
+[ 61%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 62%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converter.cpp.o[0m
+[ 62%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 13%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_addrinfo.c.o[0m
+[ 62%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 14%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_des.c.o[0m
+[ 14%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_endian.c.o[0m
+[ 15%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_fnmatch.c.o[0m
+[ 16%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_get_line.c.o[0m
+[ 16%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_gethostname.c.o[0m
+[ 62%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 17%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_gssapi.c.o[0m
+[ 17%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_memrchr.c.o[0m
+[ 18%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_multibyte.c.o[0m
+[ 62%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable ../../Release/rs-software-device[0m
+[ 62%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 18%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_ntlm_core.c.o[0m
+[ 19%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_path.c.o[0m
+[ 62%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 62%] Built target rs-software-device
+[ 20%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_range.c.o[0m
+[ 62%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converters/converter-csv.cpp.o[0m
+[ 20%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_rtmp.c.o[0m
+[ 21%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_sasl.c.o[0m
+[ 21%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_sha512_256.c.o[0m
+[ 62%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 63%] [32mBuilding CXX object tools/enumerate-devices/CMakeFiles/rs-enumerate-devices.dir/rs-enumerate-devices.cpp.o[0m
+[ 22%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_sspi.c.o[0m
+[ 63%] [32mBuilding CXX object tools/fw-logger/CMakeFiles/rs-fw-logger.dir/rs-fw-logger.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable ../../Release/rs-on-chip-calib[0m
+[ 22%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_threads.c.o[0m
+[ 22%] Built target curl-man
+[ 63%] [32mBuilding CXX object tools/fw-logger/CMakeFiles/rs-fw-logger.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 23%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/curl_trc.c.o[0m
+[ 63%] [32mBuilding CXX object tools/enumerate-devices/CMakeFiles/rs-enumerate-devices.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 63%] Built target rs-on-chip-calib
+[ 24%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/cw-out.c.o[0m
+[ 63%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 63%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 24%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/dict.c.o[0m
+[ 63%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 25%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/doh.c.o[0m
+[ 63%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 63%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 63%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/upload.cpp.o[0m
+[ 64%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/colorizer-gl.cpp.o[0m
+[ 64%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converters/converter-3d-csv.cpp.o[0m
+[ 25%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/dynbuf.c.o[0m
+[ 26%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/dynhds.c.o[0m
+[ 64%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/rs-terminal.cpp.o[0m
+[ 64%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/auto-complete.cpp.o[0m
+[ 26%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/easy.c.o[0m
+[ 27%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/easygetopt.c.o[0m
+[ 28%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/easyoptions.c.o[0m
+[ 64%] [32m[1mLinking CXX executable ../../Release/rs-measure[0m
+[ 28%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/escape.c.o[0m
+[ 29%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/file.c.o[0m
+[ 29%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/fileinfo.c.o[0m
+[ 64%] Built target rs-measure
+[ 30%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/fopen.c.o[0m
+[ 64%] [32mBuilding CXX object tools/recorder/CMakeFiles/rs-record.dir/rs-record.cpp.o[0m
+[ 30%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/formdata.c.o[0m
+[ 31%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/ftp.c.o[0m
+[ 32%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/ftplistparser.c.o[0m
+[ 64%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 64%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 32%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/getenv.c.o[0m
+[ 64%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable ../../Release/rs-sensor-control[0m
+[ 64%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 33%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/getinfo.c.o[0m
+[ 33%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/gopher.c.o[0m
+[ 34%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hash.c.o[0m
+[ 64%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 64%] Built target rs-sensor-control
+[ 34%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/headers.c.o[0m
+[ 64%] [32mBuilding CXX object tools/recorder/CMakeFiles/rs-record.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 65%] [32mBuilding CXX object tools/fw-update/CMakeFiles/rs-fw-update.dir/rs-fw-update.cpp.o[0m
+[ 35%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hmac.c.o[0m
+[ 65%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 36%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hostasyn.c.o[0m
+[ 65%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 36%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hostip.c.o[0m
+[ 37%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hostip4.c.o[0m
+[ 65%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/align-gl.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 66%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 37%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hostip6.c.o[0m
+[ 67%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 38%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hostsyn.c.o[0m
+[ 38%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/hsts.c.o[0m
+[ 68%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 39%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http.c.o[0m
+[ 68%] [32mBuilding CXX object tools/fw-update/CMakeFiles/rs-fw-update.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 68%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 68%] [32mBuilding C object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[ 68%] [32m[1mLinking CXX executable ../../Release/rs-align[0m
+[ 68%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 68%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 68%] Built target rs-align
+[ 68%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 40%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http1.c.o[0m
+[ 69%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/easyloggingpp/src/easylogging++.cc.o[0m
+[ 69%] [32m[1mLinking CXX executable ../../Release/rs-pointcloud[0m
+[ 69%] [32m[1mLinking CXX executable ../../Release/rs-fw-logger[0m
+[ 40%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http2.c.o[0m
+[ 41%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http_aws_sigv4.c.o[0m
+[ 41%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http_chunks.c.o[0m
+[ 69%] [32m[1mLinking CXX executable ../../Release/rs-convert[0m
+[ 69%] Built target rs-fw-logger
+[ 42%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http_digest.c.o[0m
+[ 69%] Built target rs-pointcloud
+[ 42%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http_negotiate.c.o[0m
+[ 43%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http_ntlm.c.o[0m
+[ 44%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/http_proxy.c.o[0m
+[ 44%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/idn.c.o[0m
+[ 45%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/if2ip.c.o[0m
+[ 45%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/imap.c.o[0m
+[ 46%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/inet_ntop.c.o[0m
+[ 46%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/inet_pton.c.o[0m
+[ 47%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/krb5.c.o[0m
+[ 48%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/ldap.c.o[0m
+[ 48%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/llist.c.o[0m
+[ 49%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/macos.c.o[0m
+[ 49%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/md4.c.o[0m
+[ 50%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/md5.c.o[0m
+[ 51%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/mime.c.o[0m
+[ 51%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/memdebug.c.o[0m
+[ 52%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/mprintf.c.o[0m
+[ 69%] Built target rs-convert
+[ 52%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/mqtt.c.o[0m
+[ 53%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/multi.c.o[0m
+[ 53%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/netrc.c.o[0m
+[ 54%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/nonblock.c.o[0m
+[ 54%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/noproxy.c.o[0m
+[ 55%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/openldap.c.o[0m
+[ 56%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/parsedate.c.o[0m
+[ 56%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/pingpong.c.o[0m
+[ 56%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/progress.c.o[0m
+[ 57%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/pop3.c.o[0m
+[ 58%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/psl.c.o[0m
+[ 58%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/rand.c.o[0m
+[ 59%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/rename.c.o[0m
+[ 60%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/request.c.o[0m
+[ 60%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/rtsp.c.o[0m
+[ 61%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/select.c.o[0m
+[ 61%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/sendf.c.o[0m
+[ 62%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/setopt.c.o[0m
+[ 62%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/sha256.c.o[0m
+[ 63%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/share.c.o[0m
+[ 63%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/smb.c.o[0m
+[ 64%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/slist.c.o[0m
+[ 65%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/smtp.c.o[0m
+[ 65%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/socketpair.c.o[0m
+[ 66%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/socks.c.o[0m
+[ 66%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/socks_gssapi.c.o[0m
+[ 67%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/socks_sspi.c.o[0m
+[ 67%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/splay.c.o[0m
+[ 68%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/speedcheck.c.o[0m
+[ 69%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/strcase.c.o[0m
+[ 69%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/strdup.c.o[0m
+[ 70%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/strerror.c.o[0m
+[ 70%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/strtok.c.o[0m
+[ 71%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/strtoofft.c.o[0m
+[ 72%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/system_win32.c.o[0m
+[ 72%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/telnet.c.o[0m
+[ 72%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/timediff.c.o[0m
+[ 73%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/tftp.c.o[0m
+[ 74%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/timeval.c.o[0m
+[ 74%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/transfer.c.o[0m
+[ 75%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/url.c.o[0m
+[ 76%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/urlapi.c.o[0m
+[ 76%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/version.c.o[0m
+[ 77%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/version_win32.c.o[0m
+[ 77%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/warnless.c.o[0m
+[ 78%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/ws.c.o[0m
+[ 78%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/cleartext.c.o[0m
+[ 79%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/cram.c.o[0m
+[ 80%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/digest.c.o[0m
+[ 70%] [32m[1mLinking CXX executable ../../Release/rs-align-advanced[0m
+[ 80%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/digest_sspi.c.o[0m
+[ 81%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/gsasl.c.o[0m
+[ 81%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/krb5_gssapi.c.o[0m
+[ 82%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/krb5_sspi.c.o[0m
+[ 82%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/ntlm.c.o[0m
+[ 83%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/ntlm_sspi.c.o[0m
+[ 84%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/oauth2.c.o[0m
+[ 84%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/spnego_gssapi.c.o[0m
+[ 85%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/spnego_sspi.c.o[0m
+[ 85%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vauth/vauth.c.o[0m
+[ 71%] [32m[1mLinking CXX executable ../../Release/rs-record[0m
+[ 86%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/bearssl.c.o[0m
+[ 86%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/cipher_suite.c.o[0m
+[ 87%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/gtls.c.o[0m
+[ 88%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/hostcheck.c.o[0m
+[ 88%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/keylog.c.o[0m
+[ 89%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/mbedtls.c.o[0m
+[ 89%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/mbedtls_threadlock.c.o[0m
+[ 90%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/openssl.c.o[0m
+[ 90%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/rustls.c.o[0m
+[ 71%] [32m[1mLinking CXX executable ../../Release/rs-post-processing[0m
+[ 91%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/schannel.c.o[0m
+[ 92%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/schannel_verify.c.o[0m
+[ 92%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/sectransp.c.o[0m
+[ 93%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/vtls.c.o[0m
+[ 71%] [32m[1mLinking CXX executable ../../Release/rs-enumerate-devices[0m
+[ 93%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/wolfssl.c.o[0m
+[ 94%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vtls/x509asn1.c.o[0m
+[ 94%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vquic/curl_msh3.c.o[0m
+[ 71%] Built target rs-align-advanced
+[ 95%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vquic/curl_ngtcp2.c.o[0m
+[ 96%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vquic/curl_quiche.c.o[0m
+[ 96%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vquic/curl_osslq.c.o[0m
+[ 97%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vquic/vquic.c.o[0m
+[ 97%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vquic/vquic-tls.c.o[0m
+[ 98%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vssh/libssh.c.o[0m
+[ 98%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vssh/libssh2.c.o[0m
+[ 71%] Built target rs-record
+[ 99%] [32mBuilding C object lib/CMakeFiles/libcurl_static.dir/vssh/wolfssh.c.o[0m
+[ 71%] Built target rs-enumerate-devices
+[ 71%] Built target rs-post-processing
+[100%] [32m[1mLinking C static library libcurl.a[0m
+In file included from [01m[K/usr/include/features.h:502[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:679[m[K,
+                 from [01m[K/usr/include/c++/13/ctime:41[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.h:354[m[K,
+                 from [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.cc:17[m[K:
+In function ‘[01m[Ksize_t[01;32m[K wcstombs[m[K(char*, const wchar_t*, size_t)[m[K’,
+    inlined from ‘[01m[Kstatic char* el::base::utils::Str::[01;32m[KwcharPtrToCharPtr[m[K(const wchar_t*)[m[K’ at [01m[K/home/russell/ROS2_REPAS/librealsense/third-party/easyloggingpp/src/easylogging++.cc:1022:16[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:146:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t[01;32m[K __wcstombs_alias[m[K(char*, const wchar_t*, size_t)[m[K’ specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+  146 |   return [01;35m[K__glibc_fortify[m[K (wcstombs, __len, sizeof (char),
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:[m[K In static member function ‘[01m[Kstatic char* el::base::utils::Str::[01;32m[KwcharPtrToCharPtr[m[K(const wchar_t*)[m[K’:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdlib.h:131:15:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Ksize_t[01;32m[K __wcstombs_alias[m[K(char*, const wchar_t*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (read_only, 2)[m[K’
+  131 | extern size_t [01;36m[K__REDIRECT_NTH[m[K (__wcstombs_alias,
+      |               [01;36m[K^~~~~~~~~~~~~~[m[K
+[100%] Built target libcurl_static
+[ 71%] [34m[1mPerforming install step for 'libcurl'[0m
+[  0%] Built target curl-generate-curl-config.1
+[  1%] Built target curl-generate-mk-ca-bundle.1
+[  1%] Built target curl-opts-man
+[  2%] Built target curl-man
+[100%] Built target libcurl_static
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_cleanup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_duphandle.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_escape.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_getinfo.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_header.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_init.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_nextheader.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_option_by_id.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_option_by_name.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_option_next.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_pause.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_perform.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_recv.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_reset.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_send.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_setopt.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_strerror.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_unescape.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_easy_upkeep.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_escape.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_formadd.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_formfree.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_formget.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_free.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_getdate.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_getenv.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_global_cleanup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_global_init.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_global_init_mem.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_global_trace.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_global_sslset.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_addpart.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_data.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_data_cb.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_encoder.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_filedata.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_filename.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_free.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_headers.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_init.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_name.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_subparts.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mime_type.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_mprintf.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_add_handle.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_assign.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_cleanup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_fdset.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_get_handles.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_info_read.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_init.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_perform.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_poll.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_remove_handle.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_setopt.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_socket.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_socket_action.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_socket_all.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_strerror.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_timeout.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_wakeup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_wait.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_multi_waitfds.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_pushheader_bynum.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_pushheader_byname.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_share_cleanup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_share_init.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_share_setopt.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_share_strerror.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_slist_append.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_slist_free_all.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_strequal.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_strnequal.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_unescape.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_url.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_url_cleanup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_url_dup.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_url_get.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_url_set.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_url_strerror.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_version.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_version_info.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_ws_meta.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_ws_recv.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/curl_ws_send.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-easy.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-env.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-env-dbg.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-errors.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-multi.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-security.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-share.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-symbols.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-thread.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-tutorial.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-url.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl-ws.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/libcurl.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_ACTIVESOCKET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_APPCONNECT_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_APPCONNECT_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CAINFO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CAPATH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CERTINFO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONDITION_UNMET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONNECT_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONNECT_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONN_ID.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_CONTENT_TYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_COOKIELIST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_EFFECTIVE_METHOD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_EFFECTIVE_URL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_FILETIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_FILETIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_FTP_ENTRY_PATH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_HEADER_SIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_HTTP_CONNECTCODE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_HTTP_VERSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_HTTPAUTH_AVAIL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_LASTSOCKET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_LOCAL_IP.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_LOCAL_PORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_NAMELOOKUP_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_NAMELOOKUP_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_NUM_CONNECTS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_OS_ERRNO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PRETRANSFER_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PRETRANSFER_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PRIMARY_IP.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PRIMARY_PORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PRIVATE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PROTOCOL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PROXY_ERROR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PROXY_SSL_VERIFYRESULT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_PROXYAUTH_AVAIL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_QUEUE_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_REDIRECT_COUNT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_REDIRECT_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_REDIRECT_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_REDIRECT_URL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_REFERER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_REQUEST_SIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_RESPONSE_CODE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_RETRY_AFTER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_RTSP_CLIENT_CSEQ.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_RTSP_CSEQ_RECV.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_RTSP_SERVER_CSEQ.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_RTSP_SESSION_ID.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SCHEME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SIZE_DOWNLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SIZE_DOWNLOAD_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SIZE_UPLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SIZE_UPLOAD_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SPEED_DOWNLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SPEED_DOWNLOAD_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SPEED_UPLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SPEED_UPLOAD_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SSL_ENGINES.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_SSL_VERIFYRESULT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_STARTTRANSFER_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_STARTTRANSFER_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_TLS_SESSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_TLS_SSL_PTR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_TOTAL_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_TOTAL_TIME_T.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_USED_PROXY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLINFO_XFER_ID.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_MAX_CONCURRENT_STREAMS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_MAX_HOST_CONNECTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_MAX_PIPELINE_LENGTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_MAX_TOTAL_CONNECTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_MAXCONNECTS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_PIPELINING.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_PIPELINING_SERVER_BL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_PIPELINING_SITE_BL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_PUSHDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_PUSHFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_SOCKETDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_SOCKETFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_TIMERDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLMOPT_TIMERFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ABSTRACT_UNIX_SOCKET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ACCEPT_ENCODING.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ACCEPTTIMEOUT_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ADDRESS_SCOPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ALTSVC.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ALTSVC_CTRL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_APPEND.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_AUTOREFERER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_AWS_SIGV4.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_BUFFERSIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CAINFO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CAINFO_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CAPATH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CA_CACHE_TIMEOUT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CERTINFO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CHUNK_BGN_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CHUNK_DATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CHUNK_END_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CLOSESOCKETDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CLOSESOCKETFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONNECT_ONLY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONNECT_TO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONNECTTIMEOUT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONNECTTIMEOUT_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONV_FROM_NETWORK_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONV_FROM_UTF8_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CONV_TO_NETWORK_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_COOKIE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_COOKIEFILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_COOKIEJAR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_COOKIELIST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_COOKIESESSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_COPYPOSTFIELDS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CRLF.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CRLFILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CURLU.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_CUSTOMREQUEST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DEBUGDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DEBUGFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DEFAULT_PROTOCOL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DIRLISTONLY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DISALLOW_USERNAME_IN_URL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_CACHE_TIMEOUT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_INTERFACE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_LOCAL_IP4.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_LOCAL_IP6.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_SERVERS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_SHUFFLE_ADDRESSES.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DNS_USE_GLOBAL_CACHE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DOH_SSL_VERIFYHOST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DOH_SSL_VERIFYPEER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DOH_SSL_VERIFYSTATUS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_DOH_URL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ECH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_EGDSOCKET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ERRORBUFFER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_EXPECT_100_TIMEOUT_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FAILONERROR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FILETIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FNMATCH_DATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FNMATCH_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FOLLOWLOCATION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FORBID_REUSE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FRESH_CONNECT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_ACCOUNT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_ALTERNATIVE_TO_USER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_CREATE_MISSING_DIRS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_FILEMETHOD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_SKIP_PASV_IP.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_SSL_CCC.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_USE_EPRT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_USE_EPSV.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTP_USE_PRET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTPPORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_FTPSSLAUTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_GSSAPI_DELEGATION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HAPROXYPROTOCOL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HAPROXY_CLIENT_IP.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HEADER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HEADERDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HEADERFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HEADEROPT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HSTS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HSTS_CTRL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HSTSREADDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HSTSREADFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HSTSWRITEDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HSTSWRITEFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTP09_ALLOWED.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTP200ALIASES.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTP_CONTENT_DECODING.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTP_TRANSFER_DECODING.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTP_VERSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTPAUTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTPGET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTPHEADER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTPPOST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_HTTPPROXYTUNNEL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_IGNORE_CONTENT_LENGTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_INFILESIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_INFILESIZE_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_INTERFACE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_INTERLEAVEDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_INTERLEAVEFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_IOCTLDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_IOCTLFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_IPRESOLVE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ISSUERCERT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_ISSUERCERT_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_KEEP_SENDING_ON_ERROR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_KEYPASSWD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_KRBLEVEL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_LOCALPORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_LOCALPORTRANGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_LOGIN_OPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_LOW_SPEED_LIMIT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_LOW_SPEED_TIME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAIL_AUTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAIL_FROM.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAIL_RCPT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAIL_RCPT_ALLOWFAILS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAX_RECV_SPEED_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAX_SEND_SPEED_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAXAGE_CONN.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAXCONNECTS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAXFILESIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAXFILESIZE_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAXLIFETIME_CONN.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MAXREDIRS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MIME_OPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_MIMEPOST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NETRC.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NETRC_FILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NEW_DIRECTORY_PERMS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NEW_FILE_PERMS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NOBODY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NOPROGRESS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NOPROXY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_NOSIGNAL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_OPENSOCKETDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_OPENSOCKETFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PASSWORD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PATH_AS_IS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PINNEDPUBLICKEY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PIPEWAIT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_POST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_POSTFIELDS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_POSTFIELDSIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_POSTFIELDSIZE_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_POSTQUOTE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_POSTREDIR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PRE_PROXY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PREQUOTE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PREREQDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PREREQFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PRIVATE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROGRESSDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROGRESSFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROTOCOLS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROTOCOLS_STR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_CAINFO.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_CAINFO_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_CAPATH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_CRLFILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_ISSUERCERT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_ISSUERCERT_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_KEYPASSWD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_PINNEDPUBLICKEY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SERVICE_NAME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSL_CIPHER_LIST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSL_OPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSL_VERIFYHOST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSL_VERIFYPEER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLCERT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLCERT_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLCERTTYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLKEY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLKEY_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLKEYTYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_SSLVERSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_TLS13_CIPHERS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_TLSAUTH_PASSWORD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_TLSAUTH_TYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_TLSAUTH_USERNAME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXY_TRANSFER_MODE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYAUTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYHEADER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYPASSWORD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYPORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYTYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYUSERNAME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PROXYUSERPWD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_PUT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_QUICK_EXIT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_QUOTE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RANDOM_FILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RANGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_READDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_READFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_REDIR_PROTOCOLS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_REDIR_PROTOCOLS_STR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_REFERER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_REQUEST_TARGET.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RESOLVE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RESOLVER_START_DATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RESOLVER_START_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RESUME_FROM.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RESUME_FROM_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RTSP_CLIENT_CSEQ.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RTSP_REQUEST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RTSP_SERVER_CSEQ.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RTSP_SESSION_ID.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RTSP_STREAM_URI.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_RTSP_TRANSPORT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SASL_AUTHZID.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SASL_IR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SEEKDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SEEKFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SERVER_RESPONSE_TIMEOUT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SERVER_RESPONSE_TIMEOUT_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SERVICE_NAME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SHARE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SOCKOPTDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SOCKOPTFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SOCKS5_AUTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SOCKS5_GSSAPI_NEC.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SOCKS5_GSSAPI_SERVICE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_AUTH_TYPES.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_COMPRESSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_HOSTKEYDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_HOSTKEYFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_KEYDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_KEYFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_KNOWNHOSTS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_PRIVATE_KEYFILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSH_PUBLIC_KEYFILE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_CIPHER_LIST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_CTX_DATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_CTX_FUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_EC_CURVES.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_ENABLE_ALPN.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_ENABLE_NPN.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_FALSESTART.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_OPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_SESSIONID_CACHE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_VERIFYHOST.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_VERIFYPEER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSL_VERIFYSTATUS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLCERT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLCERT_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLCERTTYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLENGINE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLENGINE_DEFAULT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLKEY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLKEY_BLOB.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLKEYTYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SSLVERSION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_STDERR.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_STREAM_DEPENDS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_STREAM_DEPENDS_E.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_STREAM_WEIGHT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_SUPPRESS_CONNECT_HEADERS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TCP_FASTOPEN.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TCP_KEEPALIVE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TCP_KEEPIDLE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TCP_KEEPINTVL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TCP_NODELAY.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TELNETOPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TFTP_BLKSIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TFTP_NO_OPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TIMECONDITION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TIMEOUT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TIMEOUT_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TIMEVALUE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TIMEVALUE_LARGE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TLS13_CIPHERS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TLSAUTH_PASSWORD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TLSAUTH_TYPE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TLSAUTH_USERNAME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TRAILERDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TRAILERFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TRANSFER_ENCODING.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_TRANSFERTEXT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_UNIX_SOCKET_PATH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_UNRESTRICTED_AUTH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_UPKEEP_INTERVAL_MS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_UPLOAD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_UPLOAD_BUFFERSIZE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_URL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_USE_SSL.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_USERAGENT.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_USERNAME.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_USERPWD.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_VERBOSE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_WILDCARDMATCH.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_WRITEDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_WRITEFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_WS_OPTIONS.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_XFERINFODATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_XFERINFOFUNCTION.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLOPT_XOAUTH2_BEARER.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLSHOPT_LOCKFUNC.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLSHOPT_SHARE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLSHOPT_UNLOCKFUNC.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLSHOPT_UNSHARE.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man3/CURLSHOPT_USERDATA.3
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man1/curl-config.1
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/share/man/man1/mk-ca-bundle.1
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/lib/libcurl.a
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/bin/mk-ca-bundle.pl
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/bin/curl-config
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/lib/pkgconfig/libcurl.pc
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/options.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/multi.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/typecheck-gcc.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/system.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/curlver.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/websockets.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/urlapi.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/curl.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/header.h
+[ 71%] [32m[1mLinking CXX executable ../../Release/rs-multicam[0m
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/easy.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/mprintf.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/include/curl/stdcheaders.h
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets.cmake
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets-release.cmake
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfigVersion.cmake
+-- Installing: /home/russell/ROS2_REPAS/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfig.cmake
+[ 72%] [34m[1mNo test step for 'libcurl'[0m
+[ 72%] [34m[1mCompleted 'libcurl'[0m
+[ 72%] Built target libcurl
+[ 72%] Built target rs-multicam
+[ 72%] [32m[1mLinking CXX executable ../../Release/rs-fw-update[0m
+[ 72%] Built target rs-fw-update
+[ 72%] [32m[1mLinking CXX executable ../../Release/rs-record-playback[0m
+[ 73%] [32m[1mLinking CXX executable ../../Release/rs-hdr[0m
+[ 73%] Built target rs-record-playback
+[ 74%] [32m[1mLinking CXX executable ../../Release/rs-terminal[0m
+[ 74%] Built target rs-hdr
+[ 74%] Built target rs-terminal
+[ 74%] [32m[1mLinking CXX shared library ../../Release/librealsense2-gl.so[0m
+[ 74%] [32m[1mLinking CXX executable ../../Release/rs-motion[0m
+[ 74%] Built target rs-motion
+[ 74%] Built target realsense2-gl
+[ 75%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 75%] [32mBuilding C object tools/benchmark/CMakeFiles/rs-benchmark.dir/__/__/third-party/glad/glad.c.o[0m
+[ 75%] [32mBuilding CXX object tools/benchmark/CMakeFiles/rs-benchmark.dir/rs-benchmark.cpp.o[0m
+[ 75%] [32mBuilding CXX object tools/benchmark/CMakeFiles/rs-benchmark.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 75%] [32mBuilding CXX object tools/data-collect/CMakeFiles/rs-data-collect.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 75%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 76%] [32mBuilding CXX object tools/data-collect/CMakeFiles/rs-data-collect.dir/rs-data-collect.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/rs-gl.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 77%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 77%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 77%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/rs-align-gl.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 78%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/rs-rosbag-inspector.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 80%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 80%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/model-views.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/notifications.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/common/os.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/model-views.cpp.o[0m
+[ 81%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/notifications.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/calibration-model.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/viewer.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/calibration-model.cpp.o[0m
+[ 81%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/glad/glad.c.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/viewer.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-window.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-window.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-alignment.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/opengl3.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/rs-config.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/os.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-alignment.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/opengl3.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/fw-update-helper.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/rs-config.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/metadata-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/output-model.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/os.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable ../../Release/rs-benchmark[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/skybox.cpp.o[0m
+[ 85%] Built target rs-benchmark
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/measurement.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/fw-update-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/metadata-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/on-chip-calib.cpp.o[0m
+[ 86%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/output-model.cpp.o[0m
+[ 87%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 87%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/skybox.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/measurement.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable ../../Release/rs-gl[0m
+[ 88%] [32m[1mLinking CXX executable ../../Release/rs-align-gl[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/d500-on-chip-calib.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/on-chip-calib.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/updates-model.cpp.o[0m
+[ 89%] Built target rs-gl
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/d500-on-chip-calib.cpp.o[0m
+[ 89%] Built target rs-align-gl
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/option-model.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/device-model.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable ../../Release/rs-data-collect[0m
+[ 90%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/updates-model.cpp.o[0m
+[ 90%] Built target rs-data-collect
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/processing-block-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/subdevice-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/option-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/device-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/subdevice-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/processing-block-model.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable ../../Release/rs-rosbag-inspector[0m
+[ 91%] Built target rs-rosbag-inspector
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/stream-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/post-processing-filters.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/dds-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/stream-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/post-processing-filters.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/dds-model.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/rs-depth-quality.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/depth-quality-model.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/realsense-viewer.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_impl_opengl3.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_tables.cpp.o[0m
+[ 97%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/glad/glad.c.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_widgets.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/realsense_imgui.cpp.o[0m
+[ 98%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/glad/glad.c.o[0m
+[ 98%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 98%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 98%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/graph-model.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/rsutils/include/rsutils/type/eth-config.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/graph-model.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/implot/implot.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/implot/implot_items.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/rsutils/include/rsutils/type/eth-config.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/implot/implot.cpp.o[0m
+[100%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/implot/implot_items.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../../Release/realsense-viewer[0m
+[100%] Built target realsense-viewer
+[100%] [32m[1mLinking CXX executable ../../Release/rs-depth-quality[0m
+[100%] Built target rs-depth-quality

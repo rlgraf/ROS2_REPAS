@@ -1,0 +1,7 @@
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+    9 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rpm_continuous.dir/build.make:76: CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_continuous.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

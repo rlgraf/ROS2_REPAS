@@ -1,1 +1,1 @@
--9.5
+/home/russell/ROS2_REPAS/build/camera_sensor/camera_z_data/camera_z.txt

@@ -10,8 +10,13 @@ setup.py
 ../../build/camera_sensor/camera_sensor.egg-info/zip-safe
 camera_sensor/__init__.py
 camera_sensor/camera_return_z.py
+camera_sensor/canopy_return.py
+camera_sensor.egg-info/PKG-INFO
+camera_sensor.egg-info/SOURCES.txt
+camera_sensor.egg-info/dependency_links.txt
+camera_sensor.egg-info/entry_points.txt
+camera_sensor.egg-info/requires.txt
+camera_sensor.egg-info/top_level.txt
+camera_sensor.egg-info/zip-safe
 camera_z_data/camera_z.txt
 resource/camera_sensor
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

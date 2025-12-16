@@ -1,0 +1,38 @@
+[ 15%] Built target move_ur5e
+[ 15%] Built target russell_script1
+[ 30%] Built target hydroponic_waypoint_grid_v2
+[ 50%] Built target home
+[ 30%] Built target waypoint_grid
+[ 57%] Built target parlight_grid
+[ 57%] [32mBuilding CXX object CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o[0m
+[ 57%] Built target hydroponic_waypoint_grid
+[ 65%] Built target rpm_simple_with_data
+[ 73%] Built target rpm_simple
+[ 80%] Built target parlight_grid_with_hydrosystem
+[ 88%] Built target parlight_grid_with_parsensor
+[ 96%] Built target parlight_grid_with_cadsensor
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:131:48:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kslerp(tf2::Quaternion&, tf2::Quaternion&, double&)[m[K’ is ambiguous
+  131 |             tf2::Quaternion interp_quat = [01;31m[Kslerp(current_quat, target_quat, t)[m[K;
+      |                                           [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:83:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion[01;32m[K slerp[m[K(const tf2::Quaternion&, const tf2::Quaternion&, double)[m[K’
+   83 | tf2::Quaternion [01;36m[Kslerp[m[K(const tf2::Quaternion &q1, const tf2::Quaternion &q2, double t)
+      |                 [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:47[m[K,
+                 from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+                 from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:59[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[01m[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp:435:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::[01;32m[Kslerp[m[K(const Quaternion&, const Quaternion&, const tf2Scalar&)[m[K’
+  435 | [01;36m[Kslerp[m[K(const Quaternion& q1, const Quaternion& q2, const tf2Scalar& t)
+      | [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rpm_continuous.dir/build.make:76: CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_continuous.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a3c382776afd47e3f050.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur5e_moveit_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "home::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-home-ef33a484d8714e084dbf.json",
+					"name" : "home",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydroponic_waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydroponic_waypoint_grid-d6cc7620c2d32b4ed9c1.json",
+					"name" : "hydroponic_waypoint_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydroponic_waypoint_grid_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydroponic_waypoint_grid_v2-a2640d05d4a163f2c2dd.json",
+					"name" : "hydroponic_waypoint_grid_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_ur5e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_ur5e-679dac03e853d6ab0976.json",
+					"name" : "move_ur5e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid-57662cc71bc20fe95ac8.json",
+					"name" : "parlight_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid_with_cadsensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid_with_cadsensor-73f2dc4b7faaf81bf44a.json",
+					"name" : "parlight_grid_with_cadsensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid_with_hydrosystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid_with_hydrosystem-6d3595c64bade811c7ba.json",
+					"name" : "parlight_grid_with_hydrosystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parlight_grid_with_parsensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parlight_grid_with_parsensor-0812ecceb5e3b6397cb2.json",
+					"name" : "parlight_grid_with_parsensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpm_continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpm_continuous-c15d0926e1ba0a4cb7d2.json",
+					"name" : "rpm_continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpm_simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpm_simple-4180471d7bf76057e5ea.json",
+					"name" : "rpm_simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rpm_simple_with_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpm_simple_with_data-1d08ced2eab3f1a46a66.json",
+					"name" : "rpm_simple_with_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "russell_script1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-russell_script1-21d6680427d04c73b600.json",
+					"name" : "russell_script1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-15ab9e9a9a29599d19ca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5e_moveit_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5e_moveit_demo_uninstall-a4dfcd7c1e87538074be.json",
+					"name" : "ur5e_moveit_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_grid-084409ddf634ff278cc1.json",
+					"name" : "waypoint_grid",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/russell/ROS2_REPAS/build/ur5e_moveit_demo",
+		"source" : "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

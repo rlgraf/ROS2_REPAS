@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000437] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.000501] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_description'}
+[0.000515] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_hardware'}
+[0.000526] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_interfaces'}
+[0.000536] (-) JobUnselected: {'identifier': 'robotiq_2f_gripper_msgs'}
+[0.000547] (-) JobUnselected: {'identifier': 'serial'}
+[0.000556] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000565] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.000576] (ur5e_moveit_demo) JobQueued: {'identifier': 'ur5e_moveit_demo', 'dependencies': OrderedDict({'ur_description': '/home/russell/ROS2_REPAS/install/ur_description', 'ur_simulation_gz': '/home/russell/ROS2_REPAS/install/ur_simulation_gz'})}
+[0.000592] (ur5e_moveit_demo) JobStarted: {'identifier': 'ur5e_moveit_demo'}
+[0.010546] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'cmake'}
+[0.012018] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'build'}
+[0.012725] (ur5e_moveit_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', '--', '-j24', '-l24'], 'cwd': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'OLDPWD': '/home/russell', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2833', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/russell/ROS2_REPAS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/russell/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2793,unix/russell-System-Product-Name:/tmp/.ICE-unix/2793', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/acebc6e5_9d8b_4945_b5b6_99d62a00f647', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/python3.12/site-packages:/home/russell/ROS2_REPAS/build/camera_sensor:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy'}), 'shell': False}
+[0.099811] (-) TimerEvent: {}
+[0.200064] (-) TimerEvent: {}
+[0.300407] (-) TimerEvent: {}
+[0.379214] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 20%] Built target hydroponic_waypoint_grid_v2\n'}
+[0.379483] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rpm_simple_with_data.dir/src/rpm_simple_with_data.cpp.o\x1b[0m\n'}
+[0.379569] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 20%] Built target hydroponic_waypoint_grid\n'}
+[0.379679] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 45%] Built target russell_script1\n'}
+[0.379754] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 45%] Built target parlight_grid_with_parsensor\n'}
+[0.379827] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 45%] Built target home\n'}
+[0.379923] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 54%] Built target rpm_simple\n'}
+[0.380062] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 66%] Built target move_ur5e\n'}
+[0.380167] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 70%] Built target parlight_grid_with_hydrosystem\n'}
+[0.380348] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 79%] Built target parlight_grid\n'}
+[0.380925] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 87%] Built target waypoint_grid\n'}
+[0.381327] (ur5e_moveit_demo) StdoutLine: {'line': b'[ 95%] Built target parlight_grid_with_cadsensor\n'}
+[0.400473] (-) TimerEvent: {}
+[0.500634] (-) TimerEvent: {}
+[0.600768] (-) TimerEvent: {}
+[0.700886] (-) TimerEvent: {}
+[0.801056] (-) TimerEvent: {}
+[0.901228] (-) TimerEvent: {}
+[1.001375] (-) TimerEvent: {}
+[1.101561] (-) TimerEvent: {}
+[1.201778] (-) TimerEvent: {}
+[1.301965] (-) TimerEvent: {}
+[1.402197] (-) TimerEvent: {}
+[1.502397] (-) TimerEvent: {}
+[1.602618] (-) TimerEvent: {}
+[1.702854] (-) TimerEvent: {}
+[1.803029] (-) TimerEvent: {}
+[1.903196] (-) TimerEvent: {}
+[2.003366] (-) TimerEvent: {}
+[2.103533] (-) TimerEvent: {}
+[2.203705] (-) TimerEvent: {}
+[2.303891] (-) TimerEvent: {}
+[2.404079] (-) TimerEvent: {}
+[2.504257] (-) TimerEvent: {}
+[2.604420] (-) TimerEvent: {}
+[2.704595] (-) TimerEvent: {}
+[2.804756] (-) TimerEvent: {}
+[2.904922] (-) TimerEvent: {}
+[3.005105] (-) TimerEvent: {}
+[3.105263] (-) TimerEvent: {}
+[3.205437] (-) TimerEvent: {}
+[3.305582] (-) TimerEvent: {}
+[3.405735] (-) TimerEvent: {}
+[3.505882] (-) TimerEvent: {}
+[3.606045] (-) TimerEvent: {}
+[3.706356] (-) TimerEvent: {}
+[3.806698] (-) TimerEvent: {}
+[3.907026] (-) TimerEvent: {}
+[4.007388] (-) TimerEvent: {}
+[4.107714] (-) TimerEvent: {}
+[4.208039] (-) TimerEvent: {}
+[4.308434] (-) TimerEvent: {}
+[4.408735] (-) TimerEvent: {}
+[4.508997] (-) TimerEvent: {}
+[4.609254] (-) TimerEvent: {}
+[4.709500] (-) TimerEvent: {}
+[4.809770] (-) TimerEvent: {}
+[4.910044] (-) TimerEvent: {}
+[5.010343] (-) TimerEvent: {}
+[5.110642] (-) TimerEvent: {}
+[5.210893] (-) TimerEvent: {}
+[5.311205] (-) TimerEvent: {}
+[5.411548] (-) TimerEvent: {}
+[5.511849] (-) TimerEvent: {}
+[5.612175] (-) TimerEvent: {}
+[5.712463] (-) TimerEvent: {}
+[5.812805] (-) TimerEvent: {}
+[5.913177] (-) TimerEvent: {}
+[6.013464] (-) TimerEvent: {}
+[6.113738] (-) TimerEvent: {}
+[6.214015] (-) TimerEvent: {}
+[6.314449] (-) TimerEvent: {}
+[6.414772] (-) TimerEvent: {}
+[6.515095] (-) TimerEvent: {}
+[6.615440] (-) TimerEvent: {}
+[6.715782] (-) TimerEvent: {}
+[6.816112] (-) TimerEvent: {}
+[6.916450] (-) TimerEvent: {}
+[7.016772] (-) TimerEvent: {}
+[7.117096] (-) TimerEvent: {}
+[7.217437] (-) TimerEvent: {}
+[7.317735] (-) TimerEvent: {}
+[7.417996] (-) TimerEvent: {}
+[7.518264] (-) TimerEvent: {}
+[7.618511] (-) TimerEvent: {}
+[7.718759] (-) TimerEvent: {}
+[7.819009] (-) TimerEvent: {}
+[7.919271] (-) TimerEvent: {}
+[8.019523] (-) TimerEvent: {}
+[8.119798] (-) TimerEvent: {}
+[8.220067] (-) TimerEvent: {}
+[8.320429] (-) TimerEvent: {}
+[8.420783] (-) TimerEvent: {}
+[8.521150] (-) TimerEvent: {}
+[8.621500] (-) TimerEvent: {}
+[8.721856] (-) TimerEvent: {}
+[8.822209] (-) TimerEvent: {}
+[8.922553] (-) TimerEvent: {}
+[9.022891] (-) TimerEvent: {}
+[9.123223] (-) TimerEvent: {}
+[9.223547] (-) TimerEvent: {}
+[9.323860] (-) TimerEvent: {}
+[9.424140] (-) TimerEvent: {}
+[9.501611] (ur5e_moveit_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rpm_simple_with_data\x1b[0m\n'}
+[9.524200] (-) TimerEvent: {}
+[9.624445] (-) TimerEvent: {}
+[9.724755] (-) TimerEvent: {}
+[9.825108] (-) TimerEvent: {}
+[9.925414] (-) TimerEvent: {}
+[10.025655] (-) TimerEvent: {}
+[10.125905] (-) TimerEvent: {}
+[10.226193] (-) TimerEvent: {}
+[10.326429] (-) TimerEvent: {}
+[10.426692] (-) TimerEvent: {}
+[10.527015] (-) TimerEvent: {}
+[10.627374] (-) TimerEvent: {}
+[10.727654] (-) TimerEvent: {}
+[10.827908] (-) TimerEvent: {}
+[10.928151] (-) TimerEvent: {}
+[11.028360] (-) TimerEvent: {}
+[11.128574] (-) TimerEvent: {}
+[11.228818] (-) TimerEvent: {}
+[11.329091] (-) TimerEvent: {}
+[11.429293] (-) TimerEvent: {}
+[11.529452] (-) TimerEvent: {}
+[11.629658] (-) TimerEvent: {}
+[11.729929] (-) TimerEvent: {}
+[11.830140] (-) TimerEvent: {}
+[11.930413] (-) TimerEvent: {}
+[12.030694] (-) TimerEvent: {}
+[12.131009] (-) TimerEvent: {}
+[12.231392] (-) TimerEvent: {}
+[12.331699] (-) TimerEvent: {}
+[12.431986] (-) TimerEvent: {}
+[12.532315] (-) TimerEvent: {}
+[12.597145] (ur5e_moveit_demo) StdoutLine: {'line': b'[100%] Built target rpm_simple_with_data\n'}
+[12.611397] (ur5e_moveit_demo) CommandEnded: {'returncode': 0}
+[12.632377] (-) TimerEvent: {}
+[12.646920] (ur5e_moveit_demo) JobProgress: {'identifier': 'ur5e_moveit_demo', 'progress': 'install'}
+[12.657728] (ur5e_moveit_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo'], 'cwd': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'russell', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces/lib:/home/russell/ROS2_REPAS/install/serial/lib:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/russell', 'OLDPWD': '/home/russell', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2833', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/russell/ROS2_REPAS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'russell', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'russell', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/russell/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/russell-System-Product-Name:@/tmp/.ICE-unix/2793,unix/russell-System-Product-Name:/tmp/.ICE-unix/2793', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/acebc6e5_9d8b_4945_b5b6_99d62a00f647', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs/lib/python3.12/site-packages:/home/russell/ROS2_REPAS/build/camera_sensor:/home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy'}), 'shell': False}
+[12.665505] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.665888] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.666109] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/move_ur5e\n'}
+[12.666331] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/home\n'}
+[12.666568] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/russell_script1\n'}
+[12.666806] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/waypoint_grid\n'}
+[12.666970] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid\n'}
+[12.667145] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid_v2\n'}
+[12.667308] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid\n'}
+[12.667465] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_hydrosystem\n'}
+[12.667584] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_parsensor\n'}
+[12.667740] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_cadsensor\n'}
+[12.667856] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_simple\n'}
+[12.668006] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_simple_with_data\n'}
+[12.668219] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py\n'}
+[12.668375] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py\n'}
+[12.668567] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid_v2.launch.py\n'}
+[12.668691] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/move_ur5e.launch.py\n'}
+[12.668862] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid.launch.py\n'}
+[12.668981] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_cadsensor.launch.py\n'}
+[12.669098] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_hydrosystem.launch.py\n'}
+[12.669305] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_parsensor.launch.py\n'}
+[12.669428] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_simple.launch.py\n'}
+[12.669545] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_simple_with_data.launch.py\n'}
+[12.669660] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py\n'}
+[12.669840] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py\n'}
+[12.669956] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/1010-23-CL.stl\n'}
+[12.670110] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/StructureResvrLightBox.stl\n'}
+[12.670278] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/light sensor.stl\n'}
+[12.670400] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_demo\n'}
+[12.670570] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_demo\n'}
+[12.670686] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.sh\n'}
+[12.670803] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.dsv\n'}
+[12.670975] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.sh\n'}
+[12.671098] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.dsv\n'}
+[12.671281] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.bash\n'}
+[12.671403] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.sh\n'}
+[12.671559] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.zsh\n'}
+[12.671723] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.dsv\n'}
+[12.671902] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Symlinking: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv\n'}
+[12.683171] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/packages/ur5e_moveit_demo\n'}
+[12.683366] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig.cmake\n'}
+[12.683477] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig-version.cmake\n'}
+[12.683626] (ur5e_moveit_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.xml\n'}
+[12.685629] (ur5e_moveit_demo) CommandEnded: {'returncode': 0}
+[12.703951] (ur5e_moveit_demo) JobEnded: {'identifier': 'ur5e_moveit_demo', 'rc': 0}
+[12.704873] (-) EventReactorShutdown: {}

@@ -156,6 +156,20 @@ ament_target_dependencies(
   tf2
 )
 
+add_executable(rpm_continuous src/rpm_continuous.cpp)
+ament_target_dependencies(
+  rpm_continuous
+  rcl_interfaces
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  geometric_shapes
+  moveit_visual_tools
+  tf2_geometry_msgs
+  tf2_ros
+  tf2
+)
+
 install(TARGETS move_ur5e
   DESTINATION lib/${PROJECT_NAME}
 )
@@ -178,6 +192,7 @@ install(TARGETS
   parlight_grid_with_cadsensor
   rpm_simple
   rpm_simple_with_data
+  rpm_continuous
   DESTINATION lib/${PROJECT_NAME}
 )
 

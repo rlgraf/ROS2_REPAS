@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing camera_sensor.egg-info/PKG-INFO
+writing dependency_links to camera_sensor.egg-info/dependency_links.txt
+writing entry points to camera_sensor.egg-info/entry_points.txt
+writing requirements to camera_sensor.egg-info/requires.txt
+writing top-level names to camera_sensor.egg-info/top_level.txt
+reading manifest file 'camera_sensor.egg-info/SOURCES.txt'
+writing manifest file 'camera_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/russell/ROS2_REPAS/install/camera_sensor/lib/python3.12/site-packages/camera-sensor.egg-link (link to .)
+Installing camera_return_z_publisher script to /home/russell/ROS2_REPAS/install/camera_sensor/lib/camera_sensor
+
+Installed /home/russell/ROS2_REPAS/build/camera_sensor
+running symlink_data

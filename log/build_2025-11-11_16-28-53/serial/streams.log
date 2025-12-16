@@ -1,0 +1,36 @@
+[0.025s] Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/serial
+[0.223s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.518s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.793s] -- Configuring done (0.8s)
+[0.893s] -- Generating done (0.0s)
+[0.895s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/serial
+[0.899s] Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/serial-ros2/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/serial
+[0.901s] Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/serial -- -j24 -l24
+[0.975s] [100%] Built target serial
+[0.990s] Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/serial -- -j24 -l24
+[1.001s] Invoking command in '/home/russell/ROS2_REPAS/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/serial
+[1.012s] -- Install configuration: ""
+[1.012s] -- Execute custom install script
+[1.012s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/library_path.sh
+[1.023s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/library_path.dsv
+[1.036s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/lib/libserial.so
+[1.047s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/include/serial/serial.h
+[1.058s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/include/serial/v8stdint.h
+[1.071s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.083s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.094s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.105s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.117s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/path.sh
+[1.129s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/environment/path.dsv
+[1.141s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.bash
+[1.153s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.sh
+[1.165s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.zsh
+[1.176s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/local_setup.dsv
+[1.188s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/package.dsv
+[1.200s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/ament_index/resource_index/packages/serial
+[1.213s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.225s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.235s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/serialConfig.cmake
+[1.247s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.258s] -- Symlinking: /home/russell/ROS2_REPAS/install/serial/share/serial/package.xml
+[1.271s] Invoked command in '/home/russell/ROS2_REPAS/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/serial

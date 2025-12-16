@@ -1,0 +1,8 @@
+[0.082s] Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs -- -j24 -l24
+[0.431s] failed to create symbolic link '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs/ament_cmake_python/robotiq_2f_gripper_msgs/robotiq_2f_gripper_msgs' because existing path cannot be removed: Is a directory
+[0.433s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs] Error 1
+[0.433s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs.dir/all] Error 2
+[0.433s] gmake[1]: *** Waiting for unfinished jobs....
+[0.486s] [  2%] Built target robotiq_2f_gripper_msgs__rosidl_generator_type_description
+[0.487s] gmake: *** [Makefile:146: all] Error 2
+[0.494s] Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs -- -j24 -l24

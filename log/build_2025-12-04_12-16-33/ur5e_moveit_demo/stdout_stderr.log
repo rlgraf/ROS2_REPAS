@@ -1,0 +1,20 @@
+[ 50%] Built target waypoint_grid
+[ 50%] Built target home
+[ 50%] Built target russell_script1
+[ 53%] Built target rpm_simple_with_data
+[ 50%] Built target parlight_grid
+[ 50%] Built target move_ur5e
+[ 53%] Built target hydroponic_waypoint_grid
+[ 69%] Built target rpm_simple
+[ 69%] Built target hydroponic_waypoint_grid_v2
+[ 76%] Built target parlight_grid_with_hydrosystem
+[ 84%] Built target parlight_grid_with_cadsensor
+[ 92%] Built target parlight_grid_with_parsensor
+[ 96%] [32mBuilding CXX object CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o[0m
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+    5 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rpm_continuous.dir/build.make:76: CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_continuous.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

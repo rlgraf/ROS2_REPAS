@@ -1,0 +1,32 @@
+[0.151s] Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs
+[0.387s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.465s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.647s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.893s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.935s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.992s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.070s] -- Found unique_identifier_msgs: 2.5.0 (/opt/ros/jazzy/share/unique_identifier_msgs/cmake)
+[3.872s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.534s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.328s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.452s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.544s] -- Added test 'lint_cmake' to check CMake code style
+[8.546s] -- Added test 'xmllint' to check XML markup files
+[8.551s] -- Configuring done (8.4s)
+[9.102s] -- Generating done (0.5s)
+[9.147s] -- Build files have been written to: /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs
+[9.158s] Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/russell/ROS2_REPAS/src/robotiq_2f_gripper_ros2/robotiq_2f_gripper_msgs -DCMAKE_INSTALL_PREFIX=/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs
+[9.160s] Invoking command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs -- -j24 -l24
+[9.221s] [  2%] Built target robotiq_2f_gripper_msgs__rosidl_generator_type_description
+[9.222s] failed to create symbolic link '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs/ament_cmake_python/robotiq_2f_gripper_msgs/robotiq_2f_gripper_msgs' because existing path cannot be removed: Is a directory
+[9.224s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs] Error 1
+[9.224s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_robotiq_2f_gripper_msgs.dir/all] Error 2
+[9.224s] gmake[1]: *** Waiting for unfinished jobs....
+[9.251s] [  5%] Built target robotiq_2f_gripper_msgs__cpp
+[9.504s] [ 20%] Built target robotiq_2f_gripper_msgs__rosidl_generator_c
+[9.506s] gmake: *** [Makefile:146: all] Error 2
+[9.508s] Invoked command in '/home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/robotiq_2f_gripper_msgs -- -j24 -l24

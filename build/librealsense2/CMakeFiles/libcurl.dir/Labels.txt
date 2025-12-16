@@ -1,0 +1,14 @@
+# Target labels
+ libcurl
+# Source files and their labels
+/home/russell/ROS2_REPAS/build/librealsense2/CMakeFiles/libcurl
+/home/russell/ROS2_REPAS/build/librealsense2/CMakeFiles/libcurl.rule
+/home/russell/ROS2_REPAS/build/librealsense2/CMakeFiles/libcurl-complete.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-build.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-configure.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-download.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-install.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-mkdir.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-patch.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-test.rule
+/home/russell/ROS2_REPAS/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-update.rule

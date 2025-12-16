@@ -1,0 +1,40 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- The C compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Checking internet connection...
+-- Internet connection identified
+-- Info: REALSENSE_VERSION_STRING=2.56.5
+-- Setting Unix configurations
+-- No output directory set; using /home/russell/ROS2_REPAS/build/librealsense2/Release/
+-- Building libcurl enabled
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- using RS2_USE_V4L2_BACKEND
+-- Found usb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libudev'
+--   Found libudev, version 255
+-- Found Udev: /usr/include  
+-- Fetching nlohmann/json...
+-- Using the multi-header code from /home/russell/ROS2_REPAS/build/librealsense2/third-party/json/include/
+-- Fetching nlohmann/json - Done
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Check for updates capability added to realsense-viewer
+-- Check for updates capability added to realsense-depth-quality
+-- Fetching recommended firmwares:
+-- disable link time optimization for fw project
+-- ... https://librealsense.intel.com/Releases/RS4xx/FW/D4XX_FW_Image-5.17.0.10.bin
+-- Configuring done (9.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/russell/ROS2_REPAS/build/librealsense2

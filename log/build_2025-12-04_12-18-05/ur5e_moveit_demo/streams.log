@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.109s] [ 15%] Built target move_ur5e
+[0.109s] [ 15%] Built target russell_script1
+[0.110s] [ 30%] Built target hydroponic_waypoint_grid_v2
+[0.110s] [ 50%] Built target home
+[0.110s] [ 30%] Built target waypoint_grid
+[0.110s] [ 57%] Built target parlight_grid
+[0.110s] [ 57%] [32mBuilding CXX object CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o[0m
+[0.110s] [ 57%] Built target hydroponic_waypoint_grid
+[0.110s] [ 65%] Built target rpm_simple_with_data
+[0.112s] [ 73%] Built target rpm_simple
+[0.113s] [ 80%] Built target parlight_grid_with_hydrosystem
+[0.114s] [ 88%] Built target parlight_grid_with_parsensor
+[0.116s] [ 96%] Built target parlight_grid_with_cadsensor
+[2.963s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:4[m[K:
+[2.964s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[2.964s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[2.964s]       |                                                                             [01;36m[K^[m[K
+[4.998s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.998s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:131:48:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kslerp(tf2::Quaternion&, tf2::Quaternion&, double&)[m[K’ is ambiguous
+[4.998s]   131 |             tf2::Quaternion interp_quat = [01;31m[Kslerp(current_quat, target_quat, t)[m[K;
+[4.998s]       |                                           [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.998s] [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:83:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion[01;32m[K slerp[m[K(const tf2::Quaternion&, const tf2::Quaternion&, double)[m[K’
+[4.998s]    83 | tf2::Quaternion [01;36m[Kslerp[m[K(const tf2::Quaternion &q1, const tf2::Quaternion &q2, double t)
+[4.998s]       |                 [01;36m[K^~~~~[m[K
+[4.998s] In file included from [01m[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:20[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp:21[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:47[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.hpp:39[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp:42[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:59[m[K,
+[4.999s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[5.000s] [01m[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp:435:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::[01;32m[Kslerp[m[K(const Quaternion&, const Quaternion&, const tf2Scalar&)[m[K’
+[5.000s]   435 | [01;36m[Kslerp[m[K(const Quaternion& q1, const Quaternion& q2, const tf2Scalar& t)
+[5.000s]       | [01;36m[K^~~~~[m[K
+[7.125s] gmake[2]: *** [CMakeFiles/rpm_continuous.dir/build.make:76: CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o] Error 1
+[7.126s] gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_continuous.dir/all] Error 2
+[7.127s] gmake: *** [Makefile:146: all] Error 2
+[7.130s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '2': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24

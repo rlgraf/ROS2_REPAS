@@ -353,6 +353,19 @@ rpm_simple_with_data/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_simple_with_data.dir/build.make CMakeFiles/rpm_simple_with_data.dir/build
 .PHONY : rpm_simple_with_data/fast
 
+#=============================================================================
+# Target rules for targets named rpm_continuous
+
+# Build rule for target.
+rpm_continuous: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_continuous
+.PHONY : rpm_continuous
+
+# fast build rule for target.
+rpm_continuous/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous.dir/build.make CMakeFiles/rpm_continuous.dir/build
+.PHONY : rpm_continuous/fast
+
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
 
@@ -545,6 +558,30 @@ src/parlight_grid_with_parsensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parlight_grid_with_parsensor.dir/build.make CMakeFiles/parlight_grid_with_parsensor.dir/src/parlight_grid_with_parsensor.cpp.s
 .PHONY : src/parlight_grid_with_parsensor.cpp.s
 
+src/rpm_continuous.o: src/rpm_continuous.cpp.o
+.PHONY : src/rpm_continuous.o
+
+# target to build an object file
+src/rpm_continuous.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous.dir/build.make CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o
+.PHONY : src/rpm_continuous.cpp.o
+
+src/rpm_continuous.i: src/rpm_continuous.cpp.i
+.PHONY : src/rpm_continuous.i
+
+# target to preprocess a source file
+src/rpm_continuous.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous.dir/build.make CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.i
+.PHONY : src/rpm_continuous.cpp.i
+
+src/rpm_continuous.s: src/rpm_continuous.cpp.s
+.PHONY : src/rpm_continuous.s
+
+# target to generate assembly for a file
+src/rpm_continuous.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous.dir/build.make CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.s
+.PHONY : src/rpm_continuous.cpp.s
+
 src/rpm_simple.o: src/rpm_simple.cpp.o
 .PHONY : src/rpm_simple.o
 
@@ -664,6 +701,7 @@ help:
 	@echo "... parlight_grid_with_cadsensor"
 	@echo "... parlight_grid_with_hydrosystem"
 	@echo "... parlight_grid_with_parsensor"
+	@echo "... rpm_continuous"
 	@echo "... rpm_simple"
 	@echo "... rpm_simple_with_data"
 	@echo "... russell_script1"
@@ -692,6 +730,9 @@ help:
 	@echo "... src/parlight_grid_with_parsensor.o"
 	@echo "... src/parlight_grid_with_parsensor.i"
 	@echo "... src/parlight_grid_with_parsensor.s"
+	@echo "... src/rpm_continuous.o"
+	@echo "... src/rpm_continuous.i"
+	@echo "... src/rpm_continuous.s"
 	@echo "... src/rpm_simple.o"
 	@echo "... src/rpm_simple.i"
 	@echo "... src/rpm_simple.s"

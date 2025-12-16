@@ -1,0 +1,7 @@
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous.cpp:64:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveItErrorCode[m[K’ has not been declared
+   64 |         bool success = (move_group->plan(plan) == moveit::planning_interface::[01;31m[KMoveItErrorCode[m[K::SUCCESS);
+      |                                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rpm_continuous.dir/build.make:76: CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rpm_continuous.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

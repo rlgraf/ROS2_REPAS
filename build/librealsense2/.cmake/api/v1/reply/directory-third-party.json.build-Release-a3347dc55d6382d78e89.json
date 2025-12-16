@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "third-party/json/build",
+		"source" : "/home/russell/ROS2_REPAS/build/librealsense2/third-party/json"
+	}
+}
