@@ -1,0 +1,15 @@
+[  6%] Built target rpm_continuous
+[ 26%] Built target rpm_simple
+[ 26%] Built target waypoint_grid
+[ 26%] Built target home
+[ 40%] Built target hydroponic_waypoint_grid
+[ 40%] Built target russell_script1
+[ 46%] Built target move_ur5e
+[ 53%] Built target hydroponic_waypoint_grid_v2
+[ 60%] Built target parlight_grid_with_cadsensor
+[ 66%] Built target rpm_simple_with_data
+[ 76%] Built target parlight_grid
+[ 80%] Built target parlight_grid_with_hydrosystem
+[ 86%] Built target rpm_pos_agnostic_with_data
+[ 93%] Built target parlight_grid_with_parsensor
+[ 96%] [32mBuilding CXX object CMakeFiles/rpm_continuous_data.dir/src/rpm_continuous_data.cpp.o[0m

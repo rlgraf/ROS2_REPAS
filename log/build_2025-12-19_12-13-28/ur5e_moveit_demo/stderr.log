@@ -1,0 +1,24 @@
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:12[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:20[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:21[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K logCurrentOrientation[m[K(std::ofstream&, moveit::core::RobotStatePtr, const moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:80:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Transform<double, 3, 1>[m[K’ has no member named ‘[01m[KgetRotation[m[K’; did you mean ‘[01m[Krotation[m[K’?
+   80 |     tf2::Quaternion q = ee_transform.[01;31m[KgetRotation[m[K();
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+      |                                      [32m[Krotation[m[K
+gmake[2]: *** [CMakeFiles/rpm_continuous_data.dir/build.make:76: CMakeFiles/rpm_continuous_data.dir/src/rpm_continuous_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/rpm_continuous_data.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

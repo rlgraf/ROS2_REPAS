@@ -379,6 +379,19 @@ rpm_pos_agnostic_with_data/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pos_agnostic_with_data.dir/build.make CMakeFiles/rpm_pos_agnostic_with_data.dir/build
 .PHONY : rpm_pos_agnostic_with_data/fast
 
+#=============================================================================
+# Target rules for targets named rpm_continuous_data
+
+# Build rule for target.
+rpm_continuous_data: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_continuous_data
+.PHONY : rpm_continuous_data
+
+# fast build rule for target.
+rpm_continuous_data/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous_data.dir/build.make CMakeFiles/rpm_continuous_data.dir/build
+.PHONY : rpm_continuous_data/fast
+
 src/home.o: src/home.cpp.o
 .PHONY : src/home.o
 
@@ -595,6 +608,30 @@ src/rpm_continuous.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous.dir/build.make CMakeFiles/rpm_continuous.dir/src/rpm_continuous.cpp.s
 .PHONY : src/rpm_continuous.cpp.s
 
+src/rpm_continuous_data.o: src/rpm_continuous_data.cpp.o
+.PHONY : src/rpm_continuous_data.o
+
+# target to build an object file
+src/rpm_continuous_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous_data.dir/build.make CMakeFiles/rpm_continuous_data.dir/src/rpm_continuous_data.cpp.o
+.PHONY : src/rpm_continuous_data.cpp.o
+
+src/rpm_continuous_data.i: src/rpm_continuous_data.cpp.i
+.PHONY : src/rpm_continuous_data.i
+
+# target to preprocess a source file
+src/rpm_continuous_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous_data.dir/build.make CMakeFiles/rpm_continuous_data.dir/src/rpm_continuous_data.cpp.i
+.PHONY : src/rpm_continuous_data.cpp.i
+
+src/rpm_continuous_data.s: src/rpm_continuous_data.cpp.s
+.PHONY : src/rpm_continuous_data.s
+
+# target to generate assembly for a file
+src/rpm_continuous_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_continuous_data.dir/build.make CMakeFiles/rpm_continuous_data.dir/src/rpm_continuous_data.cpp.s
+.PHONY : src/rpm_continuous_data.cpp.s
+
 src/rpm_pos_agnostic_with_data.o: src/rpm_pos_agnostic_with_data.cpp.o
 .PHONY : src/rpm_pos_agnostic_with_data.o
 
@@ -739,6 +776,7 @@ help:
 	@echo "... parlight_grid_with_hydrosystem"
 	@echo "... parlight_grid_with_parsensor"
 	@echo "... rpm_continuous"
+	@echo "... rpm_continuous_data"
 	@echo "... rpm_pos_agnostic_with_data"
 	@echo "... rpm_simple"
 	@echo "... rpm_simple_with_data"
@@ -771,6 +809,9 @@ help:
 	@echo "... src/rpm_continuous.o"
 	@echo "... src/rpm_continuous.i"
 	@echo "... src/rpm_continuous.s"
+	@echo "... src/rpm_continuous_data.o"
+	@echo "... src/rpm_continuous_data.i"
+	@echo "... src/rpm_continuous_data.s"
 	@echo "... src/rpm_pos_agnostic_with_data.o"
 	@echo "... src/rpm_pos_agnostic_with_data.i"
 	@echo "... src/rpm_pos_agnostic_with_data.s"

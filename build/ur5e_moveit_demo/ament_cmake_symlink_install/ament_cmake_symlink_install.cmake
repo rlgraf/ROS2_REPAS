@@ -319,7 +319,7 @@ include("/home/russell/ROS2_REPAS/build/ur5e_moveit_demo/ament_cmake_symlink_ins
 # install("TARGETS" "russell_script1" "DESTINATION" "lib/ur5e_moveit_demo")
 include("/home/russell/ROS2_REPAS/build/ur5e_moveit_demo/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "waypoint_grid" "hydroponic_waypoint_grid" "hydroponic_waypoint_grid_v2" "parlight_grid" "parlight_grid_with_hydrosystem" "parlight_grid_with_parsensor" "parlight_grid_with_cadsensor" "rpm_simple" "rpm_simple_with_data" "rpm_continuous" "rpm_pos_agnostic_with_data" "DESTINATION" "lib/ur5e_moveit_demo")
+# install("TARGETS" "waypoint_grid" "hydroponic_waypoint_grid" "hydroponic_waypoint_grid_v2" "parlight_grid" "parlight_grid_with_hydrosystem" "parlight_grid_with_parsensor" "parlight_grid_with_cadsensor" "rpm_simple" "rpm_simple_with_data" "rpm_continuous" "rpm_pos_agnostic_with_data" "rpm_continuous_data" "DESTINATION" "lib/ur5e_moveit_demo")
 include("/home/russell/ROS2_REPAS/build/ur5e_moveit_demo/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/ur5e_moveit_demo/")
