@@ -163,7 +163,7 @@ int main(int argc, char **argv)
     // -------------------------
     std::filesystem::path data_dir = "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/rpm_data";
     std::filesystem::create_directories(data_dir);
-    std::ofstream logfile(data_dir / "orientation_stats_const1s.csv");
+    std::ofstream logfile(data_dir / "orientation_stats_const1s_2.csv");
     logfile << "iter,rot_x,rot_y,rot_z,rot_w,mean_x,mean_y,mean_z,mean_w,roll,pitch,yaw,mean_roll,mean_pitch,mean_yaw,success_rate\n";
     logfile << std::fixed << std::setprecision(6);
 
