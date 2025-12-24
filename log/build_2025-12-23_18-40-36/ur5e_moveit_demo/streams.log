@@ -1,0 +1,87 @@
+[0.011s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[0.095s] [  6%] Built target waypoint_grid
+[0.095s] [ 13%] Built target russell_script1
+[0.095s] [ 20%] Built target rpm_continuous
+[0.095s] [ 40%] Built target hydroponic_waypoint_grid_v2
+[0.095s] [ 40%] Built target rpm_simple
+[0.096s] [ 40%] Built target home
+[0.096s] [ 46%] Built target parlight_grid
+[0.096s] [ 60%] Built target rpm_pos_agnostic_with_data
+[0.096s] [ 60%] Built target hydroponic_waypoint_grid
+[0.097s] [ 66%] Built target rpm_simple_with_data
+[0.099s] [ 73%] Built target parlight_grid_with_cadsensor
+[0.101s] [ 80%] Built target move_ur5e
+[0.103s] [ 86%] Built target parlight_grid_with_hydrosystem
+[0.103s] [ 93%] Built target parlight_grid_with_parsensor
+[0.109s] [ 96%] [32mBuilding CXX object CMakeFiles/rpm_continuous_data.dir/src/rpm_continuous_data.cpp.o[0m
+[2.572s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:11[m[K:
+[2.572s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[2.572s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[2.572s]       |                                                                             [01;36m[K^[m[K
+[4.216s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:12[m[K:
+[4.216s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.216s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.216s]       |                                                                             [01;36m[K^[m[K
+[4.228s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:20[m[K:
+[4.228s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.228s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.228s]       |                                                                             [01;36m[K^[m[K
+[4.228s] In file included from [01m[K/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/src/rpm_continuous_data.cpp:21[m[K:
+[4.228s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.228s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.228s]       |                                                                             [01;36m[K^[m[K
+[10.398s] [100%] [32m[1mLinking CXX executable rpm_continuous_data[0m
+[11.032s] [100%] Built target rpm_continuous_data
+[11.047s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/russell/ROS2_REPAS/build/ur5e_moveit_demo -- -j24 -l24
+[11.048s] Invoking command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo
+[11.057s] -- Install configuration: ""
+[11.057s] -- Execute custom install script
+[11.057s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/move_ur5e
+[11.057s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/home
+[11.058s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/russell_script1
+[11.058s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/waypoint_grid
+[11.058s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid
+[11.058s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/hydroponic_waypoint_grid_v2
+[11.058s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_hydrosystem
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_parsensor
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/parlight_grid_with_cadsensor
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_simple
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_simple_with_data
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_continuous
+[11.059s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_pos_agnostic_with_data
+[11.060s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/lib/ur5e_moveit_demo/rpm_continuous_data
+[11.060s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/home.launch.py
+[11.060s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid.launch.py
+[11.060s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/hydroponic_waypoint_grid_v2.launch.py
+[11.060s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/move_ur5e.launch.py
+[11.060s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_cadsensor.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_hydrosystem.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/parlight_grid_with_parsensor.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_continuous.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_continuous_data.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_pos_agnostic_with_data.launch.py
+[11.061s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_simple.launch.py
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/rpm_simple_with_data.launch.py
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/russell_script1.launch.py
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo//launch/waypoint_grid.launch.py
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/1010-23-CL.stl
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/StructureResvrLightBox.stl
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/meshes/light sensor.stl
+[11.062s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_demo
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_demo
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.sh
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/ament_prefix_path.dsv
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.sh
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/environment/path.dsv
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.bash
+[11.063s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.sh
+[11.064s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.zsh
+[11.064s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/local_setup.dsv
+[11.064s] -- Symlinking: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.dsv
+[11.076s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ament_index/resource_index/packages/ur5e_moveit_demo
+[11.076s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig.cmake
+[11.076s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/cmake/ur5e_moveit_demoConfig-version.cmake
+[11.076s] -- Up-to-date symlink: /home/russell/ROS2_REPAS/install/ur5e_moveit_demo/share/ur5e_moveit_demo/package.xml
+[11.079s] Invoked command in '/home/russell/ROS2_REPAS/build/ur5e_moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/russell/ROS2_REPAS/install/ur_simulation_gz:/home/russell/ROS2_REPAS/install/ur_description:/home/russell/ROS2_REPAS/install/ur5e_moveit_demo:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_hardware:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_interfaces:/home/russell/ROS2_REPAS/install/serial:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_msgs:/home/russell/ROS2_REPAS/install/robotiq_2f_gripper_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/russell/ROS2_REPAS/install/camera_sensor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/russell/ROS2_REPAS/build/ur5e_moveit_demo

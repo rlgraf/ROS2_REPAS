@@ -23,15 +23,30 @@
 // ------------------------- Globals -------------------------
 sensor_msgs::msg::JointState::SharedPtr last_joint_state = nullptr;
 int sample_count = 0;
+
 tf2::Vector3 running_sum(0, 0, 0);
 double running_sum_w = 0.0;
 double running_roll = 0.0;
 double running_pitch = 0.0;
 double running_yaw = 0.0;
 
-// For success rate
+// Success rate
 int total_attempts = 0;
 int successful_executions = 0;
+
+// ------------------------- Acceleration history -------------------------
+bool has_prev_pose = false;
+bool has_prev_vel = false;
+bool has_prev_q = false;
+bool has_prev_omega = false;
+
+tf2::Vector3 prev_position(0, 0, 0);
+tf2::Vector3 prev_linear_velocity(0, 0, 0);
+
+tf2::Quaternion prev_q;
+tf2::Vector3 prev_angular_velocity(0, 0, 0);
+
+rclcpp::Time prev_time;
 
 // ------------------------- Joint state callback -------------------------
 void jointStateCallback(const sensor_msgs::msg::JointState::SharedPtr msg)
@@ -50,21 +65,18 @@ void addForbiddenFloor(moveit::planning_interface::PlanningSceneInterface &plann
     box.type = box.BOX;
     box.dimensions = {3.0, 3.0, 0.5};
 
-    geometry_msgs::msg::Pose floor_pose;
-    floor_pose.orientation.w = 1.0;
-    floor_pose.position.x = 0.0;
-    floor_pose.position.y = 0.0;
-    floor_pose.position.z = 0.09 - 0.25;
+    geometry_msgs::msg::Pose pose;
+    pose.orientation.w = 1.0;
+    pose.position.z = 0.09 - 0.25;
 
     floor.primitives.push_back(box);
-    floor.primitive_poses.push_back(floor_pose);
+    floor.primitive_poses.push_back(pose);
     floor.operation = floor.ADD;
 
     planning_scene.applyCollisionObject(floor);
-    RCLCPP_INFO(rclcpp::get_logger("rpm_orientation_node"), "Added forbidden region: z < 0.09 m");
 }
 
-// ------------------------- Log current orientation -------------------------
+// ------------------------- Log orientation + acceleration -------------------------
 void logCurrentOrientation(std::ofstream &logfile,
                            moveit::core::RobotStatePtr kinematic_state,
                            const moveit::planning_interface::MoveGroupInterface &move_group)
@@ -72,20 +84,22 @@ void logCurrentOrientation(std::ofstream &logfile,
     if (!last_joint_state)
         return;
 
-    // Update FK
+    // ---------------- FK ----------------
     for (size_t i = 0; i < last_joint_state->name.size(); ++i)
-    {
-        kinematic_state->setJointPositions(last_joint_state->name[i], &last_joint_state->position[i]);
-    }
+        kinematic_state->setJointPositions(
+            last_joint_state->name[i],
+            &last_joint_state->position[i]);
 
     const std::string ee_link = move_group.getEndEffectorLink();
-    auto ee_transform = kinematic_state->getGlobalLinkTransform(ee_link);
-    Eigen::Matrix3d R = ee_transform.rotation();
+    auto tf = kinematic_state->getGlobalLinkTransform(ee_link);
+
+    // ---------------- Orientation ----------------
+    Eigen::Matrix3d R = tf.rotation();
     tf2::Matrix3x3 tf2_R(
         R(0,0), R(0,1), R(0,2),
         R(1,0), R(1,1), R(1,2),
-        R(2,0), R(2,1), R(2,2)
-    );
+        R(2,0), R(2,1), R(2,2));
+
     tf2::Quaternion q;
     tf2_R.getRotation(q);
     q.normalize();
@@ -95,6 +109,7 @@ void logCurrentOrientation(std::ofstream &logfile,
     double roll, pitch, yaw;
     tf2::Matrix3x3(q).getRPY(roll, pitch, yaw);
 
+    // ---------------- Running means ----------------
     sample_count++;
     running_sum += rotated;
     running_sum_w += q.w();
@@ -104,8 +119,65 @@ void logCurrentOrientation(std::ofstream &logfile,
 
     tf2::Vector3 mean = running_sum / sample_count;
 
-    double success_rate = total_attempts > 0 ? double(successful_executions) / total_attempts : 0.0;
+    // ---------------- Position ----------------
+    Eigen::Vector3d p = tf.translation();
+    tf2::Vector3 position(p.x(), p.y(), p.z());
 
+    rclcpp::Time now = rclcpp::Clock().now();
+
+    // ---------------- Linear acceleration ----------------
+    tf2::Vector3 linear_velocity(0, 0, 0);
+    tf2::Vector3 linear_acceleration(0, 0, 0);
+
+    // ---------------- Angular acceleration ----------------
+    tf2::Vector3 angular_velocity(0, 0, 0);
+    tf2::Vector3 angular_acceleration(0, 0, 0);
+
+    if (has_prev_pose)
+    {
+        double dt = (now - prev_time).seconds();
+        if (dt > 1e-6)
+        {
+            linear_velocity = (position - prev_position) / dt;
+
+            if (has_prev_vel)
+                linear_acceleration =
+                    (linear_velocity - prev_linear_velocity) / dt;
+
+            tf2::Quaternion dq = q * prev_q.inverse();
+            dq.normalize();
+
+            if (dq.getAngle() < M_PI)
+                angular_velocity =
+                    dq.getAxis() * (dq.getAngle() / dt);
+
+            if (has_prev_omega)
+                angular_acceleration =
+                    (angular_velocity - prev_angular_velocity) / dt;
+
+            prev_linear_velocity = linear_velocity;
+            prev_angular_velocity = angular_velocity;
+            has_prev_vel = true;
+            has_prev_omega = true;
+        }
+    }
+
+    prev_position = position;
+    prev_q = q;
+    prev_time = now;
+    has_prev_pose = true;
+    has_prev_q = true;
+
+    double a_mag = linear_acceleration.length();
+    double alpha_mag = angular_acceleration.length();
+
+    // ---------------- Success rate ----------------
+    double success_rate =
+        total_attempts > 0
+            ? double(successful_executions) / total_attempts
+            : 0.0;
+
+    // ---------------- CSV ----------------
     logfile << sample_count << ","
             << rotated.x() << "," << rotated.y() << "," << rotated.z() << "," << q.w() << ","
             << mean.x() << "," << mean.y() << "," << mean.z() << "," << (running_sum_w / sample_count) << ","
@@ -113,6 +185,14 @@ void logCurrentOrientation(std::ofstream &logfile,
             << (running_roll / sample_count) << ","
             << (running_pitch / sample_count) << ","
             << (running_yaw / sample_count) << ","
+            << linear_acceleration.x() << ","
+            << linear_acceleration.y() << ","
+            << linear_acceleration.z() << ","
+            << a_mag << ","
+            << angular_acceleration.x() << ","
+            << angular_acceleration.y() << ","
+            << angular_acceleration.z() << ","
+            << alpha_mag << ","
             << success_rate
             << "\n";
 
@@ -125,100 +205,79 @@ int main(int argc, char **argv)
     rclcpp::init(argc, argv);
     auto node = rclcpp::Node::make_shared("rpm_orientation_node");
 
-    // -------------------------
-    // MoveIt setup
-    // -------------------------
-    auto move_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, "ur_manipulator");
+    auto move_group =
+        std::make_shared<moveit::planning_interface::MoveGroupInterface>(
+            node, "ur_manipulator");
+
     moveit::planning_interface::PlanningSceneInterface planning_scene;
-    move_group->setGoalOrientationTolerance(0.01);
-    move_group->setGoalPositionTolerance(1.0);
-
-    // -------------------------
-    // Robot model for FK
-    // -------------------------
-    robot_model_loader::RobotModelLoader robot_model_loader(node, "robot_description");
-    moveit::core::RobotModelPtr kinematic_model = robot_model_loader.getModel();
-    moveit::core::RobotStatePtr kinematic_state = std::make_shared<moveit::core::RobotState>(kinematic_model);
-    kinematic_state->setToDefaultValues();
-
-    // -------------------------
-    // Joint state subscription
-    // -------------------------
-    auto joint_state_sub = node->create_subscription<sensor_msgs::msg::JointState>(
-        "/joint_states", 10, jointStateCallback);
-
-    // -------------------------
-    // Add forbidden floor
-    // -------------------------
     addForbiddenFloor(planning_scene);
 
-    // -------------------------
-    // RNG
-    // -------------------------
-    std::mt19937 rng(std::chrono::system_clock::now().time_since_epoch().count());
-    std::uniform_real_distribution<double> dist_u(0.0, 1.0);
+    robot_model_loader::RobotModelLoader loader(node, "robot_description");
+    auto model = loader.getModel();
+    auto state = std::make_shared<moveit::core::RobotState>(model);
+    state->setToDefaultValues();
 
-    // -------------------------
-    // Log file
-    // -------------------------
-    std::filesystem::path data_dir = "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/rpm_data";
-    std::filesystem::create_directories(data_dir);
-    std::ofstream logfile(data_dir / "orientation_stats_const1s_2.csv");
-    logfile << "iter,rot_x,rot_y,rot_z,rot_w,mean_x,mean_y,mean_z,mean_w,roll,pitch,yaw,mean_roll,mean_pitch,mean_yaw,success_rate\n";
+    auto joint_sub = node->create_subscription<sensor_msgs::msg::JointState>(
+        "/joint_states", 10, jointStateCallback);
+
+    // ---------------- Velocity & Acceleration Scaling ----------------
+    move_group->setMaxVelocityScalingFactor(0.025);      // 2.5% of max joint velocity
+    move_group->setMaxAccelerationScalingFactor(0.0125); // 1.25% of max joint acceleration
+
+    std::filesystem::path dir =
+        "/home/russell/ROS2_REPAS/src/ur5e_moveit_demo/rpm_data";
+    std::filesystem::create_directories(dir);
+
+    std::ofstream logfile(dir / "orientation_stats_with_accel.csv");
+    logfile <<
+        "iter,"
+        "rot_x,rot_y,rot_z,rot_w,"
+        "mean_x,mean_y,mean_z,mean_w,"
+        "roll,pitch,yaw,"
+        "mean_roll,mean_pitch,mean_yaw,"
+        "a_x,a_y,a_z,a_mag,"
+        "alpha_x,alpha_y,alpha_z,alpha_mag,"
+        "success_rate\n";
+
     logfile << std::fixed << std::setprecision(6);
 
-    // -------------------------
-    // Timer for 1 Hz logging
-    // -------------------------
     auto timer = node->create_wall_timer(
         std::chrono::seconds(1),
-        [&]() { logCurrentOrientation(logfile, kinematic_state, *move_group); });
+        [&]() { logCurrentOrientation(logfile, state, *move_group); });
 
-    // -------------------------
-    // Planning loop (random orientations every 5 seconds)
-    // -------------------------
-    std::thread planning_thread([&]() {
+    std::mt19937 rng(std::random_device{}());
+    std::uniform_real_distribution<double> U(0.0, 1.0);
+
+    std::thread planner([&]() {
         while (rclcpp::ok())
         {
-            double u1 = dist_u(rng);
-            double u2 = dist_u(rng);
-            double u3 = dist_u(rng);
-
+            double u1 = U(rng), u2 = U(rng), u3 = U(rng);
             tf2::Quaternion q(
-                std::sqrt(1 - u1) * std::sin(2 * M_PI * u2),
-                std::sqrt(1 - u1) * std::cos(2 * M_PI * u2),
-                std::sqrt(u1) * std::sin(2 * M_PI * u3),
-                std::sqrt(u1) * std::cos(2 * M_PI * u3));
-            q.normalize();
+                std::sqrt(1-u1)*std::sin(2*M_PI*u2),
+                std::sqrt(1-u1)*std::cos(2*M_PI*u2),
+                std::sqrt(u1)*std::sin(2*M_PI*u3),
+                std::sqrt(u1)*std::cos(2*M_PI*u3));
 
-            move_group->setOrientationTarget(q.x(), q.y(), q.z(), q.w(),
-                                            move_group->getEndEffectorLink());
+            move_group->setOrientationTarget(
+                q.x(), q.y(), q.z(), q.w(),
+                move_group->getEndEffectorLink());
 
             total_attempts++;
             moveit::planning_interface::MoveGroupInterface::Plan plan;
-            bool success = (move_group->plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
-            if (success)
+            if (move_group->plan(plan) ==
+                moveit::core::MoveItErrorCode::SUCCESS)
             {
                 move_group->asyncExecute(plan);
                 successful_executions++;
-                RCLCPP_INFO(node->get_logger(), "Executing new orientation");
-            }
-            else
-            {
-                RCLCPP_WARN(node->get_logger(), "Planning failed — robot holds pose");
             }
 
             std::this_thread::sleep_for(std::chrono::seconds(5));
         }
     });
 
-    // -------------------------
-    // Spin node
-    // -------------------------
     rclcpp::spin(node);
 
-    if (planning_thread.joinable())
-        planning_thread.join();
+    planner.join();
     logfile.close();
     rclcpp::shutdown();
     return 0;
